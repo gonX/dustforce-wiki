@@ -1,0 +1,4 @@
+---
+name: Warehouse
+mapgroup: city
+---

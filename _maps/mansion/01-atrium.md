@@ -1,0 +1,4 @@
+---
+name: Atrium
+mapgroup: mansion
+---

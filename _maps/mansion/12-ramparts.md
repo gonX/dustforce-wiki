@@ -1,0 +1,4 @@
+---
+name: Ramparts
+mapgroup: mansion
+---

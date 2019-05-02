@@ -1,0 +1,4 @@
+---
+name: Tower
+mapgroup: mansion
+---

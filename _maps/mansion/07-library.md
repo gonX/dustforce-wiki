@@ -1,0 +1,4 @@
+---
+name: Library
+mapgroup: mansion
+---

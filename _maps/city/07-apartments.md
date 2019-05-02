@@ -1,0 +1,4 @@
+---
+name: Apartments
+mapgroup: city
+---

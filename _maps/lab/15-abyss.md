@@ -1,0 +1,4 @@
+---
+name: Abyss
+mapgroup: lab
+---

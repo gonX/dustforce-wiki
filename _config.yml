@@ -36,6 +36,7 @@ df_mapgroups:
   - mansion
   - city
   - lab
+  - tutorials
   - difficults
 
 collections:

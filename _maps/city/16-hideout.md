@@ -1,0 +1,4 @@
+---
+name: Hideout
+mapgroup: city
+---

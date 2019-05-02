@@ -1,0 +1,4 @@
+---
+name: Scaffolding
+mapgroup: city
+---

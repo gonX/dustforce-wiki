@@ -1,0 +1,4 @@
+---
+name: Ruins
+mapgroup: forest
+---

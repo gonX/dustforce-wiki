@@ -1,0 +1,4 @@
+---
+name: Archive
+mapgroup: mansion
+---

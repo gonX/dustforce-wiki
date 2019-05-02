@@ -1,0 +1,4 @@
+---
+name: Observatory
+mapgroup: mansion
+---

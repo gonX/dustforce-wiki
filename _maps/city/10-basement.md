@@ -1,0 +1,4 @@
+---
+name: Basement
+mapgroup: city
+---

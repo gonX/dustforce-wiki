@@ -1,0 +1,4 @@
+---
+name: Alcoves
+mapgroup: mansion
+---

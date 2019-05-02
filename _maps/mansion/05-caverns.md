@@ -1,0 +1,4 @@
+---
+name: Caverns
+mapgroup: mansion
+---

@@ -15,7 +15,7 @@ Playable Characters
     <div class="character character-{{ character.name | downcase }}">
         <div>
             <div>
-                <h2>{{ character.name }}</h2>
+                <h2 id="{{ character.name }}">{{ character.name }}</h2>
             </div>
             <div id="charstats">
                 <div><span>Dash Speed:</span>
@@ -43,7 +43,10 @@ Levels
             {% assign maps_currentgroup = site.maps | where: "mapgroup",mapgroup %} 
             {% for map in maps_currentgroup %}
                 <div class="map">
-                    <h3>{{ map.name }}</h3>
+                    <h3 id="{{ map.name }}">{{ map.name }}</h3>
+                    <div class="map-content">
+                        {{ map.content }}
+                    </div>
                 </div>
             {% endfor %}
         </div>

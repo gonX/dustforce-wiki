@@ -1,0 +1,4 @@
+---
+name: Wiring
+mapgroup: lab
+---
