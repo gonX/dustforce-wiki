@@ -1,0 +1,41 @@
+body {
+  display: flex;
+}
+
+header {
+  width: 20em;
+}
+
+#article > div {
+  border: 1px solid black;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#article > div > div {
+  border: 1px solid black;
+  padding: 10px;
+  width: 24em;
+  margin: 10px;
+}
+
+.character-dustman {
+  order: 1;
+}
+
+.character-dustgirl {
+  order: 2;
+}
+
+.character-dustkid {
+  order: 3;
+}
+
+.character-dustworth {
+  order: 4;
+}
+
+div#maps {
+}
