@@ -89,17 +89,17 @@ defaults:
         can_hurt: maybe # can inflict "damage" on the player in any way (e.g. prisms: false, spring blob: true)
         can_hurt_unprovoked: null # attacks without being provoked (assumes can_hurt=true) (e.g. wolf: true, butler: false)
         spawns_children: null # does enemy make sub enemies (chests, porcupines, trashcans, etc)
-        spawns_children_id: null # if spawns_children is not null, this is the anchor name without the "enemy-" part (e.g. "prism-heavy")
-        spawns_children_parent: null
+        spawns_children_child_id: null # if spawns_children is not null, this is the anchor name without the "enemy-" part (e.g. "prism-heavy")
+        spawns_children_parent_id: null # ideally spawns_children_parent should have (spawns_children_id == this.name)
         reacts_to_attack: null # changes behavior (temporarily or permanently) if attacked, excluding hitstun (e.g. spring blob: true, tire: true, knight: false)
-        can_path: maybe # can enemy be given a path
+        can_path: null # can enemy be given a path, expects either can_path_grounded or can_path_flying if true
         can_path_grounded: null # can enemy attach to ground (gargoyle: false, porcupine: true)
         can_path_flying: null # can enemy fly on its own (stuck states do not count) (e.g. chests: false, butler: false, turkey: true)
         pacified_when_flying: null # if placed in air, is enemy frozen (assumes flying "no") (e.g. butler: true, chests: false)
         blocks: null # does enemy block attacks (e.g. knight: true, trashcan: false)
-        massive: maybe # enemy can't be moved with attacks (e.g. totems, golems)
+        massive: null # enemy can't be moved with attacks (e.g. large totem, golems)
         can_be_placed_from_editor: true # has entry in "entities" in the map editor
-        hp: null # minimum number of damage to inflict before enemy dies, can be null in case of enemies
+        hp: null # minimum number of damage to inflict before enemy dies
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
