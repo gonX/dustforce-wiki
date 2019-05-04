@@ -79,8 +79,12 @@ Enemies
                             {% assign enemy_default_key = stat[0] %}
                             {% if enemy[enemy_default_key] != nil %}
                                 <div class="enemy-stat stat-{{ stat[0] }}">
-                                    <span>{{ stat[0] }}</span>
-                                    {{ enemy[enemy_default_key] }}
+                                    {% assign clean_desc_values = site.data.pretty_names.enemies | where: "name", stat[0] | first %}
+                                    {% if enemy[enemy_default_key] %}
+                                        {{ clean_desc_values.truedesc }}
+                                    {% else %}
+                                        {{ clean_desc_values.falsedesc }}
+                                    {% endif %}
                                 </div>
                             {% endif %}
                         {% endfor %}

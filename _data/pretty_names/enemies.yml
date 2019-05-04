@@ -1,13 +1,47 @@
 - name: can_hurt
-  truedesc: "Enemy can inflict damage (break combo)"
-  falsedesc: "Enemy can NOT inflict damage (break combo)"
+  truedesc: "Can attack and break your combo"
+  falsedesc: "Can't hurt"
 
-- name: can_hurt_unprovked
+- name: can_hurt_unprovoked
   truedesc: "Attacks when entering field of view"
+  falsedesc: "Does not attack offensively"
 
 - name: spawns_children
-  truedesc: "Enemy will spawn additional enemies that will hurt you"
+  truedesc: "Spawns additional enemies that will hurt you"
+  falsedesc: "Does not spawn additional enemies"
+
+- name: reacts_to_attack
+  truedesc: "Changes behavior on player attack"
+  falsedesc: "Does not change behavior when attacked (excluding hitstun)"
+
+- name: can_path
+  truedesc: "Can be given a path in the editor"
+  falsedesc: "Can not be given and/or will not obey a path"
+
+- name: can_path_grounded
+  truedesc: "Paths 'attached' to the ground"
+  falsedesc: "Considers ground as walls when pathing"
+
+- name: can_path_flying
+  truedesc: "Flies to aerial pathing nodes"
+  falsedesc: "Aerial pathing nodes are ignored(?)"
 
 - name: pacified_when_flying
-  truedesc: "Enemy is stuck when placed mid-air and will not drop to the ground"
+  truedesc: "Frozen when footing lost"
+  falsedesc: "Affected by gravity"
 
+- name: blocks
+  truedesc: "May block from some or all directions"
+  falsedesc: "Vulnerable from all sides"
+
+- name: massive
+  truedesc: "Attacks do not move it"
+  falsedesc: "Movable with attacks"
+
+- name: can_be_placed_from_editor
+  truedesc: "Can be placed in the editor"
+  falsedesc: "Not in the editor entity list"
+
+- name: hp
+  truedesc: "<b>{}</b> minimum attacks to kill"
+  falsedesc: "Unkillable (excl. deathzones)"

@@ -6,6 +6,7 @@ can_path: true
 can_path_grounded: false
 can_path_flying: true
 can_path_grounded: false
+blocks: true
 massive: true
 hp: 3
 
