@@ -165,3 +165,7 @@ body article {
   padding: 0 1rem;
   flex: 1 80%;
 }
+
+.uncertain-value {
+  color: red;
+}

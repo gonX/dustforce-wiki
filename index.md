@@ -78,7 +78,12 @@ Enemies
                         {% for stat in enemy_defaults_kv %}
                             {% assign enemy_default_key = stat[0] %}
                             {% if enemy[enemy_default_key] != nil %}
-                                <div class="enemy-stat stat-{{ stat[0] }}">
+                                {% if enemy[enemy_default_key] contains "?" %}
+                                    {% assign additional_classes = "uncertain-value " %}
+                                {% else %}
+                                    {% assign additional_classes = "" %}
+                                {% endif %}
+                                <div class="enemy-stat stat-{{ stat[0] }} {{ additional_classes }}">
                                     {% assign clean_desc_values = site.data.pretty_names.enemies | where: "name", stat[0] | first %}
                                     {% if enemy[enemy_default_key] %}
                                         {% assign output_string = clean_desc_values.truedesc %}
