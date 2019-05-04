@@ -6,28 +6,33 @@ title: Cheatworth
 layout: default
 toc: true
 ---
+<span id="null">
 
 Playable Characters
 ===
 
 <div id="characters">
 {% for character in site.playable_characters %}
-    <div class="character character-{{ character.name | downcase }}">
-        <div>
-            <div>
-                <h2 id="{{ character.name }}">{{ character.name }}</h2>
-            </div>
-            <div id="charstats">
-                <div><span>Dash Speed:</span>
-                    {{ character.dashspeed }} u/s
+    <div class="character character-{{ character.name | slugify }}">
+        <input type="checkbox" id="toggle-char-{{ character.name | slugify }}" class="unfolder">
+        <label for="toggle-char-{{ character.name | slugify }}" class="toggle-label">
+            <div class="character-header">
+                <div>
+                    <h2 id="character-{{ character.name | slugify }}">{{ character.name }}</h2>
+                </div>
+                <div id="charstats-{{ character.name | slugify }}" class="charstats">
+                <!-- FIXME: !! -->
+                    <div><span>Dash Speed:</span>
+                        {{ character.dash_speed }} u/s
+                    </div>
                 </div>
             </div>
-        </div>
-        <div>
-            <p>
-                {{ character.content | markdownify }}
-            </p>
-        </div>
+            <div class="character-content">
+                <p>
+                    {{ character.content | markdownify }}
+                </p>
+            </div>
+        </label>
     </div>
 {% endfor %}
 </div>
@@ -38,14 +43,50 @@ Levels
 <div id="maps">
 {% for mapgroup in site.df_mapgroups %}
     <div class="maps-{{ mapgroup }}">
-        <h2>{{ mapgroup | capitalize }}</h2>
+        <h2 id="maps-{{ mapgroup | slugify }}">{{ mapgroup | capitalize }}</h2>
         <div class="maps-grouped">
             {% assign maps_currentgroup = site.maps | where: "mapgroup",mapgroup %} 
             {% for map in maps_currentgroup %}
                 <div class="map">
-                    <h3 id="{{ map.name }}">{{ map.name }}</h3>
+                    <h3 id="maps-level-{{ map.name | slugify }}">{{ map.name }}</h3>
                     <div class="map-content">
                         {{ map.content }}
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endfor %}
+</div>
+
+Enemies
+===
+
+{% assign enemy_defaults = site.defaults | where: "scope.path","_enemies" | first %}
+{% assign enemy_defaults_kv = enemy_defaults.values %}
+
+<div id="enemies">
+{% for enemygroup in site.df_enemygroups %}
+    <div class="enemies-{{ enemygroup }}">
+        <h2 id="{{ enemygroup }}-enemies">{{ enemygroup | capitalize }}</h2>
+        <div class="enemies-grouped">
+            {% assign enemies_currentgroup = site.enemies | where: "enemygroup",enemygroup %}
+            {% for enemy in enemies_currentgroup %}
+                <div class="enemy">
+                    <h3 id="enemy-{{ enemy.name | slugify }}">{{ enemy.name }}</h3>
+                    <div class="enemy-stats">
+                        {% for stat in enemy_defaults_kv %}
+                            {% assign enemy_default_key = stat[0] %}
+                            {% if enemy[enemy_default_key] != nil %}
+                                <div class="enemy-stat stat-{{ stat[0] }}">
+                                    <span>{{ stat[0] }}</span>
+                                    {{ enemy[enemy_default_key] }}
+                                </div>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                    <div class="enemy-content">
+                        {{ enemy.content }}
                     </div>
                 </div>
             {% endfor %}
@@ -58,10 +99,32 @@ Mechanics / Tech
 ===
 
 <div id="tech">
-{% for tech in site.mechanics %}
-    <div class="tech-{{ tech.name | slugify }}">
-        <h2>{{ tech.name }}</h2>
-        <div>{{ tech.content }}</div>
-    </div>
+{% for techgroup in site.df_techgroups %}
+    {% assign mechanics_group = site.mechanics | where: "techgroup",techgroup %}
+    {% assign gsize = mechanics_group | size %}
+    {% if gsize == 0 %}
+        {% continue %}
+    {% endif %}
+    <span><h2 id="{{ techgroup }}-tech">{{ techgroup | capitalize }}</h2></span>
+    {% for tech in mechanics_group %}
+        <div class="tech-{{ tech.name | slugify }}">
+            <div class="tech-header">
+                <h3 id="{{ tech.name | slugify }}">{{ tech.name }}</h3>
+                {% assign tagcount = tech.tags | size %}
+                {% if tagcount > 0 %}
+                    <span class="tags">
+                        <span class="tagprefix">
+                            tags:
+                        </span>
+                        <span>
+                            {{ tech.tags | join: ", " }}
+                        </span>
+                    </span>
+                {% endif %}
+            </div>
+            <div class="tech-content">{{ tech.content }}</div>
+        </div>
+    {% endfor %}
 {% endfor %}
 </div>
+

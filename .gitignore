@@ -3,3 +3,4 @@ _site
 .jekyll-metadata
 /.bundle
 /vendor/bundle
+/_compress_images_cache.yml

@@ -6,10 +6,6 @@ body {
   position: absolute;
 }
 
-header {
-  width: 40rem;
-}
-
 header .header-top {
   height: 80px;
   line-height: 80px;
@@ -17,6 +13,7 @@ header .header-top {
   background: black;
   color: white;
   border-radius: 0 0 2rem;
+  font-size: 1.5em;
 }
 
 header > nav > .section-nav {
@@ -25,14 +22,18 @@ header > nav > .section-nav {
   padding-left: 0;
 }
 
+header > nav > .section-nav *:not(li) {
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 0.5rem;
+}
+
 header > nav > .section-nav a:link,
 header > nav > .section-nav a:visited,
 header > nav > .section-nav a:active {
   color: inherit;
   text-decoration: none;
   display: block;
-  padding: 0.5rem;
-  background-color: rgba(0, 0, 0, 0.05);
+  padding: 0.1rem 0.5rem;
   border-radius: 0.5rem;
   margin: 0.5rem;
 }
@@ -45,18 +46,29 @@ header > nav > .section-nav > li {
 }
 
 header > nav > .section-nav > li ul {
-  padding-left: 1rem;
+  padding-left: 0.4rem;
 }
 
 header > nav > .section-nav > li li {
   list-style: none;
 }
 
+.unfolder { display: none; }
+
+.toggle-label {
+  cursor: pointer;
+  background-color: black;
+}
+
+.unfolder:checked ~ .toggle-label {
+  background-color: white;
+}
+
 #article > div {
   border: 1px solid black;
   padding: 10px;
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   justify-content: space-around;
   margin-bottom: 2rem;
 }
@@ -64,16 +76,24 @@ header > nav > .section-nav > li li {
 #article > div > div {
   border: 1px solid black;
   padding: 10px;
-  width: 24em;
+  min-width: 24em;
   margin: 10px;
+  flex: 1 33%;
 }
 
+#tech > div[class^="tech-"],
 #maps > div[class^="maps-"] { 
-  width: 100%;
+  flex-basis: 100%;
 }
 
-#maps > div[class^="maps-"]  > h2 { 
+#tech > div[class^="tech-"] > h2 ,
+#maps > div[class^="maps-"] > h2 {
   text-align: center;
+}
+
+#tech > div[class^="tech-"] > h2 ~ div {
+  max-width: 80rem;
+  margin: 0 auto;
 }
 
 .maps-grouped > .map {
@@ -84,6 +104,22 @@ header > nav > .section-nav > li li {
   margin: 2rem;
 }
 
+.tech-header h3 {
+  display: inline-block;
+  margin: 0 0.5em 1.5em;
+  font-size: 150%;
+}
+
+.tech-header .tags {
+  float: right;
+  color: #BBB;
+  font-size: 80%;
+}
+
+.tech-header .tags .tagprefix {
+  font-weight: bold;
+}
+
 body header,
 body article {
   overflow: auto;
@@ -92,8 +128,12 @@ body article {
 
 body header {
   scrollbar-width: none;
+  flex-basis: 20%;
+  min-width: 11em;
+  max-width: 18em;
 }
 
 body article {
   padding: 0 1rem;
+  flex: 1 80%;
 }

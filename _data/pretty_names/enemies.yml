@@ -1,0 +1,13 @@
+- name: can_hurt
+  truedesc: "Enemy can inflict damage (break combo)"
+  falsedesc: "Enemy can NOT inflict damage (break combo)"
+
+- name: can_hurt_unprovked
+  truedesc: "Attacks when entering field of view"
+
+- name: spawns_children
+  truedesc: "Enemy will spawn additional enemies that will hurt you"
+
+- name: pacified_when_flying
+  truedesc: "Enemy is stuck when placed mid-air and will not drop to the ground"
+
