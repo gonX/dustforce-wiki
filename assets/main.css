@@ -120,6 +120,34 @@ header > nav > .section-nav > li li {
   font-weight: bold;
 }
 
+#enemies .enemy {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid black;
+}
+
+#enemies .enemy > h3 {
+  display: inline-block;
+}
+
+#enemies .enemy .enemy-stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#enemies .enemy .enemy-stats .enemy-stat {
+  padding: 0.25rem 1rem;
+  background-color: rgba(0,0,0,0.05);
+  margin: 0.25rem;
+  border-radius: 1rem;
+
+}
+
+#enemies .enemy .enemy-stats .enemy-stat a {
+  text-transform: capitalize;
+}
+
 body header,
 body article {
   overflow: auto;

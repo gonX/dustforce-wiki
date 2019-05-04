@@ -10,6 +10,14 @@
   truedesc: "Spawns additional enemies that will hurt you"
   falsedesc: "Does not spawn additional enemies"
 
+- name: spawns_children_child_id
+  truedesc: "Shoots <a href='#enemy-{}'>{}</a>"
+  falsedesc: "Sterile"
+
+- name: spawns_children_parent_id
+  truedesc: "Spawned by <a href='#enemy-{}'>{}</a>"
+  falsedesc: "Orphan"
+
 - name: reacts_to_attack
   truedesc: "Changes behavior on player attack"
   falsedesc: "Does not change behavior when attacked (excluding hitstun)"
@@ -43,5 +51,5 @@
   falsedesc: "Not in the editor entity list"
 
 - name: hp
-  truedesc: "<b>{}</b> minimum attacks to kill"
-  falsedesc: "Unkillable (excl. deathzones)"
+  truedesc: "Minimum attacks to kill: <b>{}</b>"
+  falsedesc: "Unkillable via conventional means"

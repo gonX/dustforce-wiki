@@ -81,10 +81,12 @@ Enemies
                                 <div class="enemy-stat stat-{{ stat[0] }}">
                                     {% assign clean_desc_values = site.data.pretty_names.enemies | where: "name", stat[0] | first %}
                                     {% if enemy[enemy_default_key] %}
-                                        {{ clean_desc_values.truedesc }}
+                                        {% assign output_string = clean_desc_values.truedesc %}
                                     {% else %}
-                                        {{ clean_desc_values.falsedesc }}
+                                        {% assign output_string = clean_desc_values.falsedesc %}
                                     {% endif %}
+                                    {% assign output_string = output_string | replace: "{}", enemy[enemy_default_key] %}
+                                    {{ output_string }}
                                 </div>
                             {% endif %}
                         {% endfor %}
