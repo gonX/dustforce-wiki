@@ -1,7 +1,11 @@
 ---
 name: Dustkid
 dash_speed: 522
+air_charges: 2
 slope_slide_speed: 1260
+hover_frames: 27
+fulljump_frames: 20
+shorthop_frames: 12
 ---
 Has 2 maximum air charges and restores both upon cleaning an enemy in midair, all other characters have only 1.
 

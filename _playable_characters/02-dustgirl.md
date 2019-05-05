@@ -1,7 +1,11 @@
 ---
 name: Dustgirl
 dash_speed: 522
+air_charges: 1
 slope_slide_speed: 1400
+hover_frames: 21
+fulljump_frames: 25
+shorthop_frames: 15
 ---
 
 In comparison to Dustman, generally has less advantageous hitboxes on her light attacks, but more useful heavy attacks.

@@ -8,6 +8,9 @@ toc: true
 Playable Characters
 ===
 
+{% assign character_defaults = site.defaults | where: "scope.path","_playable_characters" | first %}
+{% assign character_defaults_kv = character_defaults.values %}
+
 <div id="characters">
 {% for character in site.playable_characters %}
     <div class="character character-{{ character.name | slugify }}">
@@ -17,11 +20,16 @@ Playable Characters
                 <div>
                     <h2 id="character-{{ character.name | slugify }}">{{ character.name }}</h2>
                 </div>
-                <div id="charstats-{{ character.name | slugify }}" class="charstats">
-                <!-- FIXME: !! -->
-                    <div><span>Dash Speed:</span>
-                        {{ character.dash_speed }} u/s
-                    </div>
+                <div id="charstats-{{ character.name | slugify }}" class="char-stats stats">
+                    {% for stat in character_defaults_kv %}
+                        {% assign character_stat_key = stat[0] %}
+                        {% if character[character_stat_key] != nil %}
+                            <div class="character-stat character-stat-{{ stat[0] }} stat">
+                                <b>{{ stat[0] }}</b>
+                                {{ character[character_stat_key] }}
+                            </div>
+                        {% endif %}
+                    {% endfor %}
                 </div>
             </div>
             <div class="character-content">

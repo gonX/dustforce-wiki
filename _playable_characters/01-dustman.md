@@ -1,7 +1,11 @@
 ---
 name: Dustman
 dash_speed: 522
+air_charges: 1
 slope_slide_speed: 1400
+hover_frames: 23
+fulljump_frames: 25
+shorthop_frames: 15
 ---
 
 Dustman and Dustgirl both have the highest terminal Velocity, so they are able to get faster slopeboosts than Dustkid or Dustworth.
