@@ -84,7 +84,7 @@ Enemies
                                     {% assign additional_classes = "" %}
                                 {% endif %}
                                 <div class="enemy-stat stat-{{ stat[0] }} {{ additional_classes }}">
-                                    {% assign clean_desc_values = site.data.pretty_names.enemies | where: "name", stat[0] | first %}
+                                    {% assign clean_desc_values = site.data.pretty_names.enemy_stats | where: "name", stat[0] | first %}
                                     {% if enemy[enemy_default_key] %}
                                         {% assign output_string = clean_desc_values.truedesc %}
                                     {% else %}
