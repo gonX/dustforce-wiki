@@ -1,4 +1,4 @@
 ---
-name: Combat
+name: Combat Tutorial
 mapgroup: tutorials
 ---

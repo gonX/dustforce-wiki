@@ -1,4 +1,4 @@
 ---
-name: Advanced
+name: Advanced Tutorial
 mapgroup: tutorials
 ---

@@ -1,4 +1,4 @@
 ---
-name: Beginner
+name: Beginner Tutorial
 mapgroup: tutorials
 ---
