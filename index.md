@@ -37,6 +37,8 @@ Playable Characters
 Levels
 ===
 
+FIXME: Level stats only have the raw stat - mouseover for highlight!
+
 <div id="maps">
 {% for mapgroup in site.df_mapgroups %}
     <div class="maps-{{ mapgroup }}">
@@ -46,6 +48,24 @@ Levels
             {% for map in maps_currentgroup %}
                 <div class="map">
                     <h3 id="maps-level-{{ map.name | slugify }}">{{ map.name }}</h3>
+                    <div class="map-stats stats">
+                        {% assign map_stats = site.data["stock-maps"] | where: "name", map.name | first %}
+                        {% if map.name contains "Beginner Tutorial" %}
+                            {% assign map_stats = site.data["stock-maps"] | where: "srcfile", "newtutorial1" | first %}
+                        {% endif %}
+                        {% for stat in map_stats %}
+                            {% if stat[1] == 0 and stat[0] contains "enemy_" or stat[0] contains "tiles_" %}
+                                {% continue %}
+                            {% endif %}
+                            {% if stat[1] == map.name %}
+                                {% continue %}
+                            {% endif %}
+                            {% assign clean_desc_value = site.data.pretty_names.map_stats | where: "name", stat[0] | first %}
+                            <div class="map-stat stat-{{ stat[0] }} stat" title="{{ clean_desc_value.longdesc }}">
+                                 {{ stat[1] }}
+                            </div>
+                        {% endfor %}
+                    </div>
                     <div class="map-content">
                         {{ map.content }}
                     </div>

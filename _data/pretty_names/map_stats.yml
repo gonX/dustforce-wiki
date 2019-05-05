@@ -1,0 +1,100 @@
+- name: "name"
+  longdesc: "Map Name"
+  shortdesc: "Name"
+
+- name: "srcfile"
+  longdesc: "Source File Name"
+
+- name: "is_virtual"
+  longdesc: "Uses virtual characters"
+
+- name: "tiles_layer1"
+  longdesc: "Tiles on layer 1"
+
+- name: "tiles_layer2"
+  longdesc: "Tiles on layer 2"
+
+- name: "tiles_layer3"
+  longdesc: "Tiles on layer 3"
+
+- name: "tiles_layer4"
+  longdesc: "Tiles on layer 4"
+
+- name: "tiles_layer5"
+  longdesc: "Tiles on layer 5"
+
+- name: "tiles_layer6"
+  longdesc: "Tiles on layer 6"
+
+- name: "tiles_layer7"
+  longdesc: "Tiles on layer 7"
+
+- name: "tiles_layer8"
+  longdesc: "Tiles on layer 8"
+
+- name: "tiles_layer9"
+  longdesc: "Tiles on layer 9"
+
+- name: "tiles_layer10"
+  longdesc: "Tiles on layer 10"
+
+- name: "tiles_layer11"
+  longdesc: "Tiles on layer 11"
+
+- name: "tiles_layer12"
+  longdesc: "Tiles on layer 12"
+
+- name: "tiles_layer13"
+  longdesc: "Tiles on layer 13"
+
+- name: "tiles_layer14"
+  longdesc: "Tiles on layer 14"
+
+- name: "tiles_layer15"
+  longdesc: "Tiles on layer 15"
+
+- name: "tiles_layer16"
+  longdesc: "Tiles on layer 16"
+
+- name: "tiles_layer17"
+  longdesc: "Tiles on layer 17"
+
+- name: "tiles_layer18"
+  longdesc: "Tiles on layer 18"
+
+- name: "tiles_layer19"
+  longdesc: "Tiles on layer 19"
+
+- name: "tiles_layer20"
+  longdesc: "Tiles on layer 20"
+
+- name: "covered_tiles"
+  longdesc: "Tiles covered by either dust or spikes"
+
+- name: "dustblocks"
+  longdesc: "Tiles that are dustblocks"
+
+- name: "filthy_surfaces"
+  longdesc: "Tile faces with dust on them"
+
+- name: "spiked_surfaces"
+  longdesc: "Tile faces with spikes on them"
+
+- name: "dust_from_enemies"
+  longdesc: "Minimum dust collected if all enemies are killed"
+
+- name: "total_dust"
+  longdesc: "Total amount of dust collectable, excluding dustspread"
+
+- name: "props"
+  longdesc: "Props placed"
+
+- name: "apples"
+  longdesc: "Apples placed"
+
+- name: "key_get_type"
+  longdesc: "Key collected when map is finished with an SS"
+
+- name: "enemies"
+  longdesc: "Total enemies on map"
+

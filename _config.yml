@@ -121,3 +121,4 @@ exclude:
   - README.md
   - CONTRIBUTING.md
   - TODO.md
+  - scripts/
