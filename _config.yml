@@ -73,15 +73,20 @@ defaults:
     scope:
         path: "_playable_characters"
     values:
-        dash_speed: 0
-        hover_frames: 0
-        slope_slide_speed: 0
-  -
-    scope:
-        path: "_maps"
-    values:
-        difficulty: n/a # key needed: unlocked, bronze, silver, gold
-        apples: 0 # integer
+        dash_speed: 0 # minimum dash speed
+        hover_frames: 0 # frame count in hover state from jump (and raise, at least for worth)
+        slope_slide_speed: 0 # max speed when pressing down on a slope
+        fulljump_frames: 0 # frames before hover when jump is held when crouch_jump finishes
+        shorthop_frames: 0 # frames before hover when jump is NOT held
+        lightattack_frontswing_frames: 0 # frames before attack connects
+        heavyattack_frontswing_frames: 0 # frames before attack connects
+        lightattack_total_frames: 0 # frames before a new action can occur
+        heavyattack_total_frames: 0 # frames before a new action can occur
+        terminal_velocity: 0 # maximum falling speed
+        terminal_velocity_frames: 0 # frames to reach maximum falling speed when falling off an edge
+        terminal_velocity_downdash_frames: 0 # frames to reach max falling speed when downdash is pressed on the first possible frame (best case scenario)
+        air_charges: 0 # maximum air charges
+
   -
     scope:
         path: "_enemies"
