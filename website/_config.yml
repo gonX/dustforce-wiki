@@ -118,7 +118,3 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - _compress_images_cache.yml
-  - README.md
-  - CONTRIBUTING.md
-  - TODO.md
-  - scripts/
