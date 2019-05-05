@@ -74,7 +74,7 @@ Enemies
             {% for enemy in enemies_currentgroup %}
                 <div class="enemy">
                     <h3 id="enemy-{{ enemy.name | slugify }}">{{ enemy.name }}</h3>
-                    <div class="enemy-stats">
+                    <div class="enemy-stats stats">
                         {% for stat in enemy_defaults_kv %}
                             {% assign enemy_default_key = stat[0] %}
                             {% if enemy[enemy_default_key] != nil %}
@@ -83,7 +83,7 @@ Enemies
                                 {% else %}
                                     {% assign additional_classes = "" %}
                                 {% endif %}
-                                <div class="enemy-stat stat-{{ stat[0] }} {{ additional_classes }}">
+                                <div class="enemy-stat stat-{{ stat[0] }} stat {{ additional_classes }}">
                                     {% assign clean_desc_values = site.data.pretty_names.enemy_stats | where: "name", stat[0] | first %}
                                     {% if enemy[enemy_default_key] %}
                                         {% assign output_string = clean_desc_values.truedesc %}

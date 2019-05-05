@@ -126,17 +126,13 @@ header > nav > .section-nav > li li {
   border: 1px solid black;
 }
 
-#enemies .enemy > h3 {
-  display: inline-block;
-}
-
-#enemies .enemy .enemy-stats {
+.stats {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-#enemies .enemy .enemy-stats .enemy-stat {
+.stats .stat {
   padding: 0.25rem 1rem;
   background-color: rgba(0,0,0,0.05);
   margin: 0.25rem;
