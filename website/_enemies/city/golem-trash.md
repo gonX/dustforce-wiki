@@ -1,5 +1,6 @@
 ---
 name: Golem, Trash
+enemygroup: city
 can_hurt: true
 can_hurt_unprovoked: true
 can_path: true
