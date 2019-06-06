@@ -29,7 +29,7 @@ $ bundle exec jekyll build
 
 This will also build the site for you, but present it to you at `http://127.0.0.1:4000` while keeping the site updated as content changes.
 
-If you're changing `website/_config.yml`, keep in mind the usual `
+If you're changing `website/_config.yml`, restarting `jekyll serve` is necessary to load those changes.
 
 ```
 $ cd website/
