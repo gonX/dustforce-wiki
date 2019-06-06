@@ -59,3 +59,6 @@ depends on bandwidth costs, may use youtube or other host
 - talk about hawks following cursor
 
 - write a better description for _config.yml for SEO proofing
+
+- "Pretty Names" for enemies suck ass. Make it icon-based similar to maps. We can re-use the current "Pretty Names" for titles with minor modifications.
+-- also consider how we technically tackle the issue of linking parents/children as we currently use undesirable HTML injection for this
