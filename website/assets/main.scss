@@ -7,6 +7,7 @@ $bg-colour: #fcfcfc;
 $text-colour: #333;
 $primary-colour: #7e5596;
 $primary-text: #fff;
+$border-colour: #aaa;
 
 $primary-hover: lighten($primary-colour, 45);
 
@@ -39,7 +40,7 @@ html, body{
   background: $bg-colour;
   color: $text-colour;
   font-family: sans-serif;
-  font-size: 0.8em;
+  font-size: 0.95em;
 }
 
 a:link,
@@ -92,7 +93,7 @@ header{
         padding: 0 0 0 $spacing;
         margin: 0 0 $spacing $spacing;
 
-        border-left: 1px dashed #aaa;
+        border-left: 1px dashed $border-colour;
       }
 
       a{
@@ -127,13 +128,62 @@ body article{
     margin: 0;
     padding: 0;
 
-    h1{
-      //margin: 0;
-      //padding: 10px 20px;
-      //
-      //background: $primary-colour;
-      //color: $primary-text;
-      //font-weight: normal;
+    > div > div{
+      margin: 0;
+      padding: 0;
+      border: 1px solid $primary-colour;
+      border-radius: 3px;
+
+      h2{
+        margin: 0;
+        padding: $spacing;
+
+        border-bottom: 1px solid $primary-colour;
+        color: $primary-colour;
+      }
+    }
+
+    > #characters{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: $spacing;
+      padding: $spacing;
+
+      > .character{
+        //margin: 0;
+
+        > label .content{
+          padding: $spacing;
+
+          img.character-icon{
+            float: left;
+            margin: 0 $spacing $spacing 0;
+          }
+
+          ul.char-stats{
+            margin: 0 0 $spacing $spacing;
+            float: right;
+            padding: 0;
+
+            list-style: none;
+
+            li{
+              border-bottom: 1px dashed $border-colour;
+              padding: 4px;
+
+              span.character-stat-key{
+                font-weight: bold;
+              }
+              span.character-stat-value{
+                float: right;
+                margin: 0 $spacing;
+              }
+            }
+          }
+
+          div.character-content{ grid-area: content; }
+        }
+      }
     }
   }
 }
@@ -141,8 +191,8 @@ body article{
 .unfolder{ display: none; }
 
 .toggle-label{
-  cursor: pointer;
-  background-color: black;
+  //cursor: pointer;
+  //background-color: black;
 }
 
 .unfolder:checked ~ .toggle-label{
@@ -212,17 +262,17 @@ body article{
 }
 
 .stats{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  //display: flex;
+  //flex-wrap: wrap;
+  //justify-content: space-between;
 }
 
 .stats .stat{
-  padding: 0.25rem 1rem;
-  background-color: rgba(0, 0, 0, 0.05);
-  margin: 0.25rem;
-  border-radius: 1rem;
-  display: flex;
+  //padding: 0.25rem 1rem;
+  //background-color: rgba(0, 0, 0, 0.05);
+  //margin: 0.25rem;
+  //border-radius: 1rem;
+  //display: flex;
 }
 {% assign map_stat_defaults = site.data.stock-maps | first %}
 {% for stat in map_stat_defaults %}

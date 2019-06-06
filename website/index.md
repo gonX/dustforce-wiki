@@ -16,26 +16,25 @@ Playable Characters
     <div class="character character-{{ character.name | slugify }}">
         <input type="checkbox" id="toggle-char-{{ character.name | slugify }}" class="unfolder">
         <label for="toggle-char-{{ character.name | slugify }}" class="toggle-label">
-            <div class="character-header">
-                <div>
-                    <h2 id="character-{{ character.name | slugify }}">{{ character.name }}</h2>
-                </div>
-                <div id="charstats-{{ character.name | slugify }}" class="char-stats stats">
+            <h2 id="character-{{ character.name | slugify }}">{{ character.name }}</h2>
+            <div class="content">
+	            <img src="assets/img/characters/{{ character.name | slugify }}.png" alt="{{ character.name }}" class="character-icon" >
+                <ul id="charstats-{{ character.name | slugify }}" class="char-stats stats">
                     {% for stat in character_defaults_kv %}
                         {% assign character_stat_key = stat[0] %}
                         {% if character[character_stat_key] != nil %}
-                            <div class="character-stat character-stat-{{ stat[0] }} stat">
-                                <b>{{ stat[0] }}</b>
-                                {{ character[character_stat_key] }}
-                            </div>
+	                        <li class="character-stat character-stat-{{ stat[0] }} stat">
+	                            <span class="character-stat-key">{{ stat[0] }}</span>
+	                            <span class="character-stat-value">{{ character[character_stat_key] }}</span>
+	                        </li>
                         {% endif %}
                     {% endfor %}
+                </ul>
+                <div class="character-content">
+                    <p>
+                        {{ character.content | markdownify }}
+                    </p>
                 </div>
-            </div>
-            <div class="character-content">
-                <p>
-                    {{ character.content | markdownify }}
-                </p>
             </div>
         </label>
     </div>
