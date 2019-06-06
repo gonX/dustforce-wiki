@@ -14,7 +14,7 @@ Bundler is technically not necessary if you can manage the Ruby dependencies by 
 
 #### Rubygem users
 
-If you have `ruby` and rubygems (`gem`), with a properly set PATH for rubygems, you should be able to `gem install bundle jekyll` to cover the prerequisites.
+If you have a working [rubygems](https://rubygems.org/) (`gem`) install, you should be able to simply `gem install bundler jekyll` to cover the prerequisites.
 
 ### Building for the first time
 
