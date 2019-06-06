@@ -3,6 +3,7 @@
 
 - enemies
 - maps
+- icons for stats
 
 # video/animated assets
 
@@ -13,7 +14,7 @@ depends on bandwidth costs, may use youtube or other host
 
 # foldable content
 
-"cards" should be unfolded (hidden content) by default, and can show content by clicking the "card"
+"cards" should be folded (content hidden) by default, and can show content by clicking the "card"
 
 # additional hard stats
 
@@ -50,3 +51,11 @@ depends on bandwidth costs, may use youtube or other host
 - dark theme
 
 - does the guide say that you can cancel attacks on the frame following the "frontswing", otherwise you lose up to `*attack_total_frames - *attack_frontswing_frames - 1`
+
+- different title text for map stats depending on true/false
+
+- talk about refresh rates that aren't a multiple of 60hz causing issues on vanilla
+
+- talk about hawks following cursor
+
+- write a better description for _config.yml for SEO proofing
