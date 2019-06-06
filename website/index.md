@@ -69,8 +69,9 @@ FIXME: Level stats only have the raw stat - mouseover for highlight!
                                 {% continue %}
                             {% endif %}
                             {% assign clean_desc_value = site.data.pretty_names.map_stats | where: "name", stat[0] | first %}
-                            <div class="map-stat stat-{{ stat[0] }} stat" title="{{ clean_desc_value.longdesc }}">
-                                 {{ stat[1] }}
+                            {% assign value_classname = stat[1] | downcase | slugify %}
+                            <div class="map-stat stat-{{ stat[0] }} stat-attrib-{{ value_classname }} stat" title="{{ clean_desc_value.longdesc }}">
+                                 <span>{{ stat[1] }}</span>
                             </div>
                         {% endfor %}
                     </div>
