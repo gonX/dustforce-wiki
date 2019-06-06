@@ -8,5 +8,5 @@ can_path_grounded: true
 can_path_flying: false
 pacified_when_flying: false
 massive: true
-hp: 9
+hp: 12
 ---
