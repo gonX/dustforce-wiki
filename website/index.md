@@ -2,6 +2,7 @@
 title: Cheatworth
 layout: default
 toc: true
+regenerate: true
 ---
 <span id="null">
 
