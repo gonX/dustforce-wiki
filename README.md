@@ -10,6 +10,10 @@ For contributing, please see [CONTRIBUTING.md](/CONTRIBUTING.md).
 - [Jekyll](https://jekyllrb.com/) (tested with 3.8.5)
 - [bundler](https://bundler.io/) (tested with 2.0.1)
 
+#### Rubygem users
+
+If you have `ruby` and rubygems (`gem`), with a properly set PATH for rubygems, you should be able to `gem install bundle jekyll` to cover the prerequisites.
+
 ### Building for the first time
 
 On your very first run:
