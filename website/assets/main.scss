@@ -1,88 +1,164 @@
 ---
 ---
-body {
-  display: flex;
+
+// -- Vars ---------------------------------------------------
+
+$bg-colour: #fcfcfc;
+$text-colour: #333;
+$primary-colour: #7e5596;
+$primary-text: #fff;
+
+$primary-hover: lighten($primary-colour, 45);
+
+$spacing: 10px;
+$spacing-h: $spacing * 0.5;
+
+$anim-time: 0.15s;
+
+// -- Main ---------------------------------------------------
+
+::-webkit-scrollbar{
+  $size: 14px;
+
+  width: $size;
+  height: $size;
+
+  background: darken($bg-colour, 5);
+}
+::-webkit-scrollbar-thumb{
+  background-color: darken($primary-colour, 10);
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
   margin: 0;
   padding: 0;
+  display: flex;
+
+  background: $bg-colour;
+  color: $text-colour;
   font-family: sans-serif;
-  position: absolute;
+  font-size: 0.8em;
 }
 
-li {
-    list-style: none;
+a:link,
+a:visited,
+a:active{
+  color: $primary-colour;
 }
 
-header {
-    .header-top {
-        height: 80px;
-        line-height: 80px;
-        text-align: center;
-        background: black;
-        color: white;
-        border-radius: 0 0 2rem;
-        font-size: 1.5em;
+h1{
+  margin: 0;
+  padding: 0.5em;
+  position: sticky;
+  top: 0;
+
+  background: $primary-colour;
+  color: $primary-text;
+  font-size: 1.7em;
+  font-weight: normal;
+}
+
+// -- Header ---------------------------------------------------
+
+header{
+  h1{
+    a:link,
+    a:visited,
+    a:active{
+      position: absolute;
+      bottom: 0;right: 0;
+      padding: 2px 6px;
+
+      background: $primary-colour;
+      border-radius: 0 0 0 3px;
+      color: $primary-text !important;
+      font-size: 0.8rem;
+      text-decoration: none;
+    }
+  }
+
+  nav{
+    ul{
+      margin: 0;
+      padding: $spacing-h;
+
+      list-style: none;
     }
 
-    > nav {
-        > .section-nav {
-            margin-top: 0;
-            padding-left: 0;
+    > ul.section-nav{
+      ul{
+        padding: 0 0 0 $spacing;
+        margin: 0 0 $spacing $spacing;
 
-            *:not(li) {
-                background-color: rgba(0, 0, 0, 0.05);
-                border-radius: 0.5rem;
-            }
+        border-left: 1px dashed #aaa;
+      }
 
-            a:link,
-            a:visited,
-            a:active {
-                color: inherit;
-                text-decoration: none;
-                display: block;
-                padding: 0.1rem 0.5rem;
-                border-radius: 0.5rem;
-                margin: 0.5rem;
-            }
+      a{
+        display: block;
+        padding: 2px 6px;
 
-            > li {
-                margin: 0.5rem 0.5rem 3rem;
-                padding: 0.5rem;
-                border-radius: 0.5rem;
-                background-color: rgba(0, 0, 0, 0.05);
+        border-radius: 3px;
+        text-decoration: none;
 
-                & a:hover {
-                    background-color: rgba(0,0,0,0.20);
-                }
-
-                ul {
-                    padding-left: 0.4rem;
-                }
-            }
+        &:hover{
+          background: $primary-hover;
         }
+      }
+
+      > .toc-entry.toc-h1 > a{
+        font-size: 1.2em;
+        padding: 4px 8px;
+
+        background: $primary-colour;
+        color: $primary-text;
+      }
     }
+  }
 }
 
-.unfolder { display: none; }
+body article{
+  margin: 0;
+  padding: 0;
+  flex: 1 80%;
 
-.toggle-label {
+  #article{
+    margin: 0;
+    padding: 0;
+
+    h1{
+      //margin: 0;
+      //padding: 10px 20px;
+      //
+      //background: $primary-colour;
+      //color: $primary-text;
+      //font-weight: normal;
+    }
+  }
+}
+
+.unfolder{ display: none; }
+
+.toggle-label{
   cursor: pointer;
   background-color: black;
 }
 
-.unfolder:checked ~ .toggle-label {
+.unfolder:checked ~ .toggle-label{
   background-color: white;
 }
 
-#article > div {
-  border: 1px solid black;
-  padding: 10px;
+#article > div{
+  //border: 1px solid black;
+  //padding: 10px;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  margin-bottom: 2rem;
+  //margin-bottom: 2rem;
 }
 
-#article > div > div {
+#article > div > div{
   border: 1px solid black;
   padding: 10px;
   min-width: 24em;
@@ -91,59 +167,59 @@ header {
 }
 
 #tech > div[class^="tech-"],
-#maps > div[class^="maps-"] { 
+#maps > div[class^="maps-"]{
   flex-basis: 100%;
 }
 
-#tech > div[class^="tech-"] > h2 ,
-#maps > div[class^="maps-"] > h2 {
+#tech > div[class^="tech-"] > h2,
+#maps > div[class^="maps-"] > h2{
   text-align: center;
 }
 
-#tech > div[class^="tech-"] > h2 ~ div {
+#tech > div[class^="tech-"] > h2 ~ div{
   max-width: 80rem;
   margin: 0 auto;
 }
 
-.maps-grouped > .map {
+.maps-grouped > .map{
   border: 1px dotted black;
 }
 
-.maps-grouped > .map > h3 {
+.maps-grouped > .map > h3{
   margin: 2rem;
 }
 
-.tech-header h3 {
+.tech-header h3{
   display: inline-block;
   margin: 0 0.5em 1.5em;
   font-size: 150%;
 }
 
-.tech-header .tags {
+.tech-header .tags{
   float: right;
   color: #BBB;
   font-size: 80%;
 }
 
-.tech-header .tags .tagprefix {
+.tech-header .tags .tagprefix{
   font-weight: bold;
 }
 
-#enemies .enemy {
+#enemies .enemy{
   margin: 1rem;
   padding: 1rem;
   border: 1px solid black;
 }
 
-.stats {
+.stats{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.stats .stat {
+.stats .stat{
   padding: 0.25rem 1rem;
-  background-color: rgba(0,0,0,0.05);
+  background-color: rgba(0, 0, 0, 0.05);
   margin: 0.25rem;
   border-radius: 1rem;
   display: flex;
@@ -154,45 +230,44 @@ header {
 {% endfor %}
 $map-stat-list: {{ map_stat_list }};
 
-@mixin textcontent($statname, $content) {
-    &.stat-#{$statname}::before {
-        background-image: unset;
-        content: '#{$content}';
-    }
+@mixin textcontent($statname, $content){
+  &.stat-#{$statname}::before{
+    background-image: unset;
+    content: '#{$content}';
+  }
 }
 
-.map-stats {
-    @each $stat in $map-stat-list {
-        .stat-#{$stat} {
-            &::before {
-                background-image: url("img/icon/stat/map/#{$stat}.png");
-            }
-        }
+.map-stats{
+  @each $stat in $map-stat-list{
+    .stat-#{$stat}{
+      &::before{
+        background-image: url("img/icon/stat/map/#{$stat}.png");
+      }
     }
-    @for $i from 1 through 20 {
-        .stat-tiles_layer#{$i}::before {
-            content: "#{$i}";
-        }
+  }
+  @for $i from 1 through 20{
+    .stat-tiles_layer#{$i}::before{
+      content: "#{$i}";
     }
-    [class*='stat-tiles_']::before {
-        background-image: url("img/icon/stat/map/tiles_layer.png");
-        line-height: 3em;
-        text-align: right;
-        color: white;
-        font-size: inherit;
-    }
-    .map-stat {
-        @include textcontent(name, "📛"); 
-        @include textcontent(srcfile, '🖼');
+  }
+  [class*='stat-tiles_']::before{
+    background-image: url("img/icon/stat/map/tiles_layer.png");
+    line-height: 3em;
+    text-align: right;
+    color: white;
+    font-size: inherit;
+  }
+  .map-stat{
+    @include textcontent(name, "📛");
+    @include textcontent(srcfile, '🖼');
 
-        span {
-            margin-left: 0.5em;
-        }
+    span{
+      margin-left: 0.5em;
     }
+  }
 }
 
-
-.map-stat::before {
+.map-stat::before{
   content: '';
   #background-color: red;
   width: 32px;
@@ -201,51 +276,52 @@ $map-stat-list: {{ map_stat_list }};
   font-size: 32px;
 }
 
-.map-stat {
-    line-height: 32px;
+.map-stat{
+  line-height: 32px;
 }
-.map-stats 
+
+.map-stats
 .stat.stat-attrib-true span,
-.stat.stat-attrib-false span {
-    display: none;
-}
-.stat::after {
-    font-size: 32px;
+.stat.stat-attrib-false span{
+  display: none;
 }
 
-.stat.stat-attrib-true::after {
-    content: '✓';
-    color: green;
+.stat::after{
+  font-size: 32px;
 }
 
-.stat.stat-attrib-false::after {
-    content: '✗';
-    color: red;
+.stat.stat-attrib-true::after{
+  content: '✓';
+  color: green;
 }
 
+.stat.stat-attrib-false::after{
+  content: '✗';
+  color: red;
+}
 
-#enemies .enemy .enemy-stats .enemy-stat a {
+#enemies .enemy .enemy-stats .enemy-stat a{
   text-transform: capitalize;
 }
 
 body header,
-body article {
+body article{
   overflow: auto;
   height: 100vh;
 }
 
-body header {
+body header{
   scrollbar-width: none;
   flex-basis: 20%;
   min-width: 11em;
   max-width: 18em;
 }
 
-body article {
-  padding: 0 1rem;
-  flex: 1 80%;
-}
+//body article{
+//  padding: 0 1rem;
+//  flex: 1 80%;
+//}
 
-.uncertain-value {
+.uncertain-value{
   color: red;
 }
