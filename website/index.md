@@ -48,14 +48,16 @@ FIXME: Level stats only have the raw stat - mouseover for highlight!
 
 <div id="maps">
 {% for mapgroup in site.df_mapgroups %}
-    <div class="maps-{{ mapgroup }}">
+    <div class="maps-hub maps-{{ mapgroup }}">
         <h2 id="maps-{{ mapgroup | slugify }}">{{ mapgroup | capitalize }}</h2>
-        <div class="maps-grouped">
+        <div class="maps-grouped compact">
             {% assign maps_currentgroup = site.maps | where: "mapgroup",mapgroup %} 
             {% for map in maps_currentgroup %}
+                {%  if false %}
                 <div class="map">
                     <h3 id="maps-level-{{ map.name | slugify }}">{{ map.name }}</h3>
                     <div class="map-stats stats">
+                        <img src="assets/img/maps/downhill.jpg" >
                         {% assign map_stats = site.data["stock-maps"] | where: "name", map.name | first %}
                         {% if map.name contains "Beginner Tutorial" %}
                             {% assign map_stats = site.data["stock-maps"] | where: "srcfile", "newtutorial1" | first %}
@@ -70,12 +72,64 @@ FIXME: Level stats only have the raw stat - mouseover for highlight!
                             {% assign clean_desc_value = site.data.pretty_names.map_stats | where: "name", stat[0] | first %}
                             {% assign value_classname = stat[1] | downcase | slugify %}
                             <div class="map-stat stat-{{ stat[0] }} stat-attrib-{{ value_classname }} stat" title="{{ clean_desc_value.longdesc }}">
-                                 <span>{{ stat[1] }}</span>
+                                 <strong>{{ stat[0] }}</strong> <span>{{ stat[1] }}</span>
                             </div>
                         {% endfor %}
                     </div>
                     <div class="map-content">
                         {{ map.content }}
+                    </div>
+                </div>
+                {% endif %}
+                <div class="map-compact">
+                    {% assign map_stats = site.data["stock-maps"] | where: "name", map.name | first %}
+                    <div class="heading">
+                        <h3 id="maps-level-{{ map.name | slugify }}" style="background-image: url(assets/img/maps/downhill.jpg)">
+                            <span>{{ map.name }}</span>
+                        </h3>
+                        <div class="map-stats-section map-stats-general">
+                            <div class="map-stats-heading">General</div>
+                            <ul>
+                                {% for key in site.data.general_stats %}
+                                    {% assign value = map_stats[key] %}
+                                    {% include_relative /_maps/stat.md key=key value=value  %}
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="map-stats-section map-stats-layers">
+                        <div class="map-stats-heading">Tiles</div>
+                        <ul>
+                            {% for stat in map_stats %}
+                                {% if stat[0] contains 'tiles_layer' and stat[1] > 0 %}
+                                    {% assign key = stat[0] | replace: 'tiles_layer', '' %}
+                                    {% capture key %} Layer {{ key }} {% endcapture %}
+                                    {% assign value = stat[1] %}
+                                    {% include_relative /_maps/stat.md key=key value=value  %}
+                                {% endif %}
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    <div class="map-stats-section map-stats-dust">
+                        <div class="map-stats-heading">Dust</div>
+                        <ul>
+                            {% for key in site.data.dust_stats %}
+                                {% assign value = map_stats[key] %}
+                                {% include_relative /_maps/stat.md key=key value=value  %}
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    <div class="map-stats-section map-stats-enemies">
+                        <div class="map-stats-heading">Enemies</div>
+                        <ul>
+                            {% for stat in map_stats %}
+                                {% if stat[0] contains 'enemy_' and stat[1] > 0 %}
+                                    {% assign key = stat[0] | replace: 'enemy_', '' | capitalize %}
+                                    {% assign value = stat[1] %}
+                                    {% include_relative /_maps/stat.md key=key value=value  %}
+                                {% endif %}
+                            {% endfor %}
+                        </ul>
                     </div>
                 </div>
             {% endfor %}

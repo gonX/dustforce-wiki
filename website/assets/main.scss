@@ -13,6 +13,7 @@ $primary-hover: lighten($primary-colour, 45);
 
 $spacing: 10px;
 $spacing-h: $spacing * 0.5;
+$spacing2: $spacing * 2;
 
 $anim-time: 0.15s;
 
@@ -54,11 +55,16 @@ h1{
   padding: 0.5em;
   position: sticky;
   top: 0;
+  z-index: 10;
 
   background: $primary-colour;
   color: $primary-text;
   font-size: 1.7em;
   font-weight: normal;
+}
+
+p{
+  margin: $spacing 0;
 }
 
 // -- Header ---------------------------------------------------
@@ -182,6 +188,121 @@ body article{
           }
 
           div.character-content{ grid-area: content; }
+        }
+      }
+    }
+
+    > #maps .maps-hub{
+      margin: 0 $spacing $spacing $spacing;
+
+      .maps-grouped{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: $spacing;
+        padding: $spacing;
+
+        .map{
+          border: 1px dotted #aaa;
+          border-radius: 3px;
+
+          h3{
+            margin: 0 0 $spacing 0;
+            padding: $spacing $spacing2;
+            border-bottom: 1px dotted $border-colour;
+          }
+
+          .map-stats{
+            margin: $spacing;
+          }
+
+          .map-content{
+            margin: $spacing;
+          }
+        }
+
+        .map-compact{
+          display: grid;
+          grid-template-areas: "heading heading heading" "tiles dust enemies";
+          grid-template-columns: 1fr 1fr 1fr;
+          grid-gap: $spacing;
+
+          border: 1px solid $primary-colour;
+          padding: 10px;
+          border-radius: 4px;
+
+          .heading{
+            display: flex;
+            align-items: stretch;
+            grid-area: heading;
+
+            h3{
+              grid-area: heading;
+              position: relative;
+              margin: 0;
+              padding: 0;
+              width: 380px;
+              height: 180px;
+              background-repeat: no-repeat;
+              background-size: cover;
+              border-radius: 3px;
+
+              span{
+                position: absolute;
+                left: 10px;
+                bottom: 10px;
+                display: block;
+                padding: 10px;
+                background: #0008;
+                color: #fff;
+                letter-spacing: 5px;
+                text-transform: uppercase;
+              }
+            }
+
+            .map-stats-section.map-stats-general{
+              flex-grow: 1;
+              margin-left: $spacing;
+            }
+          }
+
+          .map-stats-section{
+            margin: 0;
+            padding: 0;
+
+            .map-stats-heading{
+              padding: $spacing 0 0 0;
+
+              border-bottom: 1px dotted $border-colour;
+              font-weight: bold;
+              font-size: 1.2em;
+            }
+            ul{
+              margin: 0 0 0 $spacing;
+              padding: 0;
+
+              list-style: none;
+
+              div{
+                padding: 3px;
+              }
+              .map-stat-key{
+                font-weight: bold;
+              }
+              .map-stat-value{
+                float: right;
+              }
+            }
+          }
+
+          .map-stats-section.map-stats-layers{
+            grid-area: tiles;
+          }
+          .map-stats-section.map-stats-dust{
+            grid-area: dust;
+          }
+          .map-stats-section.map-stats-enemies{
+            grid-area: enemies;
+          }
         }
       }
     }
@@ -318,17 +439,17 @@ $map-stat-list: {{ map_stat_list }};
 }
 
 .map-stat::before{
-  content: '';
-  #background-color: red;
-  width: 32px;
-  height: 32px;
-  display: inline-block;
-  font-size: 32px;
+  //content: '';
+  //#background-color: red;
+  //width: 32px;
+  //height: 32px;
+  //display: inline-block;
+  //font-size: 32px;
 }
 
-.map-stat{
-  line-height: 32px;
-}
+//.map-stat{
+//  line-height: 32px;
+//}
 
 .map-stats
 .stat.stat-attrib-true span,
@@ -343,11 +464,6 @@ $map-stat-list: {{ map_stat_list }};
 .stat.stat-attrib-true::after{
   content: '✓';
   color: green;
-}
-
-.stat.stat-attrib-false::after{
-  content: '✗';
-  color: red;
 }
 
 #enemies .enemy .enemy-stats .enemy-stat a{

@@ -1,0 +1,6 @@
+{% assign clean_desc_value = site.data.pretty_names.map_stats | where: "name", include.key | first %}
+{% assign value_classname = include.value | downcase | slugify %}
+<li class="map-stat stat-{{ include.key }} stat-attrib-{{ value_classname }} stat" title="{{ clean_desc_value.longdesc }}">
+    <div class="map-stat-value">{{ include.value }}</div>
+    <div class="map-stat-key">{{ include.key }}</div>
+</li>
