@@ -27,7 +27,6 @@ markdown: kramdown
 theme: 
 plugins:
   - jekyll-toc
-  - jekyll-feed
   - jekyll-compress-images
 
 imageoptim:
