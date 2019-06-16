@@ -6,3 +6,4 @@
 /website/_compress_images_cache.yml
 .idea/
 raw-assets/sprites
+__pycache__
