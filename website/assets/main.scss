@@ -220,6 +220,12 @@ body article{
           }
         }
 
+        {% for map in site.data.stock-maps %}
+            {% assign srcfile = map["srcfile"] | slugify %}
+            {% assign map_list = map_list | append: " " | append: srcfile %}
+        {% endfor %}
+        $map-list: {{ map_list }};
+
         .map-compact{
           display: grid;
           grid-template-areas: "heading heading heading" "tiles dust enemies";
@@ -245,6 +251,12 @@ body article{
               background-repeat: no-repeat;
               background-size: cover;
               border-radius: 3px;
+
+              @each $map in $map-list {
+                  &.maps-level-#{$map} {
+                        background-image: url("img/maps/#{$map}.jpg");
+                  }
+              }
 
               span{
                 position: absolute;

@@ -84,7 +84,7 @@ FIXME: Level stats only have the raw stat - mouseover for highlight!
                 <div class="map-compact">
                     {% assign map_stats = site.data["stock-maps"] | where: "name", map.name | first %}
                     <div class="heading">
-                        <h3 id="maps-level-{{ map.name | slugify }}" style="background-image: url(assets/img/maps/downhill.jpg)">
+                        <h3 id="maps-level-{{ map.name | slugify }}" class="maps-level-{{ map_stats.srcfile | slugify }}">
                             <span>{{ map.name }}</span>
                         </h3>
                         <div class="map-stats-section map-stats-general">
