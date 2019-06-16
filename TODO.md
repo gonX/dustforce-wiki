@@ -62,3 +62,5 @@ depends on bandwidth costs, may use youtube or other host
 
 - "Pretty Names" for enemies suck ass. Make it icon-based similar to maps. We can re-use the current "Pretty Names" for titles with minor modifications.
 -- also consider how we technically tackle the issue of linking parents/children as we currently use undesirable HTML injection for this
+
+- write about changing facing direction in air using 2 attacks
