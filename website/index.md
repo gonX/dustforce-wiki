@@ -92,7 +92,7 @@ FIXME: Level stats only have the raw stat - mouseover for highlight!
                             <ul>
                                 {% for key in site.data.general_stats %}
                                     {% assign value = map_stats[key] %}
-                                    {% include_relative /_maps/stat.md key=key value=value  %}
+                                    {% include_relative /_content-templates/map-stat.liquid key=key value=value  %}
                                 {% endfor %}
                             </ul>
                         </div>
@@ -105,7 +105,7 @@ FIXME: Level stats only have the raw stat - mouseover for highlight!
                                     {% assign key = stat[0] | replace: 'tiles_layer', '' %}
                                     {% capture key %} Layer {{ key }} {% endcapture %}
                                     {% assign value = stat[1] %}
-                                    {% include_relative /_maps/stat.md key=key value=value  %}
+                                    {% include_relative /_content-templates/map-stat.liquid key=key value=value  %}
                                 {% endif %}
                             {% endfor %}
                         </ul>
@@ -115,7 +115,7 @@ FIXME: Level stats only have the raw stat - mouseover for highlight!
                         <ul>
                             {% for key in site.data.dust_stats %}
                                 {% assign value = map_stats[key] %}
-                                {% include_relative /_maps/stat.md key=key value=value  %}
+                                {% include_relative /_content-templates/map-stat.liquid key=key value=value  %}
                             {% endfor %}
                         </ul>
                     </div>
@@ -126,7 +126,7 @@ FIXME: Level stats only have the raw stat - mouseover for highlight!
                                 {% if stat[0] contains 'enemy_' and stat[1] > 0 %}
                                     {% assign key = stat[0] | replace: 'enemy_', '' | capitalize %}
                                     {% assign value = stat[1] %}
-                                    {% include_relative /_maps/stat.md key=key value=value  %}
+                                    {% include_relative /_content-templates/map-stat.liquid key=key value=value  %}
                                 {% endif %}
                             {% endfor %}
                         </ul>

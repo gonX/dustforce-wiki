@@ -115,3 +115,4 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - _compress_images_cache.yml
+  - _content-templates/
