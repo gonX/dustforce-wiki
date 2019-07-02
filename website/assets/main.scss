@@ -49,6 +49,11 @@ h1{
   color: $primary-text;
   font-size: 1.7em;
   font-weight: normal;
+
+  a:link, a:visited, a:active {
+      text-decoration: none;
+      color: $primary-text;
+  }
 }
 
 p{
