@@ -375,20 +375,27 @@ body article{
   margin: 2rem;
 }
 
-.tech-header h3{
-  display: inline-block;
-  margin: 0 0.5em 1.5em;
-  font-size: 150%;
-}
+#tech {
+    .tech-header h3{
+        display: inline-block;
+        margin: 0 0.5em 1.5em;
+        font-size: 150%;
+    }
 
-.tech-header .tags{
-  float: right;
-  color: #BBB;
-  font-size: 80%;
-}
+    .tech-header .tags{
+        float: right;
+        color: #BBB;
+        font-size: 80%;
+        margin: 1em;
+    }
 
-.tech-header .tags .tagprefix{
-  font-weight: bold;
+    .tech-header .tags .tagprefix{
+        font-weight: bold;
+    }
+
+    .tech-content {
+        margin: 2em;
+    }
 }
 
 #enemies .enemy{
