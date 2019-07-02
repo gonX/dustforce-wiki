@@ -4,9 +4,11 @@
 
 - name: "srcfile"
   longdesc: "Source File Name"
+  shortdesc: "Source File"
 
 - name: "is_virtual"
   longdesc: "Uses virtual characters"
+  shortdesc: "Virtual Chars"
 
 - name: "tiles_layer1"
   longdesc: "Tiles on layer 1"
@@ -70,31 +72,41 @@
 
 - name: "covered_tiles"
   longdesc: "Tiles covered by either dust or spikes"
+  shortdesc: "Covered Tiles"
 
 - name: "dustblocks"
   longdesc: "Tiles that are dustblocks"
+  shortdesc: "Dustblocks"
 
 - name: "filthy_surfaces"
   longdesc: "Tile faces with dust on them"
+  shortdesc: "Filthy Surfaces"
 
 - name: "spiked_surfaces"
   longdesc: "Tile faces with spikes on them"
+  shortdesc: "Spiked Surfaces"
 
 - name: "dust_from_enemies"
   longdesc: "Minimum dust collected if all enemies are killed"
+  shortdesc: "Dust fr. Enemies"
 
 - name: "total_dust"
   longdesc: "Total amount of dust collectable, excluding dustspread"
+  shortdesc: "Total Dust"
 
 - name: "props"
   longdesc: "Props placed"
+  shortdesc: "Props"
 
 - name: "apples"
   longdesc: "Apples placed"
+  shortdesc: "Apples"
 
 - name: "key_get_type"
   longdesc: "Key collected when map is finished with an SS"
+  shortdesc: "Key"
 
 - name: "enemies"
   longdesc: "Total enemies on map"
+  shortdesc: "Enemies"
 
