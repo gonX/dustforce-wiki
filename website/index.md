@@ -53,34 +53,6 @@ FIXME: Level stats only have the raw stat - mouseover for highlight!
         <div class="maps-grouped compact">
             {% assign maps_currentgroup = site.maps | where: "mapgroup",mapgroup %} 
             {% for map in maps_currentgroup %}
-                {%  if false %}
-                <div class="map">
-                    <h3 id="maps-level-{{ map.name | slugify }}">{{ map.name }}</h3>
-                    <div class="map-stats stats">
-                        <img src="assets/img/maps/downhill.jpg" >
-                        {% assign map_stats = site.data["stock-maps"] | where: "name", map.name | first %}
-                        {% if map.name contains "Beginner Tutorial" %}
-                            {% assign map_stats = site.data["stock-maps"] | where: "srcfile", "newtutorial1" | first %}
-                        {% endif %}
-                        {% for stat in map_stats %}
-                            {% if stat[1] == 0 and stat[0] contains "enemy_" or stat[0] contains "tiles_" %}
-                                {% continue %}
-                            {% endif %}
-                            {% if stat[1] == map.name %}
-                                {% continue %}
-                            {% endif %}
-                            {% assign clean_desc_value = site.data.pretty_names.map_stats | where: "name", stat[0] | first %}
-                            {% assign value_classname = stat[1] | downcase | slugify %}
-                            <div class="map-stat stat-{{ stat[0] }} stat-attrib-{{ value_classname }} stat" title="{{ clean_desc_value.longdesc }}">
-                                 <strong>{{ stat[0] }}</strong> <span>{{ stat[1] }}</span>
-                            </div>
-                        {% endfor %}
-                    </div>
-                    <div class="map-content">
-                        {{ map.content }}
-                    </div>
-                </div>
-                {% endif %}
                 <div class="map-compact">
                     {% assign map_stats = site.data["stock-maps"] | where: "name", map.name | first %}
                     {% if map.name contains "Beginner Tutorial" %}
