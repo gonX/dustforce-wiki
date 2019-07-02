@@ -70,22 +70,6 @@ p{
 // -- Header ---------------------------------------------------
 
 header{
-  h1{
-    a:link,
-    a:visited,
-    a:active{
-      position: absolute;
-      bottom: 0;right: 0;
-      padding: 2px 6px;
-
-      background: $primary-colour;
-      border-radius: 0 0 0 3px;
-      color: $primary-text !important;
-      font-size: 0.8rem;
-      text-decoration: none;
-    }
-  }
-
   nav{
     ul{
       margin: 0;
