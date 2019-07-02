@@ -20,7 +20,10 @@ def generateMapData(mapfile):
         output["key_get_type"] = wiki_output_format.Keytype(map.vars["key_get_type"].value)
         output["props"] = len(map.props)
         # keep in mind Beginner Tutorial does not have the flag, but the game is hardcoded to use it
-        output["is_virtual"] = map.virtual_character()
+        if "Beginner Tutorial" in map.name():
+            output["is_virtual"] = True
+        else:
+            output["is_virtual"] = map.virtual_character()
 
         # tile layers
         for ((layer, x, y), tile) in map.tiles.items():

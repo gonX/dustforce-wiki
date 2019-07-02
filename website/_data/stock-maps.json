@@ -3782,7 +3782,7 @@
   {
     "name": "Beginner Tutorial\n      (Press UP)",
     "srcfile": "newtutorial1",
-    "is_virtual": false,
+    "is_virtual": true,
     "tiles_layer1": 0,
     "tiles_layer2": 0,
     "tiles_layer3": 0,
