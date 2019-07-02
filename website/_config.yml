@@ -40,11 +40,11 @@ df_techgroups:
   - other
 
 df_mapgroups:
+  - tutorials
   - forest
   - mansion
   - city
   - lab
-  - tutorials
   - difficults
 
 df_enemygroups:
