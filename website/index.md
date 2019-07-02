@@ -83,6 +83,9 @@ FIXME: Level stats only have the raw stat - mouseover for highlight!
                 {% endif %}
                 <div class="map-compact">
                     {% assign map_stats = site.data["stock-maps"] | where: "name", map.name | first %}
+                    {% if map.name contains "Beginner Tutorial" %}
+                        {% assign map_stats = site.data["stock-maps"] | where: "srcfile", "newtutorial1" | first %}
+                    {% endif %}
                     <div class="heading">
                         <h3 id="maps-level-{{ map.name | slugify }}" class="maps-level-{{ map_stats.srcfile | slugify }}">
                             <span>{{ map.name }}</span>
