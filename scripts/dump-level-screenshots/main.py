@@ -35,6 +35,8 @@ Disregard the other instructions - simply extract it to the 'raw-assets/' direct
         found = False
         os.chdir(srcfiles_dir)
         match = glob.glob("**/" + n + "_*.png")
+        if n in "wiringfixed": # wiring has "incorrect" name in sprite files
+            match = glob.glob("**/wiring_*.png")
         if match:
             if len(match) > 1:
                 print("WARN: We matched more than 1 file, but we only care about 1 :o")
