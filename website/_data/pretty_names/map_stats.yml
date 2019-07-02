@@ -88,7 +88,7 @@
 
 - name: "dust_from_enemies"
   longdesc: "Minimum dust collected if all enemies are killed"
-  shortdesc: "Dust fr. Enemies"
+  shortdesc: "Enemy Dust"
 
 - name: "total_dust"
   longdesc: "Total amount of dust collectable, excluding dustspread"
@@ -104,7 +104,7 @@
 
 - name: "key_get_type"
   longdesc: "Key collected when map is finished with an SS"
-  shortdesc: "Key"
+  shortdesc: "Key Reward"
 
 - name: "enemies"
   longdesc: "Total enemies on map"
