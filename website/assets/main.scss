@@ -246,11 +246,10 @@ body article{
               position: relative;
               margin: 0;
               padding: 0;
-              width: 380px;
-              height: 180px;
+              width: 382px;
+              height: 182px;
               background-repeat: no-repeat;
               background-size: cover;
-              border-radius: 3px;
 
               @each $map in $map-list {
                   &.maps-level-#{$map} {
@@ -346,7 +345,7 @@ body article{
 }
 
 #article > div > div{
-  border: 1px solid black;
+  border: 1px solid $border-colour;
   padding: 10px;
   min-width: 24em;
   margin: 10px;
@@ -395,7 +394,7 @@ body article{
 #enemies .enemy{
   margin: 1rem;
   padding: 1rem;
-  border: 1px solid black;
+  border: 1px solid $border-colour;
 }
 
 .stats{
