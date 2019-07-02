@@ -467,12 +467,6 @@ $map-stat-list: {{ map_stat_list }};
 //  line-height: 32px;
 //}
 
-.map-stats
-.stat.stat-attrib-true span,
-.stat.stat-attrib-false span{
-  display: none;
-}
-
 #enemies .enemy .enemy-stats .enemy-stat a{
   text-transform: capitalize;
 }
