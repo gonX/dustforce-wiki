@@ -19,18 +19,6 @@ $anim-time: 0.15s;
 
 // -- Main ---------------------------------------------------
 
-::-webkit-scrollbar{
-  $size: 14px;
-
-  width: $size;
-  height: $size;
-
-  background: darken($bg-colour, 5);
-}
-::-webkit-scrollbar-thumb{
-  background-color: darken($primary-colour, 10);
-}
-
 html, body{
   width: 100%;
   height: 100%;
