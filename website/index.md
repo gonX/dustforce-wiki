@@ -22,7 +22,7 @@ Playable Characters
                 <ul id="charstats-{{ character.name | slugify }}" class="char-stats stats">
                     {% for stat in character_defaults_kv %}
                         {% assign character_stat_key = stat[0] %}
-                        {% if character[character_stat_key] != nil %}
+                        {% if character[character_stat_key] != nil and character[character_stat_key] != 0 %}
                             {% assign pretty_value = site.data.pretty_names.char_stats | where: "name", character_stat_key | first %}
                             {% if pretty_value %}
                                 {% assign char-key = pretty_value.shortdesc %}
