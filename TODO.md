@@ -2,8 +2,6 @@
 # image assets
 
 - enemies
-- maps
-- icons for stats
 
 # video/animated assets
 
@@ -40,27 +38,16 @@ depends on bandwidth costs, may use youtube or other host
 
 - is level pre or post-DX
 
-- enemy hits are probably not correct at all
-
 - reconsider if "minimum attacks to kill" or "health" is the right wording for enemies
 
 - dustblock calculation may count dustblocks not on layer 19
 
 - apple calculation may count apples not on layer 19 (is entities not on layer 19 even a thing?)
 
-- dark theme
-
 - does the guide say that you can cancel attacks on the frame following the "frontswing", otherwise you lose up to `*attack_total_frames - *attack_frontswing_frames - 1`
-
-- different title text for map stats depending on true/false
 
 - talk about refresh rates that aren't a multiple of 60hz causing issues on vanilla
 
-- talk about hawks following cursor
-
 - write a better description for _config.yml for SEO proofing
-
-- "Pretty Names" for enemies suck ass. Make it icon-based similar to maps. We can re-use the current "Pretty Names" for titles with minor modifications.
--- also consider how we technically tackle the issue of linking parents/children as we currently use undesirable HTML injection for this
 
 - write about changing facing direction in air using 2 attacks
