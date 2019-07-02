@@ -7,6 +7,7 @@ can_path_grounded: true
 can_path_flying: false
 pacified_when_flying: true
 hp: 1
+game_name: enemy_butler
 ---
 
 Equal to [Maid](#enemy-maid) for the most part

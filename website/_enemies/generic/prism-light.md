@@ -7,5 +7,5 @@ can_path_grounded: false
 can_path_flying: true
 can_path_grounded: false
 hp: 1
-
+game_name: enemy_tutorial_square
 ---

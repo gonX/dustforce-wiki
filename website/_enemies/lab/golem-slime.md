@@ -7,4 +7,5 @@ can_path_grounded: true
 pacified_when_flying: false
 massive: true
 hp: 9
+game_name: enemy_slime_beast
 ---

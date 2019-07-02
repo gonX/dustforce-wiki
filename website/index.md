@@ -126,10 +126,15 @@ FIXME: Level stats only have the raw stat - mouseover for highlight!
                         <div class="map-stats-heading">Enemies</div>
                         <ul>
                             {% for stat in map_stats %}
+                                {% assign enemy_name = site.enemies | where: "game_name", stat[0] | first %}
                                 {% if stat[0] contains 'enemy_' and stat[1] > 0 %}
-                                    {% assign key = stat[0] | replace: 'enemy_', '' | capitalize %}
+                                    {% if enemy_name %}
+                                        {% assign key = enemy_name.name %}
+                                    {% else %}
+                                        {% assign key = stat[0] %}
+                                    {% endif %}
                                     {% assign value = stat[1] %}
-                                    {% include_relative /_content-templates/map-stat.liquid key=key value=value  %}
+                                    {% include_relative /_content-templates/map-stat.liquid key=key value=value %}
                                 {% endif %}
                             {% endfor %}
                         </ul>

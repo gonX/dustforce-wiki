@@ -5,6 +5,7 @@ can_hurt_unprovoked: true
 spawns_children_parent_id: chest-gold
 can_path: FIXME
 hp: 1
+game_name: enemy_treasure
 ---
 
 Behaves like [Treasure](#treasure).

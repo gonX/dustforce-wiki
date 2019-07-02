@@ -9,4 +9,5 @@ can_path_flying: false
 pacified_when_flying: false
 massive: true
 hp: 12
+game_name: enemy_stoneboss
 ---

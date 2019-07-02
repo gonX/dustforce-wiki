@@ -9,7 +9,7 @@ can_path_grounded: false
 blocks: true
 massive: true
 hp: 3
-
+game_name: enemy_tutorial_hexagon
 ---
 
 This enemy can only be destroyed by hitting it with a heavy attack.

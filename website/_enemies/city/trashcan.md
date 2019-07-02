@@ -9,4 +9,5 @@ can_path: false?
 pacified_when_flying: false
 massive: false
 hp: 9
+game_name: enemy_trash_can
 ---

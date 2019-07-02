@@ -8,6 +8,7 @@ can_path_grounded: true
 can_path_flying: false
 massive: false
 hp: 5?
+game_name: enemy_wolf
 ---
 
 Its attack is performed by "lunging" at the player. Attacking them interrupts their attack.

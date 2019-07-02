@@ -10,4 +10,5 @@ pacified_when_flying: false
 blocks: front
 massive: false
 hp: 9
+game_name: enemy_knight
 ---

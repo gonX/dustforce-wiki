@@ -88,6 +88,7 @@ defaults:
     scope:
         path: "_enemies"
     values:
+        game_name: null # TYPE_IDENTIFIER from dustmaker, e.g. enemy_stonebro, enemy_critter
         can_hurt: maybe # can inflict "damage" on the player in any way (e.g. prisms: false, spring blob: true)
         can_hurt_unprovoked: null # attacks without being provoked (assumes can_hurt=true) (e.g. wolf: true, butler: false)
         spawns_children: null # does enemy make sub enemies (chests, porcupines, trashcans, etc)

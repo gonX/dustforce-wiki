@@ -11,6 +11,7 @@ can_path_flying: false
 pacified_when_flying: false
 massive: false
 hp: 9
+game_name: enemy_chest_scrolls
 ---
 
 Acts similarly to the [Gold Chest](#enemy-chest-gold)
