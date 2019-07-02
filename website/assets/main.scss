@@ -473,15 +473,6 @@ $map-stat-list: {{ map_stat_list }};
   display: none;
 }
 
-.stat::after{
-  font-size: 32px;
-}
-
-.stat.stat-attrib-true::after{
-  content: '✓';
-  color: green;
-}
-
 #enemies .enemy .enemy-stats .enemy-stat a{
   text-transform: capitalize;
 }
