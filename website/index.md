@@ -68,7 +68,12 @@ FIXME: Level stats only have the raw stat - mouseover for highlight!
                             <div class="map-stats-heading">General</div>
                             <ul>
                                 {% for key in site.data.general_stats %}
-                                    {% assign value = map_stats[key] %}
+                                    {% if key == "key_get_type" %}
+                                        {% assign tmpvalue = site.data.key_get_types | where: "name", map_stats[key] | first %}
+                                        {% assign value = tmpvalue.value %}
+                                    {% else %}
+                                        {% assign value = map_stats[key] %}
+                                    {% endif %}
                                     {% include_relative /_content-templates/map-stat.liquid key=key value=value  %}
                                 {% endfor %}
                             </ul>
