@@ -5,7 +5,6 @@ can_hurt: true
 can_hurt_unprovoked: false
 reacts_to_attack: true
 can_path: false
-pacified_when_flying: false?
 massive: true
 hp: 2
 game_name: enemy_spring_ball

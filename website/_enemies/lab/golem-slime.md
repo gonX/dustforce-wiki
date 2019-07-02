@@ -1,5 +1,6 @@
 ---
 name: Golem, Slime
+enemygroup: lab
 can_hurt: true
 can_hurt_unprovoked: true
 can_path: true

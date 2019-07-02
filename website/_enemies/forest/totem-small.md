@@ -6,7 +6,7 @@ can_hurt_unprovoked: true
 can_path: FIXME
 can_path_flying: false
 massive: false
-hp: 3?
+hp: 3
 game_name: enemy_stonebro
 ---
 

@@ -2,7 +2,7 @@
 name: Key (for Door)
 enemygroup: generic
 can_hurt: false
-can_path: false?
+can_path: true
 hp: 1
 ---
 

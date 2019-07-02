@@ -7,7 +7,7 @@ can_path: true
 can_path_grounded: true
 can_path_flying: false
 massive: false
-hp: 5?
+hp: 5
 game_name: enemy_wolf
 ---
 

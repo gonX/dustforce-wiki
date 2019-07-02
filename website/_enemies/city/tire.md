@@ -7,7 +7,7 @@ reacts_to_attack: true
 can_path: false
 pacified_when_flying: false
 massive: false
-hp: 3?
+hp: 3
 game_name: enemy_trash_tire
 ---
 
