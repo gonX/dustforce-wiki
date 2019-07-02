@@ -23,8 +23,14 @@ Playable Characters
                     {% for stat in character_defaults_kv %}
                         {% assign character_stat_key = stat[0] %}
                         {% if character[character_stat_key] != nil %}
-	                        <li class="character-stat character-stat-{{ stat[0] }} stat">
-	                            <span class="character-stat-key">{{ stat[0] }}</span>
+                            {% assign pretty_value = site.data.pretty_names.char_stats | where: "name", character_stat_key | first %}
+                            {% if pretty_value %}
+                                {% assign char-key = pretty_value.shortdesc %}
+                            {% else %}
+                                {% assign char-key = character_stat_key %}
+                            {% endif %}
+	                        <li class="character-stat character-stat-{{ character_stat_key }} stat">
+	                            <span class="character-stat-key" title="{{ pretty_value.longdesc }}">{{ char-key }}</span>
 	                            <span class="character-stat-value">{{ character[character_stat_key] }}</span>
 	                        </li>
                         {% endif %}
@@ -43,8 +49,6 @@ Playable Characters
 
 Levels
 ===
-
-FIXME: Level stats only have the raw stat - mouseover for highlight!
 
 <div id="maps">
 {% for mapgroup in site.df_mapgroups %}

@@ -1,0 +1,51 @@
+- name: "dash_speed"
+  longdesc: "Minimum dash speed"
+  shortdesc: "Dash Speed"
+
+- name: "hover_frames"
+  longdesc: "Frames spent in hover from jump"
+  shortdesc: "Hover Frames"
+
+- name: "slope_slide_speed"
+  longdesc: "Max speed when pressing down (sliding) on a slope"
+  shortdesc: "Slope Speed"
+
+- name: "fulljump_frames"
+  longdesc: "Frames before state 'hover' after a fulljump"
+  shortdesc: "Fulljump Frames"
+
+- name: "shorthop_frames"
+  longdesc: "Frames before state 'hover' after a shorthop (jump not held after crouch_jump)"
+  shortdesc: "Shorthop frames"
+
+- name: "lightattack_frontswing_frames"
+  longdesc: "Frames before light attack connects"
+  shortdesc: "Light Frontswing F"
+
+- name: "heavyattack_frontswing_frames"
+  longdesc: "Frames before heavy attack connects"
+  shortdesc: "Heavy Frontswing F"
+
+- name: "lightattack_total_frames"
+  longdesc: "Frames before a new action can occur after a light attack"
+  shortdesc: "Light Total F"
+
+- name: "heavyattack_total_frames"
+  longdesc: "Frames before a new action can occur after a heavy attack"
+  shortdesc: "Heavy Total F"
+
+- name: "terminal_velocity"
+  longdesc: "Maximum falling speed"
+  shortdesc: "Terminal Velocity"
+
+- name: "terminal_velocity_frames"
+  longdesc: "Frames to reach terminal velocity when falling off an edge"
+  shortdesc: "Terminal Velocity F"
+
+- name: "terminal_velocity_downdash_frames"
+  longdesc: "Frames to reach terminal velocity when downdash is pressed on the first possible frame"
+  shortdesc: "Terminal V Downdash F"
+
+- name: "air_charges"
+  longdesc: "Maximum air charges"
+  shortdesc: "Air Charges"
