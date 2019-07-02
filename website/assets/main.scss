@@ -246,10 +246,11 @@ body article{
               position: relative;
               margin: 0;
               padding: 0;
-              width: 382px;
-              height: 182px;
+              width: 380px;
+              height: 180px;
               background-repeat: no-repeat;
               background-size: cover;
+              border-radius: 4px;
 
               @each $map in $map-list {
                   &.maps-level-#{$map} {

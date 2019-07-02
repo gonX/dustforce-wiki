@@ -57,6 +57,8 @@ Disregard the other instructions - simply extract it to the 'raw-assets/' direct
                         found = True
 
         if found and srcpng:
+            w, h = srcpng.size
+            srcpng = srcpng.crop((1,1, w-2, h-2))
             jpg = srcpng.convert('RGB')
             jpg.save(os.path.join(topdir, "website", "assets", "img", "maps", n + ".jpg"), quality=60)
         else:
