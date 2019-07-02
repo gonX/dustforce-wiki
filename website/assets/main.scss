@@ -3,13 +3,13 @@
 
 // -- Vars ---------------------------------------------------
 
-$bg-colour: #fcfcfc;
-$text-colour: #333;
+$bg-colour: #000;
+$text-colour: #ccc;
 $primary-colour: #7e5596;
 $primary-text: #fff;
 $border-colour: #aaa;
 
-$primary-hover: lighten($primary-colour, 45);
+$primary-hover: darken($primary-colour, 25);
 
 $spacing: 10px;
 $spacing-h: $spacing * 0.5;
@@ -47,7 +47,7 @@ html, body{
 a:link,
 a:visited,
 a:active{
-  color: $primary-colour;
+  color: lighten($primary-colour, 25);
 }
 
 h1{
