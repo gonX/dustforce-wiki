@@ -74,5 +74,5 @@ if __name__ == '__main__':
 
     topdir = subprocess.check_output(["git", "rev-parse", "--show-toplevel"]).decode('utf-8').rstrip()
     with open(os.path.join(topdir, "website", "_data", "stock-maps.json"), 'w+') as f:
-        f.write(json.dumps(results))
+        f.write(json.dumps(results, indent=2))
         print("File written to '{}'".format(f.name))
