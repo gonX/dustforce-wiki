@@ -105,6 +105,15 @@ Levels
                             {% endfor %}
                         </ul>
                     </div>
+                    {% for stat in map_stats %}
+                        {% if stat[0] contains 'enemy_' and stat[1] > 0 %}
+                            {% assign has_enemies = true %}
+                            {% break %}
+                        {% else %}
+                            {% assign has_enemies = false %}
+                        {% endif %}
+                    {% endfor %}
+                    {% if has_enemies %}
                     <div class="map-stats-section map-stats-enemies">
                         <div class="map-stats-heading">Enemies</div>
                         <ul>
@@ -122,6 +131,7 @@ Levels
                             {% endfor %}
                         </ul>
                     </div>
+                    {% endif %}
                 </div>
             {% endfor %}
         </div>
