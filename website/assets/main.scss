@@ -294,6 +294,10 @@ body article{
 
               list-style: none;
 
+              li.stat-srcfile > .map-stat-value {
+                  font-family: monospace;
+              }
+
               div{
                 padding: 3px;
               }
