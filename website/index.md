@@ -59,9 +59,11 @@ FIXME: Level stats only have the raw stat - mouseover for highlight!
                         {% assign map_stats = site.data["stock-maps"] | where: "srcfile", "newtutorial1" | first %}
                     {% endif %}
                     <div class="heading">
-                        <h3 id="maps-level-{{ map.name | slugify }}" class="maps-level-{{ map_stats.srcfile | slugify }}">
-                            <span>{{ map.name }}</span>
-                        </h3>
+                        <a href="dustforce://installPlay/0/{{ map_stats.srcfile | slugify }}">
+                            <h3 id="maps-level-{{ map.name | slugify }}" class="maps-level-{{ map_stats.srcfile | slugify }}">
+                                <span>{{ map.name }}</span>
+                            </h3>
+                        </a>
                         <div class="map-stats-section map-stats-general">
                             <div class="map-stats-heading">General</div>
                             <ul>
