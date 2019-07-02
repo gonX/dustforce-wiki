@@ -29,4 +29,10 @@ Applies time dilation during startup (expand on this more if we know more about 
 
 Boosts can be preserved through a super, Including reversing the boost.
 
+#### Attack Time
 
+The attack time of a super depends whether you will be hitting enemies with it or not.
+
+An empty Super has a attack time of `22f`.
+
+A super which hits enemies has a base attack time of `36.3f` with each target adding an additional `7.7f`. Time is rounded **up** to the nearest subframe.
