@@ -1,5 +1,6 @@
 ---
 name: Scrolls
+enemygroup: mansion
 can_hurt: true
 can_hurt_unprovoked: true
 spawns_children_parent_id: chest-scrolls
