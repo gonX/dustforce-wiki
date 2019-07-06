@@ -56,7 +56,7 @@ Levels
         <div class="maps-grouped compact">
             {% assign maps_currentgroup = site.maps | where: "mapgroup",mapgroup %} 
             {% for map in maps_currentgroup %}
-                <div class="map-compact">
+                <div class="map-compact card">
                     {% assign map_stats = site.data["stock-maps"] | where: "name", map.name | first %}
                     {% if map.name contains "Beginner Tutorial" %}
                         {% assign map_stats = site.data["stock-maps"] | where: "srcfile", "newtutorial1" | first %}
@@ -195,26 +195,28 @@ Mechanics / Tech
     {% if gsize == 0 %}
         {% continue %}
     {% endif %}
-    <span><h2 id="{{ techgroup }}-tech">{{ techgroup | capitalize }}</h2></span>
-    {% for tech in mechanics_group %}
-        <div class="tech-{{ tech.name | slugify }}">
-            <div class="tech-header">
-                <h3 id="{{ tech.name | slugify }}">{{ tech.name }}</h3>
-                {% assign tagcount = tech.tags | size %}
-                {% if tagcount > 0 %}
-                    <span class="tags">
-                        <span class="tagprefix">
-                            tags:
+    <div class="tech-{{ techgroup }}">
+        <h2 id="{{ techgroup }}-tech">{{ techgroup | capitalize }}</h2>
+        {% for tech in mechanics_group %}
+            <div class="tech-{{ tech.name | slugify }} card">
+                <div class="tech-header">
+                    <h3 id="{{ tech.name | slugify }}">{{ tech.name }}</h3>
+                    {% assign tagcount = tech.tags | size %}
+                    {% if tagcount > 0 %}
+                        <span class="tags">
+                            <span class="tagprefix">
+                                tags:
+                            </span>
+                            <span>
+                                {{ tech.tags | join: ", " }}
+                            </span>
                         </span>
-                        <span>
-                            {{ tech.tags | join: ", " }}
-                        </span>
-                    </span>
-                {% endif %}
+                    {% endif %}
+                </div>
+                <div class="tech-content">{{ tech.content }}</div>
             </div>
-            <div class="tech-content">{{ tech.content }}</div>
-        </div>
-    {% endfor %}
+        {% endfor %}
+    </div>
 {% endfor %}
 </div>
 

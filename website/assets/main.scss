@@ -111,51 +111,68 @@ body article{
     margin: 0;
     padding: 0;
 
-    > div > div{
-      margin: 0 $spacing $spacing $spacing;
-      padding: 0;
-      border: 1px solid $primary-colour;
-      border-radius: 3px;
-      flex: 1 100%;
 
-      h2{
-        margin: 0;
-        padding: $spacing;
+    > div {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
 
-        border-bottom: 1px solid $primary-colour;
+        > div{
+            margin: 0 $spacing $spacing $spacing;
+            padding: 0;
+            border: 1px solid $primary-colour;
+            border-radius: 3px;
+            flex: 1 100%;
+
+            h2{
+                margin: 0;
+                padding: $spacing;
+
+                border-bottom: 1px solid $primary-colour;
+                color: $primary-text;
+                text-align: center;
+            }
+
+            .statlist {
+                padding: 0;
+                flex: 1 0 auto;
+                min-width: 14em;
+                margin: $spacing;
+
+                .heading {
+                    padding: $spacing 0 0 0;
+                    border-bottom: 1px dotted $border-colour;
+                    font-weight: bold;
+                    font-size: 1.2em;
+                }
+
+                ul {
+                    margin: 0 0 0 $spacing;
+                    padding: 0;
+
+                    list-style: none;
+
+                    div {
+                        padding: 3px;
+                    }
+                    .stat-key {
+                        font-weight: bold;
+                    }
+                    .stat-value {
+                        float: right;
+                    }
+                }
+            }
+        }
+    }
+
+    pre.highlight {
+        overflow-x: auto;
+        width: 80ch;
+        background: black;
         color: $primary-text;
-      }
-
-      .statlist {
-          padding: 0;
-          flex: 1 0 auto;
-          min-width: 14em;
-          margin: $spacing;
-
-          .heading {
-              padding: $spacing 0 0 0;
-              border-bottom: 1px dotted $border-colour;
-              font-weight: bold;
-              font-size: 1.2em;
-          }
-
-          ul {
-              margin: 0 0 0 $spacing;
-              padding: 0;
-
-              list-style: none;
-
-              div {
-                  padding: 3px;
-              }
-              .stat-key {
-                  font-weight: bold;
-              }
-              .stat-value {
-                  float: right;
-              }
-          }
-      }
+        margin: 1em;
+        padding: 1em;
     }
 
     > #characters{
@@ -166,7 +183,7 @@ body article{
             float: right;
             flex-basis: 20em;
             margin: 0 0 $spacing $spacing;
-            .heading {
+            .heading, ul div {
                 padding: 0;
             }
         }
@@ -184,7 +201,6 @@ body article{
               padding: 4px;
             }
           }
-
         }
       }
     }
@@ -196,25 +212,6 @@ body article{
         padding: $spacing;
         flex-wrap: wrap;
 
-        .map{
-          border: 1px dotted #aaa;
-          border-radius: 3px;
-
-          h3{
-            margin: 0 0 $spacing 0;
-            padding: $spacing $spacing2;
-            border-bottom: 1px dotted $border-colour;
-          }
-
-          .map-stats{
-            margin: $spacing;
-          }
-
-          .map-content{
-            margin: $spacing;
-          }
-        }
-
         {% for map in site.data.stock-maps %}
             {% assign srcfile = map["srcfile"] | slugify %}
             {% assign map_list = map_list | append: " " | append: srcfile %}
@@ -223,14 +220,8 @@ body article{
 
         .map-compact{
           display: flex;
-          padding: $spacing;
-          margin: $spacing;
           flex: 1 0 33%;
           flex-flow: row wrap;
-
-          border: 1px solid $primary-colour;
-          padding: 10px;
-          border-radius: 4px;
 
           &>.heading {
             flex: 1 1 380px;
@@ -270,91 +261,60 @@ body article{
           .map-stats-section ul li.stat-key-srcfile > .map-stat-value {
                   font-family: monospace;
             }
-
-          .map-stats-section.map-stats-layers{
-            grid-area: tiles;
-          }
-          .map-stats-section.map-stats-dust{
-            grid-area: dust;
-          }
-          .map-stats-section.map-stats-enemies{
-            grid-area: enemies;
-          }
         }
       }
+    }
+
+    .card {
+        padding: $spacing;
+        margin: $spacing;
+        border: 1px solid $primary-colour;
+        border-radius: 4px;
+    }
+
+    #enemies {
+        .enemy .enemy-stats .enemy-stat a {
+            text-transform: capitalize;
+        }
+
+        .enemy{
+            margin: 1rem;
+            padding: 1rem;
+            border: 1px solid $border-colour;
+        }
+    }
+
+    #tech > div > div {
+        display: flex;
+        padding: $spacing;
+        flex-wrap: wrap;
+
+        .tech-header {
+            width: 100%;
+
+            h3 {
+                display: inline-block;
+                margin: 0 0.5em 1.5em;
+                font-size: 150%;
+                color: $primary-text;
+            }
+
+            .tags {
+                float: right;
+                color: #BBB;
+                font-size: 80%;
+                margin: 1em;
+
+                .tagprefix {
+                    font-weight: bold;
+
+                }
+            }
+        }
     }
   }
 }
 
-#article > div{
-  //border: 1px solid black;
-  //padding: 10px;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  //margin-bottom: 2rem;
-}
-
-#tech > div[class^="tech-"] > h2,
-#maps > div[class^="maps-"] > h2{
-  text-align: center;
-}
-
-#tech > div[class^="tech-"] > h2 ~ div{
-  max-width: 80rem;
-  margin: 0 auto;
-}
-
-.maps-grouped > .map{
-  border: 1px dotted black;
-}
-
-.maps-grouped > .map > h3{
-  margin: 2rem;
-}
-
-#tech {
-    .tech-header h3{
-        display: inline-block;
-        margin: 0 0.5em 1.5em;
-        font-size: 150%;
-    }
-
-    .tech-header .tags{
-        float: right;
-        color: #BBB;
-        font-size: 80%;
-        margin: 1em;
-    }
-
-    .tech-header .tags .tagprefix{
-        font-weight: bold;
-    }
-
-    .tech-content {
-        margin: 2em;
-    }
-}
-
-#enemies .enemy{
-  margin: 1rem;
-  padding: 1rem;
-  border: 1px solid $border-colour;
-}
-
-.stats{
-  //display: flex;
-  //flex-wrap: wrap;
-  //justify-content: space-between;
-}
-
-.stats .stat{
-  //padding: 0.25rem 1rem;
-  //background-color: rgba(0, 0, 0, 0.05);
-  //margin: 0.25rem;
-  //border-radius: 1rem;
-  //display: flex;
-}
 {% assign map_stat_defaults = site.data.stock-maps | first %}
 {% for stat in map_stat_defaults %}
     {% assign map_stat_list = map_stat_list | append: " " | append: stat[0] %}
@@ -398,23 +358,6 @@ $map-stat-list: {{ map_stat_list }};
   }
 }
 
-.map-stat::before{
-  //content: '';
-  //#background-color: red;
-  //width: 32px;
-  //height: 32px;
-  //display: inline-block;
-  //font-size: 32px;
-}
-
-//.map-stat{
-//  line-height: 32px;
-//}
-
-#enemies .enemy .enemy-stats .enemy-stat a{
-  text-transform: capitalize;
-}
-
 body header,
 body article{
   overflow: auto;
@@ -426,13 +369,4 @@ body header{
   flex-basis: 20%;
   min-width: 11em;
   max-width: 18em;
-}
-
-//body article{
-//  padding: 0 1rem;
-//  flex: 1 80%;
-//}
-
-.uncertain-value{
-  color: red;
 }
