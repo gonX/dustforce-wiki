@@ -5,7 +5,7 @@
 {% else %}
     {% assign shortdesc = include.key %}
 {% endif %}
-<li class="map-stat stat-{{ include.key }} stat-attrib-{{ value_classname }} stat" title="{{ clean_desc_value.longdesc }}">
-    <div class="map-stat-value">{{ include.value }}</div>
-    <div class="map-stat-key">{{ shortdesc }}</div>
+<li class="map-stat stat-key-{{ include.key }} stat-attrib-{{ value_classname }} stat" title="{{ clean_desc_value.longdesc }}">
+    <div class="map-stat-value stat-value">{{ include.value }}</div>
+    <div class="map-stat-key stat-key">{{ shortdesc }}</div>
 </li>

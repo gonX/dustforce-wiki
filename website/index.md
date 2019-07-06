@@ -16,23 +16,26 @@ Playable Characters
         <h2 id="character-{{ character.name | slugify }}">{{ character.name }}</h2>
         <div class="content">
             <img src="assets/img/characters/{{ character.name | slugify }}.png" alt="{{ character.name }}" class="character-icon" >
-            <ul id="charstats-{{ character.name | slugify }}" class="char-stats stats">
-                {% for stat in character_defaults_kv %}
-                    {% assign character_stat_key = stat[0] %}
-                    {% if character[character_stat_key] != nil and character[character_stat_key] != 0 %}
-                        {% assign pretty_value = site.data.pretty_names.char_stats | where: "name", character_stat_key | first %}
-                        {% if pretty_value %}
-                            {% assign char-key = pretty_value.shortdesc %}
-                        {% else %}
-                            {% assign char-key = character_stat_key %}
+            <div class="statlist">
+                <div class="heading">Stats</div>
+                <ul id="charstats-{{ character.name | slugify }}" class="char-stats stats">
+                    {% for stat in character_defaults_kv %}
+                        {% assign character_stat_key = stat[0] %}
+                        {% if character[character_stat_key] != nil and character[character_stat_key] != 0 %}
+                            {% assign pretty_value = site.data.pretty_names.char_stats | where: "name", character_stat_key | first %}
+                            {% if pretty_value %}
+                                {% assign char-key = pretty_value.shortdesc %}
+                            {% else %}
+                                {% assign char-key = character_stat_key %}
+                            {% endif %}
+                            <li class="character-stat character-stat-{{ character_stat_key }} stat">
+                                <div class="character-stat-value stat-value">{{ character[character_stat_key] }}</div>
+                                <div class="character-stat-key stat-key" title="{{ pretty_value.longdesc }}">{{ char-key }}</div>
+                            </li>
                         {% endif %}
-                        <li class="character-stat character-stat-{{ character_stat_key }} stat">
-                            <span class="character-stat-key" title="{{ pretty_value.longdesc }}">{{ char-key }}</span>
-                            <span class="character-stat-value">{{ character[character_stat_key] }}</span>
-                        </li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
+                    {% endfor %}
+                </ul>
+            </div>
             <div class="character-content">
                 <p>
                     {{ character.content | markdownify }}
@@ -65,8 +68,8 @@ Levels
                             </h3>
                         </a>
                     </div>
-                    <div class="map-stats-section map-stats-general">
-                        <div class="map-stats-heading">General</div>
+                    <div class="map-stats-section map-stats-general statlist">
+                        <div class="map-stats-heading heading">General</div>
                         <ul>
                             {% for key in site.data.general_stats %}
                                 {% if key == "key_get_type" %}
@@ -79,8 +82,8 @@ Levels
                             {% endfor %}
                         </ul>
                     </div>
-                    <div class="map-stats-section map-stats-layers">
-                        <div class="map-stats-heading">Tiles</div>
+                    <div class="map-stats-section map-stats-layers statlist">
+                        <div class="map-stats-heading heading">Tiles</div>
                         <ul>
                             {% for stat in map_stats %}
                                 {% if stat[0] contains 'tiles_layer' and stat[1] > 0 %}
@@ -92,8 +95,8 @@ Levels
                             {% endfor %}
                         </ul>
                     </div>
-                    <div class="map-stats-section map-stats-dust">
-                        <div class="map-stats-heading">Dust</div>
+                    <div class="map-stats-section map-stats-dust statlist">
+                        <div class="map-stats-heading heading">Dust</div>
                         <ul>
                             {% for key in site.data.dust_stats %}
                                 {% assign value = map_stats[key] %}
@@ -110,8 +113,8 @@ Levels
                         {% endif %}
                     {% endfor %}
                     {% if has_enemies %}
-                    <div class="map-stats-section map-stats-enemies">
-                        <div class="map-stats-heading">Enemies</div>
+                    <div class="map-stats-section map-stats-enemies statlist">
+                        <div class="map-stats-heading heading">Enemies</div>
                         <ul>
                             {% for stat in map_stats %}
                                 {% assign enemy_name = site.enemies | where: "game_name", stat[0] | first %}

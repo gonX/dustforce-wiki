@@ -125,13 +125,51 @@ body article{
         border-bottom: 1px solid $primary-colour;
         color: $primary-text;
       }
+
+      .statlist {
+          padding: 0;
+          flex: 1 0 auto;
+          min-width: 14em;
+          margin: $spacing;
+
+          .heading {
+              padding: $spacing 0 0 0;
+              border-bottom: 1px dotted $border-colour;
+              font-weight: bold;
+              font-size: 1.2em;
+          }
+
+          ul {
+              margin: 0 0 0 $spacing;
+              padding: 0;
+
+              list-style: none;
+
+              div {
+                  padding: 3px;
+              }
+              .stat-key {
+                  font-weight: bold;
+              }
+              .stat-value {
+                  float: right;
+              }
+          }
+      }
     }
 
     > #characters{
 
       > .character{
-        //margin: 0;
 
+        .statlist {
+            float: right;
+            flex-basis: 20em;
+            margin: 0 0 $spacing $spacing;
+            .heading {
+                padding: 0;
+            }
+        }
         .content{
           padding: $spacing;
 
@@ -141,27 +179,12 @@ body article{
           }
 
           ul.char-stats{
-            margin: 0 0 $spacing $spacing;
-            float: right;
-            padding: 0;
-
-            list-style: none;
-
             li{
               border-bottom: 1px dashed $border-colour;
               padding: 4px;
-
-              span.character-stat-key{
-                font-weight: bold;
-              }
-              span.character-stat-value{
-                float: right;
-                margin: 0 $spacing;
-              }
             }
           }
 
-          div.character-content{ grid-area: content; }
         }
       }
     }
@@ -244,42 +267,9 @@ body article{
 
           }
 
-          .map-stats-section{
-            margin: 0;
-            padding: 0;
-
-            flex: 1 0 auto;
-            min-width: 14em;
-            margin: $spacing;
-
-            .map-stats-heading{
-              padding: $spacing 0 0 0;
-
-              border-bottom: 1px dotted $border-colour;
-              font-weight: bold;
-              font-size: 1.2em;
-            }
-            ul{
-              margin: 0 0 0 $spacing;
-              padding: 0;
-
-              list-style: none;
-
-              li.stat-srcfile > .map-stat-value {
+          .map-stats-section ul li.stat-key-srcfile > .map-stat-value {
                   font-family: monospace;
-              }
-
-              div{
-                padding: 3px;
-              }
-              .map-stat-key{
-                font-weight: bold;
-              }
-              .map-stat-value{
-                float: right;
-              }
             }
-          }
 
           .map-stats-section.map-stats-layers{
             grid-area: tiles;
