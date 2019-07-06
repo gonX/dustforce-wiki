@@ -209,9 +209,11 @@ body article{
           padding: 10px;
           border-radius: 4px;
 
-          .heading{
+          &>.heading {
             flex: 1 1 380px;
+          }
 
+          .heading{
             h3{
               position: relative;
               margin: 0;
