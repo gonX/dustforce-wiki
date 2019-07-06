@@ -112,10 +112,11 @@ body article{
     padding: 0;
 
     > div > div{
-      margin: 0;
+      margin: 0 $spacing $spacing $spacing;
       padding: 0;
       border: 1px solid $primary-colour;
       border-radius: 3px;
+      flex: 1 100%;
 
       h2{
         margin: 0;
@@ -127,15 +128,11 @@ body article{
     }
 
     > #characters{
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-gap: $spacing;
-      padding: $spacing;
 
       > .character{
         //margin: 0;
 
-        > label .content{
+        .content{
           padding: $spacing;
 
           img.character-icon{
@@ -170,13 +167,11 @@ body article{
     }
 
     > #maps .maps-hub{
-      margin: 0 $spacing $spacing $spacing;
 
       .maps-grouped{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: $spacing;
+        display: flex;
         padding: $spacing;
+        flex-wrap: wrap;
 
         .map{
           border: 1px dotted #aaa;
@@ -204,27 +199,23 @@ body article{
         $map-list: {{ map_list }};
 
         .map-compact{
-          display: grid;
-          grid-template-areas: "heading heading heading" "tiles dust enemies";
-          grid-template-columns: 1fr 1fr 1fr;
-          grid-gap: $spacing;
+          display: flex;
+          padding: $spacing;
+          margin: $spacing;
+          flex: 1 0 33%;
+          flex-flow: row wrap;
 
           border: 1px solid $primary-colour;
           padding: 10px;
           border-radius: 4px;
 
           .heading{
-            display: flex;
-            align-items: stretch;
-            grid-area: heading;
+            flex: 1 1 380px;
 
             h3{
-              grid-area: heading;
               position: relative;
               margin: 0;
-              padding: 0;
-              width: 380px;
-              height: 180px;
+              padding: 23.6% 0; // this padding value keeps the aspect ratio
               background-repeat: no-repeat;
               background-size: cover;
               border-radius: 4px;
@@ -244,19 +235,20 @@ body article{
                 background: #0008;
                 color: #fff;
                 letter-spacing: 5px;
+                margin: $spacing;
                 text-transform: uppercase;
               }
             }
 
-            .map-stats-section.map-stats-general{
-              flex-grow: 1;
-              margin-left: $spacing;
-            }
           }
 
           .map-stats-section{
             margin: 0;
             padding: 0;
+
+            flex: 1 0 auto;
+            min-width: 14em;
+            margin: $spacing;
 
             .map-stats-heading{
               padding: $spacing 0 0 0;
@@ -302,17 +294,6 @@ body article{
   }
 }
 
-.unfolder{ display: none; }
-
-.toggle-label{
-  //cursor: pointer;
-  //background-color: black;
-}
-
-.unfolder:checked ~ .toggle-label{
-  background-color: white;
-}
-
 #article > div{
   //border: 1px solid black;
   //padding: 10px;
@@ -320,19 +301,6 @@ body article{
   flex-flow: row wrap;
   justify-content: space-around;
   //margin-bottom: 2rem;
-}
-
-#article > div > div{
-  border: 1px solid $border-colour;
-  padding: 10px;
-  min-width: 24em;
-  margin: 10px;
-  flex: 1 33%;
-}
-
-#tech > div[class^="tech-"],
-#maps > div[class^="maps-"]{
-  flex-basis: 100%;
 }
 
 #tech > div[class^="tech-"] > h2,
