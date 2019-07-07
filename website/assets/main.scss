@@ -188,19 +188,20 @@ body article{
     }
 
     pre.highlight {
-        overflow-x: auto;
-        width: 80ch;
-        background: black;
-        color: $primary-text;
-        margin: 1em;
-        padding: 1em;
+      overflow-x: auto;
+      width: 100%;
+      box-sizing: border-box;
+      background: #110a15;
+      border-radius: 2px;
+      color: #fff;
+      padding: 1em;
     }
 
     > #characters{
       display: grid;
       grid-template-columns: 1fr 1fr;
-      grid-gap: 10px;
-      padding: 10px;
+      grid-gap: $spacing;
+      padding: 0 $spacing $spacing $spacing;
 
       @include media-large(){
         grid-template-columns: 1fr;
@@ -346,13 +347,18 @@ body article{
       }
     }
 
+    #tech{
+      display: block;
+    }
     #tech > div > div {
         .tech-header {
             h3 {
-                display: inline-block;
-                margin: 0 0.5em 1.5em;
                 font-size: 150%;
                 color: $primary-text;
+
+                margin: 0 0 $spacing 0;
+                padding: $spacing;
+                border-bottom: 1px dashed $info-border-colour;
             }
 
             .tags {
