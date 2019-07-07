@@ -17,6 +17,22 @@ $spacing2: $spacing * 2;
 
 $anim-time: 0.15s;
 
+@mixin media-small(){
+  @media (max-width: 480px){
+    @content;
+  }
+}
+@mixin media-med(){
+  @media (max-width: 640px){
+    @content;
+  }
+}
+@mixin media-large(){
+  @media (max-width: 1024px){
+    @content;
+  }
+}
+
 // -- Main ---------------------------------------------------
 
 html, body{
@@ -58,6 +74,10 @@ h1{
 
 p{
   margin: $spacing 0;
+}
+
+img {
+  max-width: 100%;
 }
 
 // -- Header ---------------------------------------------------
@@ -176,16 +196,31 @@ body article{
     }
 
     > #characters{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 10px;
+      padding: 10px;
+
+      @include media-large(){
+        grid-template-columns: 1fr;
+      }
 
       > .character{
+        margin: 0;
 
         .statlist {
-            float: right;
-            flex-basis: 20em;
-            margin: 0 0 $spacing $spacing;
-            .heading, ul div {
-                padding: 0;
-            }
+          float: right;
+          flex-basis: 20em;
+          margin: 0 0 $spacing $spacing;
+
+          @include media-small(){
+            float: none;
+            margin-left: 0;
+          }
+
+          .heading, ul div {
+              padding: 0;
+          }
         }
         .content{
           padding: $spacing;
@@ -193,6 +228,13 @@ body article{
           img.character-icon{
             float: left;
             margin: 0 $spacing $spacing 0;
+
+            @include media-small(){
+              float: none;
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+            }
           }
 
           ul.char-stats{
@@ -285,13 +327,7 @@ body article{
     }
 
     #tech > div > div {
-        display: flex;
-        padding: $spacing;
-        flex-wrap: wrap;
-
         .tech-header {
-            width: 100%;
-
             h3 {
                 display: inline-block;
                 margin: 0 0.5em 1.5em;
