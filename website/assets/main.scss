@@ -83,7 +83,37 @@ img {
 
 // -- Header ---------------------------------------------------
 
+#menu-toggle{
+  display: none;
+
+  @include media-med{
+    display: block;
+    position: absolute;
+    z-index: 100;
+    top: $spacing;
+    right: $spacing;
+
+    &:checked ~ header{
+      transform: none;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+  }
+}
+
 header{
+  scrollbar-width: none;
+  width: 280px;
+
+  @include media-med{
+    position: absolute;
+    background: $bg-colour;
+
+    z-index: 50;
+
+    transition: transform 0.25s cubic-bezier(0.77,0.2,0.05,1.0);
+    transform: translate(-100%, 0);
+  }
+
   nav{
     ul{
       margin: 0;
@@ -424,11 +454,4 @@ body header,
 body article{
   overflow: auto;
   height: 100vh;
-}
-
-body header{
-  scrollbar-width: none;
-  flex-basis: 20%;
-  min-width: 11em;
-  max-width: 18em;
 }
