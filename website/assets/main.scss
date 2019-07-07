@@ -7,7 +7,8 @@ $bg-colour: #271a2f;
 $text-colour: #eee;
 $primary-colour: #7e5596;
 $primary-text: #fff;
-$border-colour: #aaa;
+$border-colour: lighten($primary-colour, 15);
+$info-border-colour: #aaa;
 
 $primary-hover: darken($primary-colour, 25);
 
@@ -96,7 +97,7 @@ header{
         padding: 0 0 0 $spacing;
         margin: 0 0 $spacing $spacing;
 
-        border-left: 1px dashed $border-colour;
+        border-left: 1px dashed $info-border-colour;
       }
 
       a{
@@ -161,7 +162,7 @@ body article{
 
                 .heading {
                     padding: $spacing 0 0 0;
-                    border-bottom: 1px dotted $border-colour;
+                    border-bottom: 1px dotted $info-border-colour;
                     font-weight: bold;
                     font-size: 1.2em;
                 }
@@ -239,7 +240,7 @@ body article{
 
           ul.char-stats{
             li{
-              border-bottom: 1px dashed $border-colour;
+              border-bottom: 1px dashed $info-border-colour;
               padding: 4px;
             }
           }
@@ -251,7 +252,7 @@ body article{
 
       .maps-grouped{
         display: flex;
-        padding: $spacing;
+        padding: $spacing-h;
         flex-wrap: wrap;
 
         {% for map in site.data.stock-maps %}
@@ -264,6 +265,7 @@ body article{
           display: flex;
           flex: 1 0 33%;
           flex-flow: row wrap;
+          margin: $spacing-h;
 
           &>.heading {
             flex: 1 1 380px;
@@ -315,15 +317,33 @@ body article{
     }
 
     #enemies {
-        .enemy .enemy-stats .enemy-stat a {
-            text-transform: capitalize;
-        }
+      .enemy .enemy-stats .enemy-stat a {
+          text-transform: capitalize;
+      }
 
-        .enemy{
-            margin: 1rem;
-            padding: 1rem;
-            border: 1px solid $border-colour;
+      .enemies-grouped{
+        display: flex;
+        flex-flow: row wrap;
+        flex-wrap: wrap;
+        padding: $spacing-h;
+      }
+
+      .enemy{
+        margin: $spacing-h;
+        padding: $spacing;
+        border: 1px solid $border-colour;
+        border-radius: 4px;
+
+        flex: 1 0 33%;
+        flex-flow: row wrap;
+        min-width: 240px;
+
+        h3{
+          margin: 0 0 $spacing 0;
+          padding: $spacing;
+          border-bottom: 1px dashed $info-border-colour;
         }
+      }
     }
 
     #tech > div > div {
