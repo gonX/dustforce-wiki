@@ -1,7 +1,10 @@
 ![Site Icon](/siteicon.png)
+
 Welcome to the dustforce-wiki!
 
 For contributing, please see [CONTRIBUTING.md](/CONTRIBUTING.md).
+
+For a somewhat up to date representation view of the compiled repo, see [dustforce.info](https://www.dustforce.info/)
 
 # Building the site locally
 
