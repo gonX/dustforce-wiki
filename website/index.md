@@ -200,7 +200,6 @@ Mechanics / Tech
         {% for tech in mechanics_group %}
             <div class="tech-{{ tech.name | slugify }} card">
                 <div class="tech-header">
-                    <h3 id="{{ tech.name | slugify }}">{{ tech.name }}</h3>
                     {% assign tagcount = tech.tags | size %}
                     {% if tagcount > 0 %}
                         <span class="tags">
@@ -212,6 +211,7 @@ Mechanics / Tech
                             </span>
                         </span>
                     {% endif %}
+                    <h3 id="{{ tech.name | slugify }}">{{ tech.name }}</h3>
                 </div>
                 <div class="tech-content">{{ tech.content }}</div>
             </div>
