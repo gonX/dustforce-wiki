@@ -1,5 +1,9 @@
----
----
+**!!NOTICE!!**
+
+At the time of this writing, the project is very new, so this document should mostly be seen as an idea rather than a concrete set of implementation details.
+
+It is highly suggested to look directly at the code and repository structure.
+
 # Contributing
 
 Thanks for your interest in contributing!
