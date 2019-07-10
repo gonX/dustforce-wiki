@@ -1,3 +1,4 @@
+![Site Icon](/siteicon.png)
 Welcome to the dustforce-wiki!
 
 For contributing, please see [CONTRIBUTING.md](/CONTRIBUTING.md).
