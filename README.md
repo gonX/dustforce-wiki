@@ -1,4 +1,4 @@
-![Site Icon](/siteicon.png)
+![Site Icon](/website/assets/siteicon.png)
 
 Welcome to the dustforce-wiki!
 
