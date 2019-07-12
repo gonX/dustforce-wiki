@@ -10,6 +10,7 @@ can_path_flying: true
 massive: false
 hp: 3
 game_name: enemy_hawk
+sprite_image_name: airidle
 ---
 
 Never used in stock levels.

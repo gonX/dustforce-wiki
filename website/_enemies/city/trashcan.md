@@ -10,4 +10,5 @@ pacified_when_flying: false
 massive: false
 hp: 9
 game_name: enemy_trash_can
+sprite_folder_name: trashcan
 ---

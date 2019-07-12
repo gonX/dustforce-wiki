@@ -8,4 +8,6 @@ can_path_flying: true
 massive: false
 hp: 3
 game_name: enemy_slime_ball
+sprite_folder_name: slimeball
+sprite_image_name: airidle
 ---

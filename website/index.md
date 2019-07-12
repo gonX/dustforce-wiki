@@ -153,30 +153,36 @@ Enemies
             {% for enemy in enemies_currentgroup %}
                 <div class="enemy">
                     <h3 id="enemy-{{ enemy.name | slugify }}">{{ enemy.name }}</h3>
-                    <div class="enemy-stats stats">
-                        {% for stat in enemy_defaults_kv %}
-                            {% assign enemy_default_key = stat[0] %}
-                            {% if enemy[enemy_default_key] != nil %}
-                                {% if enemy[enemy_default_key] contains "?" %}
-                                    {% assign additional_classes = "uncertain-value " %}
-                                {% else %}
-                                    {% assign additional_classes = "" %}
-                                {% endif %}
-                                <div class="enemy-stat stat-{{ stat[0] }} stat {{ additional_classes }}">
-                                    {% assign clean_desc_values = site.data.pretty_names.enemy_stats | where: "name", stat[0] | first %}
-                                    {% if enemy[enemy_default_key] %}
-                                        {% assign output_string = clean_desc_values.truedesc %}
+                    <div class="content">
+                        <video width="288" height="192" autoplay loop muted playsinline>
+                            <source src="assets/video/enemies/{{ enemy.name | slugify }}.webm" type="video/webm">
+                            <source src="assets/video/enemies/{{ enemy.name | slugify }}.mp4" type="video/mp4">
+                        </video>
+                        <div class="enemy-stats stats">
+                            {% for stat in enemy_defaults_kv %}
+                                {% assign enemy_default_key = stat[0] %}
+                                {% if enemy[enemy_default_key] != nil %}
+                                    {% if enemy[enemy_default_key] contains "?" %}
+                                        {% assign additional_classes = "uncertain-value " %}
                                     {% else %}
-                                        {% assign output_string = clean_desc_values.falsedesc %}
+                                        {% assign additional_classes = "" %}
                                     {% endif %}
-                                    {% assign output_string = output_string | replace: "{}", enemy[enemy_default_key] %}
-                                    {{ output_string }}
-                                </div>
-                            {% endif %}
-                        {% endfor %}
-                    </div>
-                    <div class="enemy-content">
-                        {{ enemy.content }}
+                                    <div class="enemy-stat stat-{{ stat[0] }} stat {{ additional_classes }}">
+                                        {% assign clean_desc_values = site.data.pretty_names.enemy_stats | where: "name", stat[0] | first %}
+                                        {% if enemy[enemy_default_key] %}
+                                            {% assign output_string = clean_desc_values.truedesc %}
+                                        {% else %}
+                                            {% assign output_string = clean_desc_values.falsedesc %}
+                                        {% endif %}
+                                        {% assign output_string = output_string | replace: "{}", enemy[enemy_default_key] %}
+                                        {{ output_string }}
+                                    </div>
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+                        <div class="enemy-content">
+                            {{ enemy.content }}
+                        </div>
                     </div>
                 </div>
             {% endfor %}

@@ -7,6 +7,7 @@ spawns_children_parent_id: chest-scrolls
 can_path: FIXME
 hp: 1
 game_name: enemy_scrolls
+sprite_folder_name: scroll
 ---
 
 Behaves like [Treasure](#treasure).

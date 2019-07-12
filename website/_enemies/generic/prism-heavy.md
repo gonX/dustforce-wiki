@@ -10,6 +10,8 @@ blocks: true
 massive: true
 hp: 3
 game_name: enemy_tutorial_hexagon
+sprite_folder_name: hexagon
+sprite_image_name: airidle
 ---
 
 This enemy can only be destroyed by hitting it with a heavy attack.

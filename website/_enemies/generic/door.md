@@ -6,6 +6,7 @@ can_path: false
 pacified_when_flying: true
 massive: true
 hp: false
+sprite_folder_name: door
 ---
 
 While you can farm super meter on this enemy, it cannot be removed unless its associated [Key](#enemy-key-for-door) is hit.

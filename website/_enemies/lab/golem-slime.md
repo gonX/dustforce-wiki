@@ -9,4 +9,5 @@ pacified_when_flying: false
 massive: true
 hp: 9
 game_name: enemy_slime_beast
+sprite_folder_name: slimebeast
 ---

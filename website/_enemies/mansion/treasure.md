@@ -7,6 +7,7 @@ spawns_children_parent_id: chest-gold
 can_path: FIXME
 hp: 1
 game_name: enemy_treasure
+sprite_image_name: idle1
 ---
 
 Behaves like [Treasure](#treasure).

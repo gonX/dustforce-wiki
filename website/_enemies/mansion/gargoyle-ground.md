@@ -10,5 +10,6 @@ pacified_when_flying: false
 massive: false
 hp: 5
 game_name: enemy_gargoyle_big
+sprite_folder_name: bgargoyle
 ---
 

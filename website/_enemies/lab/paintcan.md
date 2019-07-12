@@ -9,4 +9,6 @@ can_path_flying: true
 massive: false
 hp: 3
 game_name: enemy_slime_barrel
+sprite_folder_name: barrel
+sprite_image_name: airidle
 ---
