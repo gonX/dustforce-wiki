@@ -154,10 +154,10 @@ Enemies
                 <div class="enemy">
                     <h3 id="enemy-{{ enemy.name | slugify }}">{{ enemy.name }}</h3>
                     <div class="content">
-                        <video width="288" height="192" autoplay loop muted playsinline>
-                            <source src="assets/video/enemies/{{ enemy.name | slugify }}.webm" type="video/webm">
-                            <source src="assets/video/enemies/{{ enemy.name | slugify }}.mp4" type="video/mp4">
-                        </video>
+                        <picture>
+                            <source type="image/webp" srcset="assets/video/enemies/{{ enemy.name | slugify }}.webp" class="content-icon">
+                            <img src="assets/video/enemies/{{ enemy.name | slugify }}.png" class="content-icon">
+                        </picture>
                         <div class="enemy-stats stats">
                             {% for stat in enemy_defaults_kv %}
                                 {% assign enemy_default_key = stat[0] %}
