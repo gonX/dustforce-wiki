@@ -190,6 +190,16 @@ body article{
                 min-width: 15em;
                 margin: $spacing;
 
+                &.aside {
+                    float: right;
+                    margin: 0 0 $spacing $spacing;
+
+                    @include media-small(){
+                        float: none;
+                        margin: 0 0 1em $spacing;
+                    }
+                }
+
                 .heading {
                     padding: $spacing 0 0 0;
                     border-bottom: 1px dotted $info-border-colour;
@@ -202,6 +212,11 @@ body article{
                     padding: 0;
 
                     list-style: none;
+
+                    li.border{
+                        border-bottom: 1px dashed $info-border-colour;
+                        padding: 4px;
+                    }
 
                     div {
                         padding: 3px;
@@ -227,6 +242,18 @@ body article{
       padding: 1em;
     }
 
+    .content .content-icon {
+        float: left;
+        margin: 0 $spacing $spacing 0;
+
+        @include media-small(){
+            float: none;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
     > #characters{
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -241,14 +268,7 @@ body article{
         margin: 0;
 
         .statlist {
-          float: right;
           flex-basis: 20em;
-          margin: 0 0 $spacing $spacing;
-
-          @include media-small(){
-            float: none;
-            margin-left: 0;
-          }
 
           .heading, ul div {
               padding: 0;
@@ -256,25 +276,6 @@ body article{
         }
         .content{
           padding: $spacing;
-
-          img.character-icon{
-            float: left;
-            margin: 0 $spacing $spacing 0;
-
-            @include media-small(){
-              float: none;
-              display: block;
-              margin-left: auto;
-              margin-right: auto;
-            }
-          }
-
-          ul.char-stats{
-            li{
-              border-bottom: 1px dashed $info-border-colour;
-              padding: 4px;
-            }
-          }
         }
       }
     }

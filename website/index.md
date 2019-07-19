@@ -15,8 +15,8 @@ Playable Characters
     <div class="character character-{{ character.name | slugify }}">
         <h2 id="character-{{ character.name | slugify }}">{{ character.name }}</h2>
         <div class="content">
-            <img src="assets/img/characters/{{ character.name | slugify }}.png" alt="{{ character.name }}" class="character-icon" >
-            <div class="statlist">
+            <img src="assets/img/characters/{{ character.name | slugify }}.png" alt="{{ character.name }}" class="content-icon" >
+            <div class="statlist aside">
                 <div class="heading">Stats</div>
                 <ul id="charstats-{{ character.name | slugify }}" class="char-stats stats">
                     {% for stat in character_defaults_kv %}
@@ -28,7 +28,7 @@ Playable Characters
                             {% else %}
                                 {% assign char-key = character_stat_key %}
                             {% endif %}
-                            <li class="character-stat character-stat-{{ character_stat_key }} stat">
+                            <li class="character-stat character-stat-{{ character_stat_key }} stat border">
                                 <div class="character-stat-value stat-value">{{ character[character_stat_key] }}</div>
                                 <div class="character-stat-key stat-key" title="{{ pretty_value.longdesc }}">{{ char-key }}</div>
                             </li>
@@ -158,27 +158,30 @@ Enemies
                             <source type="image/webp" srcset="assets/video/enemies/{{ enemy.name | slugify }}.webp" class="content-icon">
                             <img src="assets/video/enemies/{{ enemy.name | slugify }}.png" class="content-icon">
                         </picture>
-                        <div class="enemy-stats stats">
-                            {% for stat in enemy_defaults_kv %}
-                                {% assign enemy_default_key = stat[0] %}
-                                {% if enemy[enemy_default_key] != nil %}
-                                    {% if enemy[enemy_default_key] contains "?" %}
-                                        {% assign additional_classes = "uncertain-value " %}
-                                    {% else %}
-                                        {% assign additional_classes = "" %}
-                                    {% endif %}
-                                    <div class="enemy-stat stat-{{ stat[0] }} stat {{ additional_classes }}">
-                                        {% assign clean_desc_values = site.data.pretty_names.enemy_stats | where: "name", stat[0] | first %}
-                                        {% if enemy[enemy_default_key] %}
-                                            {% assign output_string = clean_desc_values.truedesc %}
+                        <div class="statlist aside">
+                            <div class="heading">Stats</div>
+                            <ul class="enemy-stats stats">
+                                {% for stat in enemy_defaults_kv %}
+                                    {% assign enemy_stat_key = stat[0] %}
+                                    {% if enemy[enemy_stat_key] != nil and enemy[enemy_stat_key] != 0 %}
+                                        {% assign pretty_value = site.data.pretty_names.enemy_stats | where: "name", enemy_stat_key | first %}
+                                        {% if pretty_value %}
+                                            {% assign char-key = pretty_value.shortdesc %}
                                         {% else %}
-                                            {% assign output_string = clean_desc_values.falsedesc %}
+                                            {% assign char-key = enemy_stat_key %}
                                         {% endif %}
-                                        {% assign output_string = output_string | replace: "{}", enemy[enemy_default_key] %}
-                                        {{ output_string }}
-                                    </div>
-                                {% endif %}
-                            {% endfor %}
+                                        <li class="enemy-stat enemy-stat-{{ enemy_stat_key }} stat border">
+                                            {% if enemy[enemy_stat_key] %}
+                                                {% assign output_string = pretty_value.truedesc %}
+                                            {% else %}
+                                                {% assign output_string = pretty_value.falsedesc %}
+                                            {% endif %}
+                                            {% assign output_string = output_string | replace: "{}", enemy[enemy_stat_key] %}
+                                            <div class="enemy-stat-key stat-key">{{ output_string }}</div>
+                                        </li>
+                                    {% endif %}
+                                {% endfor %}
+                            </ul>
                         </div>
                         <div class="enemy-content">
                             {{ enemy.content }}
