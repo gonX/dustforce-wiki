@@ -16,8 +16,8 @@ fi
     cd ../../website
     [ -d "_pushdir" ] && rm -r "_pushdir"
     mkdir "_pushdir" || exit 3
-    rm -rI "$TARGET_DIR"/* || exit 4
-    bundle exec jekyll build -d "_pushdir" || exit 5
+    bundle exec jekyll build -d "_pushdir" || exit 4
+    rm -rI "$TARGET_DIR"/* || exit 5
     cp -r -t "$TARGET_DIR" _pushdir/* || exit 6
     rm -r "_pushdir"
 )
