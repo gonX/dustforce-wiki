@@ -14,6 +14,8 @@ For overhanging slanted walls, this can actually give the player great horizonta
 
 For somewhat arcane reasons, this maneuver is known as a Droof.
 
+It is not possible to droof on leftward slants.
+
 #### Magnet Hijack Boost
 
 At the exact moment that a ceiling changes angle, your character’s speed will be angled to line up with the new angle of a ceiling.
