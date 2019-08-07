@@ -10,6 +10,6 @@ game_name: enemy_treasure
 sprite_image_name: idle1
 ---
 
-Behaves like [Treasure](#treasure).
+Behaves like [Scrolls](#scrolls).
 
 This enemy is not found in stock levels except as spawned by its parent.
