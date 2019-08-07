@@ -10,7 +10,7 @@ shorthop_frames: 15
 
 In comparison to Dustman, generally has less advantageous hitboxes on her light attacks, but more useful heavy attacks.
 
-Her heavy attack hitboxes are useful in several places where things are just out of reach of Dustman’s attacks.
+Her heavy attack hitboxes are slightly wider than Dustman's, which is useful in several places. See [Attack Hitboxes](#attack-hitboxes).
 
 Accelerates faster than Dustman when falling without downdashing.
 
