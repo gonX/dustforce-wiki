@@ -5,9 +5,7 @@ can_hurt: true
 can_hurt_unprovoked: true
 spawns_children: true
 spawns_children_child_id: treasure
-can_path: true
-can_path_grounded: true
-can_path_flying: false
+can_path: false
 pacified_when_flying: false
 massive: false
 hp: 9
