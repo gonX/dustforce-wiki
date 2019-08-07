@@ -4,7 +4,7 @@ enemygroup: mansion
 can_hurt: true
 can_hurt_unprovoked: true
 spawns_children_parent_id: chest-gold
-can_path: FIXME
+can_path: false
 hp: 1
 game_name: enemy_treasure
 sprite_image_name: idle1
