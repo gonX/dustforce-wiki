@@ -25,7 +25,7 @@ A fast super hitting no enemies, used to clean only surfaces and dustblocks.
 
 {:.no_toc}
 #### Seam attacks
-Attacks can sometimes clean dust via the “seam” between adjacent blocks.
+Attacks can sometimes clean or spread dust via the “seam” between adjacent blocks.
 
 {:.no_toc}
 #### Time dilation
