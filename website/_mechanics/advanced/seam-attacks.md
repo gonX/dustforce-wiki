@@ -11,6 +11,6 @@ However, under certain circumstances, it’s possible for the line-of-sight calc
 
 This only works when the relevant coordinates are negative (e.g. if Y coordinates are negative, there’s a slight gap between vertically adjacent tiles), but by lining up attacks this way it’s sometimes possible to reach dust much further away than would normally be possible, since a side heavy attack or a super will have much more horizontal reach than the up/down heavy which you would normally need to use to clean dust on the other side of a wall.
 
-Also applies to Dust Spreading in rare cases, and cause dust to spread in an unreachable location through a wall.
+Also applies to Dust Spreading in rare cases, which causes dust to spread in an unreachable location through a wall, as demonstrated by [Fishy in this Store Room (AS) replay](http://dustkid.com/replay/-9843530).
 
 TODO: insert example screenshot of seam attack
