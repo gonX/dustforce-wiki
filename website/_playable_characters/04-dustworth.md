@@ -13,9 +13,8 @@ heavyattack_total_frames: 48
 terminal_velocity: 1843
 terminal_velocity_frames: 50
 terminal_velocity_downdash_frames: 25
+raise: 16 #TODO: This usage should be documented and/or tested
 ---
-
-raise 16
 
 Largest jump height
 
