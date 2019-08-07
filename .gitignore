@@ -8,3 +8,4 @@
 raw-assets/sprites
 __pycache__
 /scripts/push-site/config
+website/.git-metadata/
