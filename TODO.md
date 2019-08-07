@@ -1,8 +1,3 @@
-
-# image assets
-
-- enemies
-
 # video/animated assets
 
 depends on bandwidth costs, may use youtube or other host
@@ -38,16 +33,10 @@ depends on bandwidth costs, may use youtube or other host
 
 - is level pre or post-DX
 
-- reconsider if "minimum attacks to kill" or "health" is the right wording for enemies
-
 - dustblock calculation may count dustblocks not on layer 19
-
-- apple calculation may count apples not on layer 19 (is entities not on layer 19 even a thing?)
 
 - does the guide say that you can cancel attacks on the frame following the "frontswing", otherwise you lose up to `*attack_total_frames - *attack_frontswing_frames - 1`
 
 - talk about refresh rates that aren't a multiple of 60hz causing issues on vanilla
-
-- write a better description for _config.yml for SEO proofing
 
 - write about changing facing direction in air using 2 attacks
