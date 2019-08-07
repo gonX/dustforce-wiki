@@ -19,6 +19,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.dustforce.info" # the base hostname & protocol for your site, e.g. http://example.com
 logo: "/assets/siteicon.png"
+social:
+  github: "gonX/dustforce-wiki"
 
 # Build settings
 markdown: kramdown
@@ -27,6 +29,7 @@ plugins:
   - jekyll-toc
   - jekyll-compress-images
   - jekyll-seo-tag
+  - jekyll-git_metadata
 
 imageoptim:
   svgo: false
