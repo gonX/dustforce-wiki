@@ -3,6 +3,8 @@ name: Attack Hitboxes
 techgroup: expert
 ---
 
+**Also see this [Imgur album](https://imgur.com/a/jtzG0)**
+
 ```
 ah_ = attack heavy
 al_ = attack light
