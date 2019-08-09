@@ -9,6 +9,8 @@ hp: false
 sprite_folder_name: door
 ---
 
-While you can farm super meter on this enemy, it cannot be removed unless its associated [Key](#enemy-key-for-door) is hit.
+Cannot be removed unless its associated [Key](#enemy-key-for-door) is killed.
+
+Can be used to farm super.
 
 Placing this in the map editor will spawn an associated key and will "select" the key, making any pathing nodes placed affect the key rather than the door.
