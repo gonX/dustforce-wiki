@@ -13,6 +13,6 @@ game_name: enemy_trash_can
 sprite_folder_name: trashcan
 ---
 
-When attackinng, it spawns three Trash bags in sequence before entering a cooldown period before it can attack again.
+When attacking, it spawns three Trash bags in sequence before entering a cooldown period before it can attack again.
 
 With good timing, a player can dash through it between the trash bags being fired without getting hit.
