@@ -9,7 +9,7 @@ hp: false
 sprite_folder_name: door
 ---
 
-Cannot be removed unless its associated [Key](#enemy-key-for-door) is killed.
+Cannot be removed unless its associated [Key](#enemy-key) is killed.
 
 Can be used to farm super.
 

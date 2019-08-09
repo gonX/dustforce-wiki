@@ -12,6 +12,6 @@ sprite_folder_name: slimeball
 sprite_image_name: airidle
 ---
 
-Lab variant of the [Flying Gargoyle](#enemy-gargoyle-flying)
+Lab variant of the [Small Gargoyle](#enemy-gargoyle-small)
 
 Commonly referred to as a Slime Blob.

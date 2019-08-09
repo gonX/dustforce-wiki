@@ -10,6 +10,6 @@ game_name: enemy_critter
 sprite_image_name: airidle
 ---
 
-Forest variant of the [Flying Gargoyle](#enemy-gargoyle-flying)
+Forest variant of the [Small Gargoyle](#enemy-gargoyle-small)
 
 Commonly referred to as a Turkey.

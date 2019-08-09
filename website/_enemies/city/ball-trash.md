@@ -12,6 +12,6 @@ sprite_folder_name: trashball
 sprite_image_name: airidle
 ---
 
-City variant of the [Flying Gargoyle](#enemy-gargoyle-flying)
+City variant of the [Small Gargoyle](#enemy-gargoyle-small)
 
 Commonly referred to as a Trash Turkey.
