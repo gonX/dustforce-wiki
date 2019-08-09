@@ -1,5 +1,5 @@
 ---
-name: Key (for Door)
+name: Key
 enemygroup: generic
 can_hurt: false
 can_path: true

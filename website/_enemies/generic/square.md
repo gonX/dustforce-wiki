@@ -1,5 +1,5 @@
 ---
-name: Prism, Light
+name: Square
 enemygroup: generic
 can_hurt: false
 can_path: true
@@ -13,3 +13,5 @@ sprite_image_name: airidle
 ---
 
 A stationary floating enemy. Commonly used in precise air control maps as it is the only flying enemy that does not bob up and down.
+
+Commonly referred to as a Light Prism.

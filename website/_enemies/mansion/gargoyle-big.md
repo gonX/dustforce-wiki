@@ -1,5 +1,5 @@
 ---
-name: Gargoyle, Ground
+name: Gargoyle, Big
 enemygroup: mansion
 can_hurt: true
 can_hurt_unprovoked: true
@@ -14,3 +14,5 @@ sprite_folder_name: bgargoyle
 ---
 
 Due to the long startup of their attack, can commonly cause "Ghost punches" to occur, where the attack hitbox becomes active after they have already died.
+
+Commonly referred to as a Ground Gargoyle, or just Gargoyle.

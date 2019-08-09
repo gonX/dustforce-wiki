@@ -4,7 +4,7 @@ enemygroup: forest
 can_hurt: yes
 can_hurt_unprovoked: true
 spawns_children: true
-spawns_children_child_id: quill
+spawns_children_child_id: spike
 can_path: true
 can_path_grounded: true
 can_path_flying: false
