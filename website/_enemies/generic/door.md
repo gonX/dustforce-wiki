@@ -9,7 +9,7 @@ hp: false
 sprite_folder_name: door
 ---
 
-Cannot be removed unless its associated [Key](#enemy-key) is killed.
+Behaves like solid blocks, and snaps to the tile grid. Cannot be removed unless its associated [Key](#enemy-key) is killed.
 
 Can be used to farm super.
 
