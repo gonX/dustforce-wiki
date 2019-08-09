@@ -1,5 +1,5 @@
 ---
-name: Fox / Wolf
+name: Wolf
 enemygroup: forest
 can_hurt: true
 can_hurt_unprovoked: true
