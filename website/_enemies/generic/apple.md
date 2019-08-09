@@ -7,4 +7,6 @@ hp: false
 sprite_folder_name: apple
 ---
 
-You can go pretty much anywhere if you have an apple. If you have a wall you can even climb with the apple!
+An enemy with effectively infinite health that does not count towards the level's completion. Can be used for a large variety of movement options due to being an infinite source of combo and [Hitrise](#hitrise).
+
+Hitting an apple with a [super](#super) rewards 5 Combo.
