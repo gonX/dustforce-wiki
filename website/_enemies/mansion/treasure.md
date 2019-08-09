@@ -10,6 +10,6 @@ game_name: enemy_treasure
 sprite_image_name: idle1
 ---
 
-Behaves like [Scrolls](#scrolls).
+Behaves like [Scrolls](#scrolls). Will stay idle at its spawn position until an enemy enters its radius, at which point it will fly in a straight line to the position the enemy was seen until it hits the enemy or a surface.
 
-This enemy is not found in stock levels except as spawned by its parent.
+Can be prevented from firing or frozen mid-flight using a Super Cancel.

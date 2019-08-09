@@ -11,4 +11,4 @@ game_name: enemy_maid
 sprite_image_name: walk
 ---
 
-Equal to [Butler](#enemy-butler) for the most part
+Similar to the enemy [Butler](#enemy-butler), but has a slower movement speed, and a larger hitbox.

@@ -13,4 +13,6 @@ game_name: enemy_chest_scrolls
 sprite_folder_name: chest
 ---
 
+Spawns a single scroll when attacking.
+
 Acts similarly to the [Gold Chest](#enemy-chest-gold)

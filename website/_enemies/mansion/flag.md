@@ -9,4 +9,6 @@ hp: 5
 game_name: enemy_flag
 ---
 
-A static object, if you will.
+Always spreads dust upwards when killed.
+
+Its hitbox is much smaller than its sprite.
