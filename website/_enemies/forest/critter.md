@@ -1,5 +1,5 @@
 ---
-name: Turkey
+name: Critter
 enemygroup: forest
 can_hurt: false
 can_path: true
@@ -10,5 +10,6 @@ game_name: enemy_critter
 sprite_image_name: airidle
 ---
 
-Forest variation of the [Flying Gargoyle](#enemy-gargoyle-flying)
+Forest variant of the [Flying Gargoyle](#enemy-gargoyle-flying)
 
+Commonly referred to as a Turkey.
