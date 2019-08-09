@@ -15,4 +15,4 @@ sprite_folder_name: chest
 
 Spawns a single scroll when attacking.
 
-Acts similarly to the [Gold Chest](#enemy-chest-treasure)
+Acts similarly to the [Treasure Chest](#enemy-chest-treasure)
