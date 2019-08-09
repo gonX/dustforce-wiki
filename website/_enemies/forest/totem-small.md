@@ -12,4 +12,6 @@ hp: 3
 game_name: enemy_stonebro
 ---
 
-Spins around - don't touch its hitbox! Knock it back with a light attack to keep the distance.
+Has an active hitbox as long as it is moving above a certain speed. Can be knocked back with attacks.
+
+Can be lured outside of its path, but will return once aggro is lost.

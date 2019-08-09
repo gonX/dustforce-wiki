@@ -11,3 +11,7 @@ massive: true
 hp: 9
 game_name: enemy_bear
 ---
+
+Attacks with a single hitbox in the direction it is facing.
+
+Forest variant of the Golem style enemy.
