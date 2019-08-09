@@ -20,4 +20,4 @@ Is located second, rather than first, in the character select, which can save 2 
 
 Since she and Dustman generally play very similarly, there are several levels where this is actually the deciding factor for character choice.
 
-In comparison to Dustman, she has higher ground friction, so keeping speed with perfect [dash rhythm](#dash-rhythm) is more important. This is particularly seen in dash rhythm Atlas maps.
+In comparison to Dustman, she has higher ground friction, so keeping speed with perfect [dash rhythm](#dash-rhythm) is more important. This is particularly seen in dash rhythm Atlas maps such as [How Do I Boost](http://atlas.dustforce.com/5518/how-do-i-boost).
