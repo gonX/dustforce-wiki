@@ -11,3 +11,5 @@ game_name: enemy_slime_ball
 sprite_folder_name: slimeball
 sprite_image_name: airidle
 ---
+
+Lab variant of the [Flying Gargoyle](#enemy-gargoyle-flying)
