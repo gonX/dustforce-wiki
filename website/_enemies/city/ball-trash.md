@@ -1,5 +1,5 @@
 ---
-name: Turkey, Trash
+name: Ball, Trash
 enemygroup: city
 can_hurt: false
 can_path: true
@@ -12,4 +12,6 @@ sprite_folder_name: trashball
 sprite_image_name: airidle
 ---
 
-A "significantly worse" version of the [Turkey](#enemy-turkey)
+City variant of the [Flying Gargoyle](#enemy-gargoyle-flying)
+
+Commonly referred to as a Trash Turkey.

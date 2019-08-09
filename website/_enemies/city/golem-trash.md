@@ -12,3 +12,7 @@ hp: 9
 game_name: enemy_trash_beast
 sprite_folder_name: trashbeast
 ---
+
+Attacks with a single large hitbox in the direction it is facing.
+
+City variant of the Golem style enemy.
