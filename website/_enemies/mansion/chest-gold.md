@@ -13,6 +13,8 @@ game_name: enemy_chest_treasure
 sprite_folder_name: tchest
 ---
 
-Also known as the Treasure Chest.
+Also known as a Treasure Chest. 
+
+Spawns three random treasures when attacking.
 
 Acts similarly to the [Scroll Chest](#enemy-chest-scrolls)

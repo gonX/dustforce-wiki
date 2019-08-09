@@ -11,4 +11,4 @@ sprite_folder_name: gargoyle
 sprite_image_name: airidle
 ---
 
-This enemy makes an appearance in <maps> (TODO: dynamic data?)
+Will deviate slightly from their path by bobbing up and down. This can lead to strategies that only work at certain points in their [Bob cycle](#cycle).
