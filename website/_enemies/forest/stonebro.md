@@ -1,5 +1,5 @@
 ---
-name: Totem, Small
+name: Stonebro
 enemygroup: forest
 can_hurt: true
 can_hurt_unprovoked: true
@@ -15,3 +15,5 @@ game_name: enemy_stonebro
 Has an active hitbox as long as it is moving above a certain speed. Can be knocked back with attacks.
 
 Can be lured outside of its path, but will return once aggro is lost.
+
+Commonly referred to as a Small Totem.

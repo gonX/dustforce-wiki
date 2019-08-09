@@ -1,5 +1,5 @@
 ---
-name: Golem, Trash
+name: Beast, Trash
 enemygroup: city
 can_hurt: true
 can_hurt_unprovoked: true
@@ -16,3 +16,5 @@ sprite_folder_name: trashbeast
 Attacks with a single large hitbox in the direction it is facing.
 
 City variant of the Golem style enemy.
+
+Commonly referred to as a Trash Golem.

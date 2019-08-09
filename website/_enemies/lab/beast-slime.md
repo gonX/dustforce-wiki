@@ -1,5 +1,5 @@
 ---
-name: Golem, Slime
+name: Beast, Slime
 enemygroup: lab
 can_hurt: true
 can_hurt_unprovoked: true
@@ -15,3 +15,5 @@ sprite_folder_name: slimebeast
 Attacks with six small hitboxes travelling forward in the direction it's facing.
 
 Lab variant of the Golem style enemy.
+
+Commonly referred to as a Slime Golem.

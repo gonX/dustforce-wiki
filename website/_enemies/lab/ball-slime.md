@@ -1,5 +1,5 @@
 ---
-name: Slime Blob
+name: Ball, Slime
 enemygroup: lab
 can_hurt: false
 can_path: true
@@ -13,3 +13,5 @@ sprite_image_name: airidle
 ---
 
 Lab variant of the [Flying Gargoyle](#enemy-gargoyle-flying)
+
+Commonly referred to as a Slime Blob.

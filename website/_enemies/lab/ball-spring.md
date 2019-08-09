@@ -1,5 +1,5 @@
 ---
-name: Slime Blob, Rooted
+name: Ball, Spring
 enemygroup: lab
 can_hurt: true
 can_hurt_unprovoked: false
@@ -15,4 +15,4 @@ While this enemy traditionally has 5 health, you can "snap the stem" by attackin
 
 During the recoil animation, they have some invulnerability frames where the player may attack them to build combo without dealing damage. This can be abused in maps such as [Slime Invulnerability](http://atlas.dustforce.com/7105/slime-invulnerability).
 
-Commonly referred to as a Spring Blob.
+Commonly referred to as a Spring Blob, or a Rooted Slime Blob.

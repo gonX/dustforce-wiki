@@ -1,5 +1,5 @@
 ---
-name: Gargoyle, Flying
+name: Gargoyle, Small
 enemygroup: mansion
 can_hurt: false
 can_path: true
@@ -12,3 +12,5 @@ sprite_image_name: airidle
 ---
 
 Will deviate slightly from their path by bobbing up and down. This can lead to strategies that only work at certain points in their [Bob cycle](#cycle).
+
+Commonly referred to as a Flying Gargoyle, or just Gargoyle.
