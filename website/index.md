@@ -6,6 +6,11 @@ regenerate: true
 
 Playable Characters
 ===
+{:.anchor}
+
+Playable Characters
+===
+{:.no_toc}
 
 {% assign character_defaults = site.defaults | where: "scope.path","_playable_characters" | first %}
 {% assign character_defaults_kv = character_defaults.values %}
@@ -48,7 +53,12 @@ Playable Characters
 </div>
 
 Levels
+==
+{:.anchor}
+
+Levels
 ===
+{:.no_toc}
 
 <div id="maps">
 {% for mapgroup in site.df_mapgroups %}
@@ -142,7 +152,12 @@ Levels
 </div>
 
 Enemies
+==
+{:.anchor}
+
+Enemies
 ===
+{:.no_toc}
 
 {% assign enemy_defaults = site.defaults | where: "scope.path","_enemies" | first %}
 {% assign enemy_defaults_kv = enemy_defaults.values %}
@@ -200,7 +215,12 @@ Enemies
 </div>
 
 Mechanics / Tech
+==
+{:.anchor}
+
+Mechanics / Tech
 ===
+{:.no_toc}
 
 <div id="tech">
 {% for techgroup in site.df_techgroups %}

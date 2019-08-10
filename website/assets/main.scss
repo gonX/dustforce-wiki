@@ -90,6 +90,18 @@ h1{
       text-decoration: none;
       color: $primary-text;
   }
+
+  &.anchor{
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: none;
+    z-index: -1;
+    visibility: hidden;
+    user-select: none;
+    pointer-events: none;
+    position: static;
+  }
 }
 
 .anchor-heading-container{
