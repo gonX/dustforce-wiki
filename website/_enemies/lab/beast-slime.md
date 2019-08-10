@@ -17,3 +17,5 @@ Attacks with six small hitboxes travelling forward in the direction it's facing.
 Lab variant of the Golem style enemy.
 
 Commonly referred to as a Slime Golem.
+
+![Attack Hitbox](assets/img/enemies/beast-slime-hitbox.png)
