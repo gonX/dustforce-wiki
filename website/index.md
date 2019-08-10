@@ -12,8 +12,9 @@ Playable Characters
 
 <div id="characters">
 {% for character in site.playable_characters %}
-    <div class="character character-{{ character.name | slugify }}">
-        <h2 id="character-{{ character.name | slugify }}">{{ character.name }}</h2>
+    <div class="character character-{{ character.name | slugify }} anchor-heading-container">
+        <h2 id="character-{{ character.name | slugify }}" class="anchor">{{ character.name }}</h2>
+        <h2 class="no_toc">{{ character.name }}</h2>
         <div class="content">
             <img src="assets/img/characters/{{ character.name | slugify }}.png" alt="{{ character.name }}" class="content-icon" >
             <div class="statlist aside">
@@ -51,19 +52,21 @@ Levels
 
 <div id="maps">
 {% for mapgroup in site.df_mapgroups %}
-    <div class="maps-hub maps-{{ mapgroup }}">
-        <h2 id="maps-{{ mapgroup | slugify }}">{{ mapgroup | capitalize }}</h2>
+    <div class="maps-hub maps-{{ mapgroup }} anchor-heading-container">
+        <h2 id="maps-{{ mapgroup | slugify }}" class="anchor">{{ mapgroup | capitalize }}</h2>
+        <h2 class="no_toc">{{ mapgroup | capitalize }}</h2>
         <div class="maps-grouped compact">
             {% assign maps_currentgroup = site.maps | where: "mapgroup",mapgroup %} 
             {% for map in maps_currentgroup %}
-                <div class="map-compact card">
+                <div class="map-compact card anchor-heading-container">
                     {% assign map_stats = site.data["stock-maps"] | where: "name", map.name | first %}
                     {% if map.name contains "Beginner Tutorial" %}
                         {% assign map_stats = site.data["stock-maps"] | where: "srcfile", "newtutorial1" | first %}
                     {% endif %}
+                    <h3 id="maps-level-{{ map.name | slugify }}" class="anchor">{{ map.name }}</h3>
                     <div class="heading">
                         <a href="dustforce://installPlay/0/{{ map_stats.srcfile | slugify }}">
-                            <h3 id="maps-level-{{ map.name | slugify }}" class="maps-level-{{ map_stats.srcfile | slugify }}">
+                            <h3 class="no_toc maps-level-{{ map_stats.srcfile | slugify }}">
                                 <span>{{ map.name }}</span>
                             </h3>
                         </a>
@@ -146,13 +149,15 @@ Enemies
 
 <div id="enemies">
 {% for enemygroup in site.df_enemygroups %}
-    <div class="enemies-{{ enemygroup }}">
-        <h2 id="{{ enemygroup }}-enemies">{{ enemygroup | capitalize }}</h2>
+    <div class="enemies-{{ enemygroup }} anchor-heading-container">
+        <h2 id="{{ enemygroup }}-enemies" class="anchor">{{ enemygroup | capitalize }}</h2>
+        <h2 class="no_toc">{{ enemygroup | capitalize }}</h2>
         <div class="enemies-grouped">
             {% assign enemies_currentgroup = site.enemies | where: "enemygroup",enemygroup %}
             {% for enemy in enemies_currentgroup %}
-                <div class="enemy">
-                    <h3 id="enemy-{{ enemy.name | slugify }}">{{ enemy.name }}</h3>
+                <div class="enemy anchor-heading-container">
+                    <h3 id="enemy-{{ enemy.name | slugify }}" class="anchor">{{ enemy.name }}</h3>
+                    <h3 class="no_toc">{{ enemy.name }}</h3>
                     <div class="content">
                         <picture>
                             <source type="image/webp" srcset="assets/video/enemies/{{ enemy.name | slugify }}.webp" class="content-icon">
@@ -204,10 +209,12 @@ Mechanics / Tech
     {% if gsize == 0 %}
         {% continue %}
     {% endif %}
-    <div class="tech-{{ techgroup }}">
-        <h2 id="{{ techgroup }}-tech">{{ techgroup | capitalize }}</h2>
+    <div class="tech-{{ techgroup }} anchor-heading-container">
+        <h2 id="{{ techgroup }}-tech" class="anchor">{{ techgroup | capitalize }}</h2>
+        <h2 class="no_toc">{{ techgroup | capitalize }}</h2>
         {% for tech in mechanics_group %}
-            <div class="tech-{{ tech.name | slugify }} card">
+            <div class="tech-{{ tech.name | slugify }} card anchor-heading-container">
+                <h3 id="{{ tech.name | slugify }}" class="anchor">{{ tech.name }}</h3>
                 <div class="tech-header">
                     {% assign tagcount = tech.tags | size %}
                     {% if tagcount > 0 %}
@@ -220,7 +227,7 @@ Mechanics / Tech
                             </span>
                         </span>
                     {% endif %}
-                    <h3 id="{{ tech.name | slugify }}">{{ tech.name }}</h3>
+                    <h3 class="no_toc">{{ tech.name }}</h3>
                 </div>
                 <div class="tech-content">{{ tech.content }}</div>
             </div>

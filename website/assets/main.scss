@@ -34,6 +34,25 @@ $anim-time: 0.15s;
   }
 }
 
+@mixin anchor-heading($heading){
+  #{$heading}.anchor{
+    position: absolute;
+
+    padding: 0.5em;
+    z-index: -1;
+
+    font-size: 1.7em;
+    font-weight: normal;
+
+    pointer-events: none;
+    -webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;
+    visibility: hidden;
+
+    margin: 0 0 $spacing 0;
+    bottom: 100%;
+  }
+}
+
 // -- Main ---------------------------------------------------
 
 html, body{
@@ -71,6 +90,10 @@ h1{
       text-decoration: none;
       color: $primary-text;
   }
+}
+
+.anchor-heading-container{
+  position: relative;
 }
 
 p{
@@ -243,66 +266,68 @@ body article{
         justify-content: space-around;
 
         > div{
-            margin: 0 $spacing $spacing $spacing;
-            padding: 0;
-            border: 1px solid $primary-colour;
-            border-radius: 3px;
-            flex: 1 100%;
+          margin: 0 $spacing $spacing $spacing;
+          padding: 0;
+          border: 1px solid $primary-colour;
+          border-radius: 3px;
+          flex: 1 100%;
 
-            h2{
-                margin: 0;
-                padding: $spacing;
+          h2{
+              margin: 0;
+              padding: $spacing;
 
-                border-bottom: 1px solid $primary-colour;
-                color: $primary-text;
-                text-align: center;
-            }
+              border-bottom: 1px solid $primary-colour;
+              color: $primary-text;
+              text-align: center;
+          }
 
-            .statlist {
-                padding: 0;
-                flex: 1 0 auto;
-                min-width: 15em;
-                margin: $spacing;
+          @include anchor-heading(h2);
 
-                &.aside {
-                    float: right;
-                    margin: 0 0 $spacing $spacing;
+          .statlist {
+              padding: 0;
+              flex: 1 0 auto;
+              min-width: 15em;
+              margin: $spacing;
 
-                    @include media-small(){
-                        float: none;
-                        margin: 0 0 1em $spacing;
-                    }
-                }
+              &.aside {
+                  float: right;
+                  margin: 0 0 $spacing $spacing;
 
-                .heading {
-                    padding: $spacing 0 0 0;
-                    border-bottom: 1px dotted $info-border-colour;
-                    font-weight: bold;
-                    font-size: 1.2em;
-                }
+                  @include media-small(){
+                      float: none;
+                      margin: 0 0 1em $spacing;
+                  }
+              }
 
-                ul {
-                    margin: 0 0 0 $spacing;
-                    padding: 0;
+              .heading {
+                  padding: $spacing 0 0 0;
+                  border-bottom: 1px dotted $info-border-colour;
+                  font-weight: bold;
+                  font-size: 1.2em;
+              }
 
-                    list-style: none;
+              ul {
+                  margin: 0 0 0 $spacing;
+                  padding: 0;
 
-                    li.border{
-                        border-bottom: 1px dashed $info-border-colour;
-                        padding: 4px;
-                    }
+                  list-style: none;
 
-                    div {
-                        padding: 3px;
-                    }
-                    .stat-key {
-                        font-weight: bold;
-                    }
-                    .stat-value {
-                        float: right;
-                    }
-                }
-            }
+                  li.border{
+                      border-bottom: 1px dashed $info-border-colour;
+                      padding: 4px;
+                  }
+
+                  div {
+                      padding: 3px;
+                  }
+                  .stat-key {
+                      font-weight: bold;
+                  }
+                  .stat-value {
+                      float: right;
+                  }
+              }
+          }
         }
     }
 
@@ -355,7 +380,6 @@ body article{
     }
 
     > #maps .maps-hub{
-
       .maps-grouped{
         display: flex;
         padding: $spacing-h;
@@ -378,6 +402,7 @@ body article{
           }
 
           .heading{
+
             h3{
               position: relative;
               margin: 0;
@@ -407,6 +432,8 @@ body article{
             }
 
           }
+
+          @include anchor-heading(h3);
 
           .map-stats-section ul li.stat-key-srcfile > .map-stat-value {
                   font-family: monospace;
@@ -449,6 +476,8 @@ body article{
           padding: $spacing;
           border-bottom: 1px dashed $info-border-colour;
         }
+
+        @include anchor-heading(h3);
       }
     }
 
@@ -456,6 +485,7 @@ body article{
       display: block;
     }
     #tech > div > div {
+      @include anchor-heading(h3);
         .tech-header {
             h3 {
                 font-size: 150%;
@@ -478,6 +508,14 @@ body article{
                 }
             }
         }
+
+      .tech-content{
+        .section{
+          position: relative;
+        }
+
+        @include anchor-heading(h4);
+      }
     }
   }
 }
