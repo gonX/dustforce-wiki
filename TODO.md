@@ -40,3 +40,9 @@ depends on bandwidth costs, may use youtube or other host
 - talk about refresh rates that aren't a multiple of 60hz causing issues on vanilla
 
 - write about changing facing direction in air using 2 attacks
+
+- add "clearing dust through walls with attacks" (seam attacks?) to terminology
+
+- subcategories (e.g. tech->basics->Super->ranges) should have better anchors (now: #ranges, should be #super-ranges)
+
+- write about how atlas ranking is based on points awarded per map and per comment (https://discordapp.com/channels/83037671227658240/275015117236731905/633776460359925790)
