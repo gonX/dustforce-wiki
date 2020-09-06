@@ -111,7 +111,7 @@ Techniques for cleaning walls while falling past them as quickly as possible, un
 ### Left friction
 Air friction is much more intense when travelling left.
 
-See [Friction](#friction)
+See [Air Friction](#air-friction)
 
 {:.no_toc}
 ### Updash
@@ -123,7 +123,7 @@ See [Updashing](#updashing) in the Expert section.
 ### Air ceiling slide
 The player can briefly remain in ceiling slide state after the ceiling ends.
 
-See [Ceiling Run](#ceiling-run)(?)
+See [Ceiling Grab](#ceiling-grab)
 
 {:.no_toc}
 ### Air walljump

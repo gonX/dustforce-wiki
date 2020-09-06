@@ -28,9 +28,9 @@ You must wait 5 frames after a jump before you can jump or dash, and must wait 1
 
 #### Air Jump
 
-A jump perform in midair has no jumpsquat or startup delay, and thus occurs instantly.
+A jump performed in midair has no jumpsquat or startup delay, and thus occurs instantly.
 
-As such, jumps in midair cannot be a shorthop and will always give the same height as a “fulljump.
+As such, jumps in midair cannot be a shorthop and will always give the same height as a fulljump.
 
 At the start of an air jump, your Y velocity is set (or left alone) using the same rules as with ground jumps, above. However, your X velocity is set according to what direction you’re pressing:
 
