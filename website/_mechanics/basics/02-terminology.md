@@ -6,7 +6,7 @@ techgroup: basics
 {::options auto_ids="false" /}
 
 {:.no_toc}
-### (word)boost
+### (TYPE)boost
 Gaining speed via impacting level geometry (groundboost, slopeboost, etc.) or abusing other mechanics (airdash boost/ADB, magnet hijack boost/MHB, etc.)
 
 See [Boosting](#boosting)
@@ -19,7 +19,7 @@ See [Attacks](#attacks) in the Advanced section.
 
 {:.no_toc}
 ### Super
-The wide-area special attack usable only after having collected 100 dust.
+The wide-area special attack usable only after the combo meter reaches 100.
 
 See [Supers](#supers)
 
@@ -65,7 +65,7 @@ When exiting a level, clicking “yes” rather than navigating with the keyboar
 
 {:.no_toc}
 ### Cycle
-Enemy positions according to time and path taken through the level.
+Entity (ie. enemy) positions are calculated from when the entity was last loaded, which is indirectly influenced by the path (and time) taken through the level.
 
 {:.no_toc}
 ### Aircharge
@@ -105,11 +105,11 @@ Related reading would be [Wall Grab](#wall-grab) in the Walls card.
 
 {:.no_toc}
 ### Superdrop
-Techniques for cleaning walls while falling past them as quickly as possible, unrelated to actual Supers.
+Unrelated to actual Supers, this is the technique used for quickly cleaning dust (using light attacks) while falling at high speeds.
 
 {:.no_toc}
 ### Left friction
-Air friction is much more intense when travelling left.
+An unintentional programming oversight causes air friction to be much more intense when travelling leftwards.
 
 See [Air Friction](#air-friction)
 
@@ -120,8 +120,8 @@ Avoiding friction by delaying a wallrun after dashing from a slope up a wall.
 See [Updashing](#updashing) in the Expert section.
 
 {:.no_toc}
-### Air ceiling slide
-The player can briefly remain in ceiling slide state after the ceiling ends.
+### Extended ceiling run/slide
+The player can briefly remain in ceiling slide state mid-air after the ceiling ends.
 
 See [Ceiling Grab](#ceiling-grab)
 
@@ -149,7 +149,7 @@ See [Jorfs](#Jorfs)
 
 {:.no_toc}
 ### Mapler Slide
-A technique to retain speed longer on ceilings.
+A technique to extend ceiling runs to retain speed for longer and/or travel farther.
 
 See [Mapler Slides](#mapler-slides)
 
@@ -176,3 +176,21 @@ See [Slopesurfing](#slopesurfing)
 A tech that enters the wrong state when jumping, allowing an earlier wallrun.
 
 See [Raiserunning](#raiserunning)
+
+{:.no_toc}
+### Clip
+Certain configurations of geometry allow the player to pass through solid walls.
+
+{:.no_toc}
+### Magnet
+Jumping mid-air will "magnet" you to walls approximately within half of the width (TODO: fact check?) of your characters hitbox.
+
+This is often negatively experienced for the first time for many players in [Backup Shift](#maps-level-backup-shift) (TODO: earlier levels?)
+
+{:.no_toc}
+### Hitrise
+When you damage (or kill) an enemy with an attack, your character rises ever so slightly.
+
+This is often negatively experienced for the first time for many players in [Mega Difficult](#maps-level-mega-difficult).
+
+See [Hitrise](#hitrise)
