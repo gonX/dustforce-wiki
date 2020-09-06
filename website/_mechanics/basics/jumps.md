@@ -18,7 +18,7 @@ At the start of the jump, your upward velocity is increased to your character’
 
 When jumping from the ground, your total speed is converted to X velocity in the direction of the jump, then capped based on your new Y velocity.
 
-This means that when travelling up or down slopes, you may gain some X speed because you no longer have the angle of the ground working against you, and when turning around as you jump you can most of your speed in the opposite direction.
+This means that when travelling up or down slopes, you may gain some X speed because you no longer have the angle of the ground working against you, and when turning around as you jump you can keep most of your speed in the opposite direction.
 
 However, friction during jump crouch will significantly reduce your speed, and the speed cap usually limits horizontal velocity to not much above dash speed (exactly how fast depends on your character’s initial jump velocity), even if you were previously going much faster.
 
