@@ -243,5 +243,5 @@ Enemies
 </div>
 
 <div id="footer">
-<pre>site built {{ site.time }} with commit <a href="https://github.com/{{ site.social.github }}/commit/{{ site.git.last_commit.long_sha}}">{{ site.git.last_commit.short_sha }}</a></pre>
+<pre>site built {{ site.time }} with commit <a href="https://github.com/{{ site.social.github }}/commit/{{ site.git.last_commit.long_sha}}">{{ site.git.last_commit.short_sha }}</a>. Map records updated {{ "_data/stock-maps.json" | file_date | date: "%Y-%m-%d %H:%M" }}</pre>
 </div>
