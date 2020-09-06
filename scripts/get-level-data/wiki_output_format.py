@@ -106,6 +106,14 @@ output_format = {
     "enemy_slime_barrel": 0,
     "enemy_slime_beast": 0,
     "enemy_slime_ball": 0,
+
+    # community stats
+    "best_score_time_ms": 0,
+    "best_score_timestamp_epoch": 0,
+    "best_score_username": "empty",
+    "best_time_time_ms": 0,
+    "best_time_timestamp_epoch": 0,
+    "best_time_username": "empty"
 }
 
 

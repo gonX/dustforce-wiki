@@ -3,5 +3,7 @@
 	"key_get_type",
 	"is_virtual",
 	"props",
-	"apples"
+	"apples",
+    "best_score_time_ms",
+    "best_time_time_ms"
 ]

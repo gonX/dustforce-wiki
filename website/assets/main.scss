@@ -85,6 +85,10 @@ blockquote {
     font-style: italic;
 }
 
+.has-annotation {
+    cursor: help;
+}
+
 // -- Hamburger menu ---------------------------------------------------
 #menu-toggle{
   display: none;

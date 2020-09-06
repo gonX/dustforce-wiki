@@ -126,7 +126,7 @@ Levels
                                 {% else %}
                                     {% assign value = map_stats[key] %}
                                 {% endif %}
-                                {% include_relative /_content-templates/map-stat.liquid key=key value=value  %}
+                                {% include_relative /_content-templates/map-stat.liquid key=key value=value obj=map_stats %}
                             {% endfor %}
                         </ul>
                     </div>

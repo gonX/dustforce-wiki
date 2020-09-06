@@ -5,7 +5,23 @@
 {% else %}
     {% assign shortdesc = include.key %}
 {% endif %}
+{% if key == "best_score_time_ms" or key == "best_time_time_ms" %}
+    {% assign value = include.value | divided_by: 1000.0 %}
+    {% if key == "best_score_time_ms" %}
+        {% assign performer = include.obj["best_score_username"] | escape %}
+        {% assign date_text = include.obj["best_score_timestamp_epoch"] | date: "%Y-%m-%d %H:%M" %}
+    {% else %}
+        {% assign performer = include.obj["best_time_username"] | escape %}
+        {% assign date_text = include.obj["best_time_timestamp_epoch"] | date: "%Y-%m-%d %H:%M" %}
+    {% endif %}
+    {% capture annotation %}
+        has-annotation" title="Set by '{{ performer }}' at {{ date_text }}
+    {% endcapture %}
+{% else %}
+    {% assign annotation = nil %}
+    {% assign value = include.value %}
+{% endif %}
 <li class="map-stat stat-key-{{ include.key }} stat-attrib-{{ value_classname }} stat" title="{{ clean_desc_value.longdesc }}">
-    <div class="map-stat-value stat-value">{{ include.value }}</div>
+    <div class="map-stat-value stat-value {{ annotation }}">{{ value }}</div>
     <div class="map-stat-key stat-key">{{ shortdesc }}</div>
 </li>

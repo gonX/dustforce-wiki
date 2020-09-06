@@ -6,8 +6,23 @@ import json
 import sys
 import os
 import copy
+import requests
 
 import wiki_output_format
+
+records_url = "https://dustkid.com/json/records"
+records = {}
+print(f"Pulling record data from {records_url}")
+exit
+jsonobj = requests.get(records_url).json()
+for x in jsonobj["Scores"]:
+    mapoutput = {}
+    for y in jsonobj:
+        mapobj = jsonobj[y][x]
+        mapoutput["best_" + y[:-1].lower() + "_time_ms"] = mapobj["time"]
+        mapoutput["best_" + y[:-1].lower() + "_timestamp_epoch"] = mapobj["timestamp"]
+        mapoutput["best_" + y[:-1].lower() + "_username"] = mapobj["username"]
+    records[x] = mapoutput
 
 def generateMapData(mapfile):
     with open(mapfile, "rb") as f:
@@ -58,6 +73,11 @@ def generateMapData(mapfile):
                 output["apples"] += 1
 
         output["total_dust"] = output["dust_from_enemies"] + output["dustblocks"] + output["filthy_surfaces"]
+
+        # scores
+        if output["srcfile"] in records:
+            output.update(records[output["srcfile"]])
+
         return output
 
 

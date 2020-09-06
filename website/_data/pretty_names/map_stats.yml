@@ -110,3 +110,11 @@
   longdesc: "Total enemies on map"
   shortdesc: "Enemies"
 
+- name: "best_score_time_ms"
+  longdesc: "Fastest community SS time"
+  shortdesc: "Fastest SS time"
+
+- name: "best_time_time_ms"
+  longdesc: "Fastest community overall time"
+  shortdesc: "Fastest overall time"
+
