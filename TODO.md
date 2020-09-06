@@ -34,6 +34,7 @@ depends on bandwidth costs, may use youtube or other host
 - "clearing dust through walls with attacks" (seam attacks?)
 - changing facing direction mid-air using 2 attacks
 - super cancels
+- clipping
 - TAS techs (thx Zaandaa)
 -- RLJ
 -- LSJ
