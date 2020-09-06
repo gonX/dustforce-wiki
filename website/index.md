@@ -4,6 +4,19 @@ toc: true
 regenerate: true
 ---
 
+Information
+===
+<div id="gameinfo">
+    {% for gameinfo in site.gameinfo %}
+        <div class="gameinfo-{{ gameinfo.name | slugify }} card">
+            <div class="header">
+                <h3 id="{{ gameinfo.name | slugify }}">{{ gameinfo.name }}</h3>
+            </div>
+            <div class="gameinfo-content">{{ gameinfo.content }}</div>
+        </div>
+    {% endfor %}
+</div>
+
 Playable Characters
 ===
 
@@ -208,7 +221,7 @@ Mechanics / Tech
         <h2 id="{{ techgroup }}-tech">{{ techgroup | capitalize }}</h2>
         {% for tech in mechanics_group %}
             <div class="tech-{{ tech.name | slugify }} card">
-                <div class="tech-header">
+                <div class="header">
                     {% assign tagcount = tech.tags | size %}
                     {% if tagcount > 0 %}
                         <span class="tags">

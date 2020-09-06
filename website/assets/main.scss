@@ -452,29 +452,31 @@ body article{
       }
     }
 
-    #tech{
+    #tech, #gameinfo {
       display: block;
     }
-    #tech > div > div {
-        .tech-header {
-            h3 {
-                font-size: 150%;
-                color: $primary-text;
+    #tech, #gameinfo {
+        &> div {
+            .header {
+                h3 {
+                    font-size: 150%;
+                    color: $primary-text;
 
-                margin: 0 0 $spacing 0;
-                padding: $spacing;
-                border-bottom: 1px dashed $info-border-colour;
-            }
+                    margin: 0 0 1em 0;
+                    padding: $spacing;
+                    border-bottom: 1px dashed $info-border-colour;
+                }
 
-            .tags {
-                float: right;
-                color: #BBB;
-                font-size: 80%;
-                margin: 1em;
+                .tags {
+                    float: right;
+                    color: #BBB;
+                    font-size: 80%;
+                    margin: 1em;
 
-                .tagprefix {
-                    font-weight: bold;
+                    .tagprefix {
+                        font-weight: bold;
 
+                    }
                 }
             }
         }

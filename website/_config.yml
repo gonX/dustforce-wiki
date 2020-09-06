@@ -61,6 +61,7 @@ collections:
   - maps
   - mechanics
   - enemies
+  - gameinfo
 
 defaults:
   -
