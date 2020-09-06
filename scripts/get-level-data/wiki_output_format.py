@@ -7,6 +7,13 @@ class Keytype(IntEnum):
     SILVER = 3
     BRONZE = 4
 
+class Character(IntEnum):
+    MAN = 0
+    GIRL = 1
+    KID = 2
+    WORTH = 3
+    INVALID = 4
+
 output_format = {
     # full map name as displayed on screen
     "name": "",
@@ -111,9 +118,13 @@ output_format = {
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": Character.INVALID,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": Character.INVALID,
+    "best_time_replay_id": 0
 }
 
 

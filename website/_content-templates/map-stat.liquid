@@ -6,16 +6,23 @@
     {% assign shortdesc = include.key %}
 {% endif %}
 {% if key == "best_score_time_ms" or key == "best_time_time_ms" %}
-    {% assign value = include.value | divided_by: 1000.0 %}
+    {% assign tmpvalue = include.value | divided_by: 1000.0 %}
     {% if key == "best_score_time_ms" %}
         {% assign performer = include.obj["best_score_username"] | escape %}
-        {% assign date_text = include.obj["best_score_timestamp_epoch"] | date: "%Y-%m-%d %H:%M" %}
+        {% assign date_text = include.obj["best_score_timestamp_epoch"] | date: "%Y-%m-%d %H:%M %z" %}
+        {% assign replayid = include.obj["best_score_replay_id"] %}
+        {% assign character = site.data.characters | where: "key", include.obj["best_score_character"] | first %}
     {% else %}
         {% assign performer = include.obj["best_time_username"] | escape %}
-        {% assign date_text = include.obj["best_time_timestamp_epoch"] | date: "%Y-%m-%d %H:%M" %}
+        {% assign date_text = include.obj["best_time_timestamp_epoch"] | date: "%Y-%m-%d %H:%M %z" %}
+        {% assign replayid = include.obj["best_time_replay_id"] %}
+        {% assign character = site.data.characters | where: "key", include.obj["best_time_character"] | first %}
     {% endif %}
+    {% capture value %}
+        {{ tmpvalue }} <a href="dustforce://replay/{{ replayid }}" title="Click to watch">📷</a>
+    {% endcapture %}
     {% capture annotation %}
-        has-annotation" title="Set by '{{ performer }}' at {{ date_text }}
+        has-annotation record-{{ character.value }}" title="Set by '{{ performer }}' at {{ date_text }} with Dust{{ character.value }}
     {% endcapture %}
 {% else %}
     {% assign annotation = nil %}

@@ -64,9 +64,13 @@
     "best_score_time_ms": 16616,
     "best_score_timestamp_epoch": 1546155600,
     "best_score_username": "Zaandaa",
+    "best_score_character": 3,
+    "best_score_replay_id": 7631055,
     "best_time_time_ms": 8433,
     "best_time_timestamp_epoch": 1561399839,
-    "best_time_username": "Fishy"
+    "best_time_username": "Fishy",
+    "best_time_character": 3,
+    "best_time_replay_id": 7792047
   },
   {
     "name": "Abyss",
@@ -133,9 +137,13 @@
     "best_score_time_ms": 31432,
     "best_score_timestamp_epoch": 1569043474,
     "best_score_username": "Zaandaa",
+    "best_score_character": 0,
+    "best_score_replay_id": 7877037,
     "best_time_time_ms": 11600,
     "best_time_timestamp_epoch": 1515102554,
-    "best_time_username": "czyys"
+    "best_time_username": "czyys",
+    "best_time_character": 1,
+    "best_time_replay_id": 7191497
   },
   {
     "name": "Alcoves",
@@ -202,9 +210,13 @@
     "best_score_time_ms": 18350,
     "best_score_timestamp_epoch": 1557776955,
     "best_score_username": "Zaandaa",
+    "best_score_character": 3,
+    "best_score_replay_id": 7754881,
     "best_time_time_ms": 14083,
     "best_time_timestamp_epoch": 1591245585,
-    "best_time_username": "Fishy"
+    "best_time_username": "Fishy",
+    "best_time_character": 3,
+    "best_time_replay_id": 8109291
   },
   {
     "name": "Alleyway",
@@ -271,9 +283,13 @@
     "best_score_time_ms": 6699,
     "best_score_timestamp_epoch": 1561228163,
     "best_score_username": "Fishy",
+    "best_score_character": 3,
+    "best_score_replay_id": 7790146,
     "best_time_time_ms": 6566,
     "best_time_timestamp_epoch": 1529636797,
-    "best_time_username": "amber"
+    "best_time_username": "amber",
+    "best_time_character": 3,
+    "best_time_replay_id": 7413670
   },
   {
     "name": "Store Room",
@@ -340,9 +356,13 @@
     "best_score_time_ms": 5966,
     "best_score_timestamp_epoch": 1546464319,
     "best_score_username": "czyys",
+    "best_score_character": 2,
+    "best_score_replay_id": 7635635,
     "best_time_time_ms": 5516,
     "best_time_timestamp_epoch": 1518295964,
-    "best_time_username": "czyys"
+    "best_time_username": "czyys",
+    "best_time_character": 1,
+    "best_time_replay_id": 7239511
   },
   {
     "name": "Ascent",
@@ -409,9 +429,13 @@
     "best_score_time_ms": 33116,
     "best_score_timestamp_epoch": 1580336161,
     "best_score_username": "Xiamul",
+    "best_score_character": 3,
+    "best_score_replay_id": 7974924,
     "best_time_time_ms": 27433,
     "best_time_timestamp_epoch": 1597463764,
-    "best_time_username": "Yoda Cage"
+    "best_time_username": "Yoda Cage",
+    "best_time_character": 3,
+    "best_time_replay_id": -12130787
   },
   {
     "name": "Atrium",
@@ -478,9 +502,13 @@
     "best_score_time_ms": 6983,
     "best_score_timestamp_epoch": 1592599717,
     "best_score_username": "Zaandaa",
+    "best_score_character": 3,
+    "best_score_replay_id": -11965973,
     "best_time_time_ms": 3183,
     "best_time_timestamp_epoch": 1516284191,
-    "best_time_username": "czyys"
+    "best_time_username": "czyys",
+    "best_time_character": 3,
+    "best_time_replay_id": 7208754
   },
   {
     "name": "Ruins",
@@ -547,9 +575,13 @@
     "best_score_time_ms": 57051,
     "best_score_timestamp_epoch": 1560488076,
     "best_score_username": "Zaandaa",
+    "best_score_character": 3,
+    "best_score_replay_id": 7783542,
     "best_time_time_ms": 25699,
     "best_time_timestamp_epoch": 1581200780,
-    "best_time_username": "Zaandaa"
+    "best_time_username": "Zaandaa",
+    "best_time_character": 3,
+    "best_time_replay_id": 7982589
   },
   {
     "name": "Basement",
@@ -616,9 +648,13 @@
     "best_score_time_ms": 26916,
     "best_score_timestamp_epoch": 1566026488,
     "best_score_username": "Zaandaa",
+    "best_score_character": 0,
+    "best_score_replay_id": 7845549,
     "best_time_time_ms": 18433,
     "best_time_timestamp_epoch": 1579841554,
-    "best_time_username": "Fishy"
+    "best_time_username": "Fishy",
+    "best_time_character": 1,
+    "best_time_replay_id": 7970443
   },
   {
     "name": "Construction Site",
@@ -685,9 +721,13 @@
     "best_score_time_ms": 8316,
     "best_score_timestamp_epoch": 1561223532,
     "best_score_username": "Fishy",
+    "best_score_character": 3,
+    "best_score_replay_id": 7790086,
     "best_time_time_ms": 983,
     "best_time_timestamp_epoch": 1336311341,
-    "best_time_username": "|lDgAl|HeXeRMaN"
+    "best_time_username": "|lDgAl|HeXeRMaN",
+    "best_time_character": 0,
+    "best_time_replay_id": 212340
   },
   {
     "name": "Tower",
@@ -754,9 +794,13 @@
     "best_score_time_ms": 24249,
     "best_score_timestamp_epoch": 1525504016,
     "best_score_username": "amber",
+    "best_score_character": 3,
+    "best_score_replay_id": 7357510,
     "best_time_time_ms": 5666,
     "best_time_timestamp_epoch": 1522753341,
-    "best_time_username": "czyys"
+    "best_time_username": "czyys",
+    "best_time_character": 3,
+    "best_time_replay_id": 7313329
   },
   {
     "name": "Caverns",
@@ -823,9 +867,13 @@
     "best_score_time_ms": 42716,
     "best_score_timestamp_epoch": 1536899851,
     "best_score_username": "Fishy",
+    "best_score_character": 3,
+    "best_score_replay_id": 7527462,
     "best_time_time_ms": 17183,
     "best_time_timestamp_epoch": 1586408579,
-    "best_time_username": "Yoda Cage"
+    "best_time_username": "Yoda Cage",
+    "best_time_character": 0,
+    "best_time_replay_id": 8036164
   },
   {
     "name": "Apartments",
@@ -892,9 +940,13 @@
     "best_score_time_ms": 25999,
     "best_score_timestamp_epoch": 1559084483,
     "best_score_username": "Fishy",
+    "best_score_character": 3,
+    "best_score_replay_id": 7768936,
     "best_time_time_ms": 9033,
     "best_time_timestamp_epoch": 1503862948,
-    "best_time_username": "czyys"
+    "best_time_username": "czyys",
+    "best_time_character": 1,
+    "best_time_replay_id": 7007115
   },
   {
     "name": "Facets",
@@ -961,9 +1013,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "City",
@@ -1030,9 +1086,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Rooftops",
@@ -1099,9 +1159,13 @@
     "best_score_time_ms": 24816,
     "best_score_timestamp_epoch": 1594093234,
     "best_score_username": "Zaandaa",
+    "best_score_character": 3,
+    "best_score_replay_id": -12017307,
     "best_time_time_ms": 21133,
     "best_time_timestamp_epoch": 1593242534,
-    "best_time_username": "Fishy"
+    "best_time_username": "Fishy",
+    "best_time_character": 0,
+    "best_time_replay_id": -11990284
   },
   {
     "name": "unnamed",
@@ -1168,9 +1232,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Cliffside Caves",
@@ -1237,9 +1305,13 @@
     "best_score_time_ms": 64068,
     "best_score_timestamp_epoch": 1578819065,
     "best_score_username": "Xiamul",
+    "best_score_character": 0,
+    "best_score_replay_id": 7961571,
     "best_time_time_ms": 55084,
     "best_time_timestamp_epoch": 1591242451,
-    "best_time_username": "Fishy"
+    "best_time_username": "Fishy",
+    "best_time_character": 0,
+    "best_time_replay_id": 8109246
   },
   {
     "name": "Clocktower",
@@ -1306,9 +1378,13 @@
     "best_score_time_ms": 15083,
     "best_score_timestamp_epoch": 1531275633,
     "best_score_username": "Fishy",
+    "best_score_character": 3,
+    "best_score_replay_id": 7455000,
     "best_time_time_ms": 14833,
     "best_time_timestamp_epoch": 1531277562,
-    "best_time_username": "Fishy"
+    "best_time_username": "Fishy",
+    "best_time_character": 3,
+    "best_time_replay_id": 7455028
   },
   {
     "name": "Custom Map Race 49",
@@ -1375,9 +1451,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Custom Map Race 50",
@@ -1444,9 +1524,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Custom Map Race 51",
@@ -1513,9 +1597,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Custom Map Race 52",
@@ -1582,9 +1670,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Custom Map Race 53",
@@ -1651,9 +1743,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Custom Map Race 54",
@@ -1720,9 +1816,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "CMR Gallery",
@@ -1789,9 +1889,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Color Dome Nexus",
@@ -1858,9 +1962,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Concrete Temple",
@@ -1927,9 +2035,13 @@
     "best_score_time_ms": 54434,
     "best_score_timestamp_epoch": 1551945167,
     "best_score_username": "Freshmaniac",
+    "best_score_character": 2,
+    "best_score_replay_id": 7699476,
     "best_time_time_ms": 40950,
     "best_time_timestamp_epoch": 1562975172,
-    "best_time_username": "Freshmaniac"
+    "best_time_username": "Freshmaniac",
+    "best_time_character": 3,
+    "best_time_replay_id": 7815096
   },
   {
     "name": "Containment",
@@ -1996,9 +2108,13 @@
     "best_score_time_ms": 9950,
     "best_score_timestamp_epoch": 1556677735,
     "best_score_username": "Fishy",
+    "best_score_character": 3,
+    "best_score_replay_id": 7742580,
     "best_time_time_ms": 8616,
     "best_time_timestamp_epoch": 1531616996,
-    "best_time_username": "Fishy"
+    "best_time_username": "Fishy",
+    "best_time_character": 3,
+    "best_time_replay_id": 7461296
   },
   {
     "name": "Control",
@@ -2065,9 +2181,13 @@
     "best_score_time_ms": 16300,
     "best_score_timestamp_epoch": 1590103406,
     "best_score_username": "Yoda Cage",
+    "best_score_character": 1,
+    "best_score_replay_id": 8088974,
     "best_time_time_ms": 10750,
     "best_time_timestamp_epoch": 1586472851,
-    "best_time_username": "Yoda Cage"
+    "best_time_username": "Yoda Cage",
+    "best_time_character": 3,
+    "best_time_replay_id": 8036703
   },
   {
     "name": "Core Temple",
@@ -2134,9 +2254,13 @@
     "best_score_time_ms": 45417,
     "best_score_timestamp_epoch": 1570419315,
     "best_score_username": "Freshmaniac",
+    "best_score_character": 0,
+    "best_score_replay_id": 7887730,
     "best_time_time_ms": 31299,
     "best_time_timestamp_epoch": 1577768501,
-    "best_time_username": "Zaandaa"
+    "best_time_username": "Zaandaa",
+    "best_time_character": 3,
+    "best_time_replay_id": 7952423
   },
   {
     "name": "Courtyard",
@@ -2203,9 +2327,13 @@
     "best_score_time_ms": 50434,
     "best_score_timestamp_epoch": 1576017093,
     "best_score_username": "Xiamul",
+    "best_score_character": 0,
+    "best_score_replay_id": 7938092,
     "best_time_time_ms": 31666,
     "best_time_timestamp_epoch": 1587454558,
-    "best_time_username": "Fishy"
+    "best_time_username": "Fishy",
+    "best_time_character": 3,
+    "best_time_replay_id": 8048185
   },
   {
     "name": "Community Lobby",
@@ -2272,9 +2400,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Cyber Complexus",
@@ -2341,9 +2473,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Dahlia",
@@ -2410,9 +2546,13 @@
     "best_score_time_ms": 11016,
     "best_score_timestamp_epoch": 1578637810,
     "best_score_username": "Zaandaa",
+    "best_score_character": 0,
+    "best_score_replay_id": 7960363,
     "best_time_time_ms": 8049,
     "best_time_timestamp_epoch": 1578808312,
-    "best_time_username": "Yoda Cage"
+    "best_time_username": "Yoda Cage",
+    "best_time_character": 1,
+    "best_time_replay_id": 7961347
   },
   {
     "name": "Forest",
@@ -2479,9 +2619,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Dark Nexus",
@@ -2548,9 +2692,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Demo Nexus",
@@ -2617,9 +2765,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Wild Den",
@@ -2686,9 +2838,13 @@
     "best_score_time_ms": 5716,
     "best_score_timestamp_epoch": 1552249002,
     "best_score_username": "Zaandaa",
+    "best_score_character": 3,
+    "best_score_replay_id": 7702916,
     "best_time_time_ms": 5716,
     "best_time_timestamp_epoch": 1552249002,
-    "best_time_username": "Zaandaa"
+    "best_time_username": "Zaandaa",
+    "best_time_character": 3,
+    "best_time_replay_id": 7702916
   },
   {
     "name": "unnamed",
@@ -2755,9 +2911,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Development",
@@ -2824,9 +2984,13 @@
     "best_score_time_ms": 7799,
     "best_score_timestamp_epoch": 1547162232,
     "best_score_username": "czyys",
+    "best_score_character": 3,
+    "best_score_replay_id": 7644961,
     "best_time_time_ms": 3083,
     "best_time_timestamp_epoch": 1579409996,
-    "best_time_username": "Zaandaa"
+    "best_time_username": "Zaandaa",
+    "best_time_character": 3,
+    "best_time_replay_id": 7966513
   },
   {
     "name": "Dome",
@@ -2893,9 +3057,13 @@
     "best_score_time_ms": 38899,
     "best_score_timestamp_epoch": 1569630666,
     "best_score_username": "Fishy",
+    "best_score_character": 0,
+    "best_score_replay_id": 7881432,
     "best_time_time_ms": 20966,
     "best_time_timestamp_epoch": 1548379297,
-    "best_time_username": "Yoda Cage"
+    "best_time_username": "Yoda Cage",
+    "best_time_character": 0,
+    "best_time_replay_id": 7659096
   },
   {
     "name": "Downhill",
@@ -2962,9 +3130,13 @@
     "best_score_time_ms": 12650,
     "best_score_timestamp_epoch": 1582853666,
     "best_score_username": "Zaandaa",
+    "best_score_character": 0,
+    "best_score_replay_id": 7999345,
     "best_time_time_ms": 11966,
     "best_time_timestamp_epoch": 1536387580,
-    "best_time_username": "Fishy"
+    "best_time_username": "Fishy",
+    "best_time_character": 1,
+    "best_time_replay_id": 7522659
   },
   {
     "name": "Dustforce Arcade",
@@ -3031,9 +3203,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Dustmod Workshop",
@@ -3100,9 +3276,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Enable-Disable Nexus",
@@ -3169,9 +3349,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Exa Difficult",
@@ -3238,9 +3422,13 @@
     "best_score_time_ms": 21849,
     "best_score_timestamp_epoch": 1562555456,
     "best_score_username": "Zaandaa",
+    "best_score_character": 3,
+    "best_score_replay_id": 7809787,
     "best_time_time_ms": 2016,
     "best_time_timestamp_epoch": 1516407310,
-    "best_time_username": "czyys"
+    "best_time_username": "czyys",
+    "best_time_character": 3,
+    "best_time_replay_id": 7210680
   },
   {
     "name": "Warehouse",
@@ -3307,9 +3495,13 @@
     "best_score_time_ms": 32199,
     "best_score_timestamp_epoch": 1587289368,
     "best_score_username": "Xiamul",
+    "best_score_character": 3,
+    "best_score_replay_id": 8046507,
     "best_time_time_ms": 14316,
     "best_time_timestamp_epoch": 1525929943,
-    "best_time_username": "amber"
+    "best_time_username": "amber",
+    "best_time_character": 3,
+    "best_time_replay_id": 7362984
   },
   {
     "name": "Ferrofluid",
@@ -3376,9 +3568,13 @@
     "best_score_time_ms": 13250,
     "best_score_timestamp_epoch": 1573164039,
     "best_score_username": "Fishy",
+    "best_score_character": 3,
+    "best_score_replay_id": 7912530,
     "best_time_time_ms": 7649,
     "best_time_timestamp_epoch": 1561316507,
-    "best_time_username": "Fishy"
+    "best_time_username": "Fishy",
+    "best_time_character": 3,
+    "best_time_replay_id": 7790954
   },
   {
     "name": "Fields",
@@ -3445,9 +3641,13 @@
     "best_score_time_ms": 19350,
     "best_score_timestamp_epoch": 1595461436,
     "best_score_username": "Zaandaa",
+    "best_score_character": 1,
+    "best_score_replay_id": -12063894,
     "best_time_time_ms": 12866,
     "best_time_timestamp_epoch": 1560199226,
-    "best_time_username": "Fishy"
+    "best_time_username": "Fishy",
+    "best_time_character": 2,
+    "best_time_replay_id": 7780780
   },
   {
     "name": "Firefly Forest",
@@ -3514,9 +3714,13 @@
     "best_score_time_ms": 35566,
     "best_score_timestamp_epoch": 1560570182,
     "best_score_username": "Fishy",
+    "best_score_character": 0,
+    "best_score_replay_id": 7784159,
     "best_time_time_ms": 17983,
     "best_time_timestamp_epoch": 1560394562,
-    "best_time_username": "Fishy"
+    "best_time_username": "Fishy",
+    "best_time_character": 3,
+    "best_time_replay_id": 7782644
   },
   {
     "name": "Palace",
@@ -3583,9 +3787,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Forest",
@@ -3652,9 +3860,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "unnamed",
@@ -3721,9 +3933,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Four Player Nexus",
@@ -3790,9 +4006,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Ancient Garden",
@@ -3859,9 +4079,13 @@
     "best_score_time_ms": 19949,
     "best_score_timestamp_epoch": 1587836536,
     "best_score_username": "Zaandaa",
+    "best_score_character": 0,
+    "best_score_replay_id": 8052706,
     "best_time_time_ms": 11550,
     "best_time_timestamp_epoch": 1599173652,
-    "best_time_username": "Zaandaa"
+    "best_time_username": "Zaandaa",
+    "best_time_character": 0,
+    "best_time_replay_id": -12178411
   },
   {
     "name": "Genesis Chamber",
@@ -3928,9 +4152,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Giga Difficult",
@@ -3997,9 +4225,13 @@
     "best_score_time_ms": 38049,
     "best_score_timestamp_epoch": 1521674716,
     "best_score_username": "czyys",
+    "best_score_character": 3,
+    "best_score_replay_id": 7293975,
     "best_time_time_ms": 18733,
     "best_time_timestamp_epoch": 1549873820,
-    "best_time_username": "Freshmaniac"
+    "best_time_username": "Freshmaniac",
+    "best_time_character": 2,
+    "best_time_replay_id": 7677960
   },
   {
     "name": "Grass Cave",
@@ -4066,9 +4298,13 @@
     "best_score_time_ms": 24949,
     "best_score_timestamp_epoch": 1558499743,
     "best_score_username": "Zaandaa",
+    "best_score_character": 0,
+    "best_score_replay_id": 7762079,
     "best_time_time_ms": 10366,
     "best_time_timestamp_epoch": 1537235802,
-    "best_time_username": "Fishy"
+    "best_time_username": "Fishy",
+    "best_time_character": 0,
+    "best_time_replay_id": 7531023
   },
   {
     "name": "Hideout",
@@ -4135,9 +4371,13 @@
     "best_score_time_ms": 34566,
     "best_score_timestamp_epoch": 1567916964,
     "best_score_username": "Freshmaniac",
+    "best_score_character": 3,
+    "best_score_replay_id": 7866844,
     "best_time_time_ms": 28616,
     "best_time_timestamp_epoch": 1589236297,
-    "best_time_username": "Yoda Cage"
+    "best_time_username": "Yoda Cage",
+    "best_time_character": 3,
+    "best_time_replay_id": 8069699
   },
   {
     "name": "Hideout Nexus",
@@ -4204,9 +4444,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Night Temple",
@@ -4273,9 +4517,13 @@
     "best_score_time_ms": 44600,
     "best_score_timestamp_epoch": 1561829056,
     "best_score_username": "Zaandaa",
+    "best_score_character": 3,
+    "best_score_replay_id": 7798941,
     "best_time_time_ms": 37933,
     "best_time_timestamp_epoch": 1586485563,
-    "best_time_username": "Yoda Cage"
+    "best_time_username": "Yoda Cage",
+    "best_time_character": 3,
+    "best_time_replay_id": 8036827
   },
   {
     "name": "Kilo Difficult",
@@ -4342,9 +4590,13 @@
     "best_score_time_ms": 21366,
     "best_score_timestamp_epoch": 1568432192,
     "best_score_username": "Zaandaa",
+    "best_score_character": 3,
+    "best_score_replay_id": 7871776,
     "best_time_time_ms": 11383,
     "best_time_timestamp_epoch": 1585097619,
-    "best_time_username": "Zaandaa"
+    "best_time_username": "Zaandaa",
+    "best_time_character": 3,
+    "best_time_replay_id": 8019164
   },
   {
     "name": "Multiplayer",
@@ -4411,9 +4663,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Laboratory",
@@ -4480,9 +4736,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Chamber",
@@ -4549,9 +4809,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Library",
@@ -4618,9 +4882,13 @@
     "best_score_time_ms": 51500,
     "best_score_timestamp_epoch": 1560992187,
     "best_score_username": "Fishy",
+    "best_score_character": 3,
+    "best_score_replay_id": 7787779,
     "best_time_time_ms": 35099,
     "best_time_timestamp_epoch": 1540011591,
-    "best_time_username": "Fishy"
+    "best_time_username": "Fishy",
+    "best_time_character": 3,
+    "best_time_replay_id": 7560587
   },
   {
     "name": "Main Nexus",
@@ -4687,9 +4955,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Multiplayer",
@@ -4756,9 +5028,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Mansion",
@@ -4825,9 +5101,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Survival",
@@ -4894,9 +5174,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Map Pack Gallery",
@@ -4963,9 +5247,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Research",
@@ -5032,9 +5320,13 @@
     "best_score_time_ms": 43100,
     "best_score_timestamp_epoch": 1589655314,
     "best_score_username": "Zaandaa",
+    "best_score_character": 3,
+    "best_score_replay_id": 8080150,
     "best_time_time_ms": 27899,
     "best_time_timestamp_epoch": 1589916626,
-    "best_time_username": "Zaandaa"
+    "best_time_username": "Zaandaa",
+    "best_time_character": 3,
+    "best_time_replay_id": 8084963
   },
   {
     "name": "Backup Shift",
@@ -5101,9 +5393,13 @@
     "best_score_time_ms": 42216,
     "best_score_timestamp_epoch": 1590736258,
     "best_score_username": "Xiamul",
+    "best_score_character": 3,
+    "best_score_replay_id": 8102413,
     "best_time_time_ms": 38983,
     "best_time_timestamp_epoch": 1577411703,
-    "best_time_username": "Yoda Cage"
+    "best_time_username": "Yoda Cage",
+    "best_time_character": 3,
+    "best_time_replay_id": 7949834
   },
   {
     "name": "Mega Difficult",
@@ -5170,9 +5466,13 @@
     "best_score_time_ms": 28766,
     "best_score_timestamp_epoch": 1570847357,
     "best_score_username": "Zaandaa",
+    "best_score_character": 3,
+    "best_score_replay_id": 7891554,
     "best_time_time_ms": 1549,
     "best_time_timestamp_epoch": 1527190175,
-    "best_time_username": "czyys"
+    "best_time_username": "czyys",
+    "best_time_character": 3,
+    "best_time_replay_id": 7380290
   },
   {
     "name": "Mezzanine",
@@ -5239,9 +5539,13 @@
     "best_score_time_ms": 26399,
     "best_score_timestamp_epoch": 1587616317,
     "best_score_username": "Xiamul",
+    "best_score_character": 1,
+    "best_score_replay_id": 8049951,
     "best_time_time_ms": 21316,
     "best_time_timestamp_epoch": 1550267804,
-    "best_time_username": "52pickup"
+    "best_time_username": "52pickup",
+    "best_time_character": 3,
+    "best_time_replay_id": 7681759
   },
   {
     "name": "Valley",
@@ -5308,9 +5612,13 @@
     "best_score_time_ms": 34582,
     "best_score_timestamp_epoch": 1590635792,
     "best_score_username": "Zaandaa",
+    "best_score_character": 0,
+    "best_score_replay_id": 8100690,
     "best_time_time_ms": 17583,
     "best_time_timestamp_epoch": 1548892819,
-    "best_time_username": "Fishy"
+    "best_time_username": "Fishy",
+    "best_time_character": 0,
+    "best_time_replay_id": 7666209
   },
   {
     "name": "Dusk Run",
@@ -5377,9 +5685,13 @@
     "best_score_time_ms": 35549,
     "best_score_timestamp_epoch": 1583817326,
     "best_score_username": "Zaandaa",
+    "best_score_character": 1,
+    "best_score_replay_id": 8007854,
     "best_time_time_ms": 21483,
     "best_time_timestamp_epoch": 1591071010,
-    "best_time_username": "Fishy"
+    "best_time_username": "Fishy",
+    "best_time_character": 0,
+    "best_time_replay_id": 8107297
   },
   {
     "name": "Moon Temple",
@@ -5446,9 +5758,13 @@
     "best_score_time_ms": 35433,
     "best_score_timestamp_epoch": 1564989663,
     "best_score_username": "Zaandaa",
+    "best_score_character": 0,
+    "best_score_replay_id": 7836245,
     "best_time_time_ms": 22316,
     "best_time_timestamp_epoch": 1550718576,
-    "best_time_username": "Fishy"
+    "best_time_username": "Fishy",
+    "best_time_character": 0,
+    "best_time_replay_id": 7687467
   },
   {
     "name": "Multiplayer Nexus",
@@ -5515,9 +5831,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "New Genesis",
@@ -5584,9 +5904,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Beginner Tutorial\n      (Press UP)",
@@ -5653,9 +5977,13 @@
     "best_score_time_ms": 38999,
     "best_score_timestamp_epoch": 1572344337,
     "best_score_username": "Fishy",
+    "best_score_character": 0,
+    "best_score_replay_id": 7904748,
     "best_time_time_ms": 33932,
     "best_time_timestamp_epoch": 1545699961,
-    "best_time_username": "Fishy"
+    "best_time_username": "Fishy",
+    "best_time_character": 0,
+    "best_time_replay_id": 7625102
   },
   {
     "name": "Combat Tutorial",
@@ -5722,9 +6050,13 @@
     "best_score_time_ms": 34949,
     "best_score_timestamp_epoch": 1556783932,
     "best_score_username": "Fishy",
+    "best_score_character": 0,
+    "best_score_replay_id": 7743763,
     "best_time_time_ms": 20399,
     "best_time_timestamp_epoch": 1581811341,
-    "best_time_username": "Fishy"
+    "best_time_username": "Fishy",
+    "best_time_character": 0,
+    "best_time_replay_id": 7988607
   },
   {
     "name": "Advanced Tutorial",
@@ -5791,9 +6123,13 @@
     "best_score_time_ms": 36899,
     "best_score_timestamp_epoch": 1571594891,
     "best_score_username": "Zaandaa",
+    "best_score_character": 0,
+    "best_score_replay_id": 7898290,
     "best_time_time_ms": 33399,
     "best_time_timestamp_epoch": 1565913158,
-    "best_time_username": "Fishy"
+    "best_time_username": "Fishy",
+    "best_time_character": 0,
+    "best_time_replay_id": 7844152
   },
   {
     "name": "Nexus",
@@ -5860,9 +6196,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Nexus Gallery",
@@ -5929,9 +6269,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Multiplayer",
@@ -5998,9 +6342,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Nexus",
@@ -6067,9 +6415,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Nuclear Zone",
@@ -6136,9 +6488,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Observatory",
@@ -6205,9 +6561,13 @@
     "best_score_time_ms": 16366,
     "best_score_timestamp_epoch": 1596488322,
     "best_score_username": "Zaandaa",
+    "best_score_character": 3,
+    "best_score_replay_id": -12099841,
     "best_time_time_ms": 12600,
     "best_time_timestamp_epoch": 1586047604,
-    "best_time_username": "Zaandaa"
+    "best_time_username": "Zaandaa",
+    "best_time_character": 3,
+    "best_time_replay_id": 8031605
   },
   {
     "name": "Power Room",
@@ -6274,9 +6634,13 @@
     "best_score_time_ms": 23733,
     "best_score_timestamp_epoch": 1576219576,
     "best_score_username": "Xiamul",
+    "best_score_character": 3,
+    "best_score_replay_id": 7939575,
     "best_time_time_ms": 11516,
     "best_time_timestamp_epoch": 1562815302,
-    "best_time_username": "Yoda Cage"
+    "best_time_username": "Yoda Cage",
+    "best_time_character": 0,
+    "best_time_replay_id": 7813373
   },
   {
     "name": "Ghost Parapets",
@@ -6343,9 +6707,13 @@
     "best_score_time_ms": 44267,
     "best_score_timestamp_epoch": 1563921647,
     "best_score_username": "Zaandaa",
+    "best_score_character": 3,
+    "best_score_replay_id": 7825513,
     "best_time_time_ms": 38499,
     "best_time_timestamp_epoch": 1592357839,
-    "best_time_username": "Xiamul"
+    "best_time_username": "Xiamul",
+    "best_time_character": 2,
+    "best_time_replay_id": -11957592
   },
   {
     "name": "Park",
@@ -6412,9 +6780,13 @@
     "best_score_time_ms": 32249,
     "best_score_timestamp_epoch": 1583125974,
     "best_score_username": "Zaandaa",
+    "best_score_character": 0,
+    "best_score_replay_id": 8001768,
     "best_time_time_ms": 22899,
     "best_time_timestamp_epoch": 1598505284,
-    "best_time_username": "Zaandaa"
+    "best_time_username": "Zaandaa",
+    "best_time_character": 0,
+    "best_time_replay_id": -12162337
   },
   {
     "name": "Peta Difficult",
@@ -6481,9 +6853,13 @@
     "best_score_time_ms": 16116,
     "best_score_timestamp_epoch": 1561778507,
     "best_score_username": "Fishy",
+    "best_score_character": 3,
+    "best_score_replay_id": 7798134,
     "best_time_time_ms": 7399,
     "best_time_timestamp_epoch": 1535554422,
-    "best_time_username": "czyys"
+    "best_time_username": "czyys",
+    "best_time_character": 3,
+    "best_time_replay_id": 7511047
   },
   {
     "name": "Access",
@@ -6550,9 +6926,13 @@
     "best_score_time_ms": 27283,
     "best_score_timestamp_epoch": 1527651970,
     "best_score_username": "arbitraryasian",
+    "best_score_character": 3,
+    "best_score_replay_id": 7387154,
     "best_time_time_ms": 15083,
     "best_time_timestamp_epoch": 1582666170,
-    "best_time_username": "mister__simon"
+    "best_time_username": "mister__simon",
+    "best_time_character": 3,
+    "best_time_replay_id": 7997906
   },
   {
     "name": "Archive",
@@ -6619,9 +6999,13 @@
     "best_score_time_ms": 27699,
     "best_score_timestamp_epoch": 1539414421,
     "best_score_username": "Fishy",
+    "best_score_character": 0,
+    "best_score_replay_id": 7554762,
     "best_time_time_ms": 24249,
     "best_time_timestamp_epoch": 1561935969,
-    "best_time_username": "Fishy"
+    "best_time_username": "Fishy",
+    "best_time_character": 0,
+    "best_time_replay_id": 7800736
   },
   {
     "name": "Ramparts",
@@ -6688,9 +7072,13 @@
     "best_score_time_ms": 61951,
     "best_score_timestamp_epoch": 1564334760,
     "best_score_username": "Zaandaa",
+    "best_score_character": 3,
+    "best_score_replay_id": 7829457,
     "best_time_time_ms": 45200,
     "best_time_timestamp_epoch": 1532049846,
-    "best_time_username": "Fishy"
+    "best_time_username": "Fishy",
+    "best_time_character": 3,
+    "best_time_replay_id": 7468216
   },
   {
     "name": "Satellite Debris",
@@ -6757,9 +7145,13 @@
     "best_score_time_ms": 21183,
     "best_score_timestamp_epoch": 1579060641,
     "best_score_username": "Fishy",
+    "best_score_character": 0,
+    "best_score_replay_id": 7963598,
     "best_time_time_ms": 16866,
     "best_time_timestamp_epoch": 1579668117,
-    "best_time_username": "Yoda Cage"
+    "best_time_username": "Yoda Cage",
+    "best_time_character": 3,
+    "best_time_replay_id": 7969104
   },
   {
     "name": "Scaffolding",
@@ -6826,9 +7218,13 @@
     "best_score_time_ms": 32732,
     "best_score_timestamp_epoch": 1567040428,
     "best_score_username": "Fishy",
+    "best_score_character": 0,
+    "best_score_replay_id": 7857093,
     "best_time_time_ms": 27933,
     "best_time_timestamp_epoch": 1581630076,
-    "best_time_username": "Fishy"
+    "best_time_username": "Fishy",
+    "best_time_character": 2,
+    "best_time_replay_id": 7986747
   },
   {
     "name": "Secret Passage",
@@ -6895,9 +7291,13 @@
     "best_score_time_ms": 19816,
     "best_score_timestamp_epoch": 1526384979,
     "best_score_username": "Freshmaniac",
+    "best_score_character": 3,
+    "best_score_replay_id": 7369577,
     "best_time_time_ms": 12666,
     "best_time_timestamp_epoch": 1585868024,
-    "best_time_username": "Yoda Cage"
+    "best_time_username": "Yoda Cage",
+    "best_time_character": 3,
+    "best_time_replay_id": 8029194
   },
   {
     "name": "Security",
@@ -6964,9 +7364,13 @@
     "best_score_time_ms": 31216,
     "best_score_timestamp_epoch": 1587544900,
     "best_score_username": "Xiamul",
+    "best_score_character": 0,
+    "best_score_replay_id": 8049074,
     "best_time_time_ms": 21749,
     "best_time_timestamp_epoch": 1587435965,
-    "best_time_username": "Zaandaa"
+    "best_time_username": "Zaandaa",
+    "best_time_character": 3,
+    "best_time_replay_id": 8047881
   },
   {
     "name": "Shaded Grove",
@@ -7033,9 +7437,13 @@
     "best_score_time_ms": 17016,
     "best_score_timestamp_epoch": 1586850147,
     "best_score_username": "Fishy",
+    "best_score_character": 3,
+    "best_score_replay_id": 8041710,
     "best_time_time_ms": 10366,
     "best_time_timestamp_epoch": 1558300899,
-    "best_time_username": "Fishy"
+    "best_time_username": "Fishy",
+    "best_time_character": 3,
+    "best_time_replay_id": 7760273
   },
   {
     "name": "Single Player Nexus",
@@ -7102,9 +7510,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Single Screen Nexus",
@@ -7171,9 +7583,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Landfill",
@@ -7240,9 +7656,13 @@
     "best_score_time_ms": 17233,
     "best_score_timestamp_epoch": 1561078920,
     "best_score_username": "Fishy",
+    "best_score_character": 0,
+    "best_score_replay_id": 7788639,
     "best_time_time_ms": 9366,
     "best_time_timestamp_epoch": 1580614582,
-    "best_time_username": "Zaandaa"
+    "best_time_username": "Zaandaa",
+    "best_time_character": 2,
+    "best_time_replay_id": 7977497
   },
   {
     "name": "King of the Hill",
@@ -7309,9 +7729,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Summit",
@@ -7378,9 +7802,13 @@
     "best_score_time_ms": 30082,
     "best_score_timestamp_epoch": 1590656596,
     "best_score_username": "Xiamul",
+    "best_score_character": 0,
+    "best_score_replay_id": 8100994,
     "best_time_time_ms": 24666,
     "best_time_timestamp_epoch": 1550406680,
-    "best_time_username": "Fishy"
+    "best_time_username": "Fishy",
+    "best_time_character": 1,
+    "best_time_replay_id": 7683515
   },
   {
     "name": "Overgrown Temple",
@@ -7447,9 +7875,13 @@
     "best_score_time_ms": 19150,
     "best_score_timestamp_epoch": 1579634025,
     "best_score_username": "Zaandaa",
+    "best_score_character": 0,
+    "best_score_replay_id": 7968734,
     "best_time_time_ms": 15366,
     "best_time_timestamp_epoch": 1516755369,
-    "best_time_username": "Fishy"
+    "best_time_username": "Fishy",
+    "best_time_character": 0,
+    "best_time_replay_id": 7216482
   },
   {
     "name": "Start Sweeping!",
@@ -7516,9 +7948,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Tera Difficult",
@@ -7585,9 +8021,13 @@
     "best_score_time_ms": 18166,
     "best_score_timestamp_epoch": 1574657687,
     "best_score_username": "Zaandaa",
+    "best_score_character": 3,
+    "best_score_replay_id": 7926564,
     "best_time_time_ms": 5649,
     "best_time_timestamp_epoch": 1587937430,
-    "best_time_username": "Yoda Cage"
+    "best_time_username": "Yoda Cage",
+    "best_time_character": 1,
+    "best_time_replay_id": 8054188
   },
   {
     "name": "Three Player Nexus",
@@ -7654,9 +8094,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Titan",
@@ -7723,9 +8167,13 @@
     "best_score_time_ms": 15116,
     "best_score_timestamp_epoch": 1589929479,
     "best_score_username": "Zaandaa",
+    "best_score_character": 1,
+    "best_score_replay_id": 8085382,
     "best_time_time_ms": 8699,
     "best_time_timestamp_epoch": 1547782119,
-    "best_time_username": "Yoda Cage"
+    "best_time_username": "Yoda Cage",
+    "best_time_character": 0,
+    "best_time_replay_id": 7651956
   },
   {
     "name": "Knight Hall",
@@ -7792,9 +8240,13 @@
     "best_score_time_ms": 30432,
     "best_score_timestamp_epoch": 1551838278,
     "best_score_username": "arbitraryasian",
+    "best_score_character": 0,
+    "best_score_replay_id": 7698472,
     "best_time_time_ms": 19316,
     "best_time_timestamp_epoch": 1557967230,
-    "best_time_username": "Fishy"
+    "best_time_username": "Fishy",
+    "best_time_character": 0,
+    "best_time_replay_id": 7756726
   },
   {
     "name": "Forgotten Tunnel",
@@ -7861,9 +8313,13 @@
     "best_score_time_ms": 44383,
     "best_score_timestamp_epoch": 1566547717,
     "best_score_username": "Fishy",
+    "best_score_character": 3,
+    "best_score_replay_id": 7851415,
     "best_time_time_ms": 24683,
     "best_time_timestamp_epoch": 1585297430,
-    "best_time_username": "Xiamul"
+    "best_time_username": "Xiamul",
+    "best_time_character": 3,
+    "best_time_replay_id": 8021384
   },
   {
     "name": "Tunnels",
@@ -7930,9 +8386,13 @@
     "best_score_time_ms": 28882,
     "best_score_timestamp_epoch": 1594434749,
     "best_score_username": "Zaandaa",
+    "best_score_character": 0,
+    "best_score_replay_id": -12030464,
     "best_time_time_ms": 25783,
     "best_time_timestamp_epoch": 1538018656,
-    "best_time_username": "Freshmaniac"
+    "best_time_username": "Freshmaniac",
+    "best_time_character": 2,
+    "best_time_replay_id": 7539237
   },
   {
     "name": "Tutorial (Press Up)",
@@ -7999,9 +8459,13 @@
     "best_score_time_ms": 81266,
     "best_score_timestamp_epoch": 1488275129,
     "best_score_username": "Freshmaniac",
+    "best_score_character": 0,
+    "best_score_replay_id": 6678276,
     "best_time_time_ms": 75583,
     "best_time_timestamp_epoch": 1520984648,
-    "best_time_username": "Fishy"
+    "best_time_username": "Fishy",
+    "best_time_character": 0,
+    "best_time_replay_id": 7282501
   },
   {
     "name": "Two Player Nexus",
@@ -8068,9 +8532,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Vacant Lot",
@@ -8137,9 +8605,13 @@
     "best_score_time_ms": 7316,
     "best_score_timestamp_epoch": 1545734515,
     "best_score_username": "czyys",
+    "best_score_character": 3,
+    "best_score_replay_id": 7625647,
     "best_time_time_ms": 3316,
     "best_time_timestamp_epoch": 1577902777,
-    "best_time_username": "Yoda Cage"
+    "best_time_username": "Yoda Cage",
+    "best_time_character": 3,
+    "best_time_replay_id": 7953640
   },
   {
     "name": "Vats",
@@ -8206,9 +8678,13 @@
     "best_score_time_ms": 33199,
     "best_score_timestamp_epoch": 1590559037,
     "best_score_username": "Xiamul",
+    "best_score_character": 0,
+    "best_score_replay_id": 8099382,
     "best_time_time_ms": 24049,
     "best_time_timestamp_epoch": 1590450238,
-    "best_time_username": "Yoda Cage"
+    "best_time_username": "Yoda Cage",
+    "best_time_character": 0,
+    "best_time_replay_id": 8096958
   },
   {
     "name": "Compression",
@@ -8275,9 +8751,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "unnamed",
@@ -8344,9 +8824,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Server Room",
@@ -8413,9 +8897,13 @@
     "best_score_time_ms": 17866,
     "best_score_timestamp_epoch": 1526508783,
     "best_score_username": "Fishy",
+    "best_score_character": 0,
+    "best_score_replay_id": 7371434,
     "best_time_time_ms": 6499,
     "best_time_timestamp_epoch": 1528848392,
-    "best_time_username": "Yoda Cage"
+    "best_time_username": "Yoda Cage",
+    "best_time_character": 1,
+    "best_time_replay_id": 7403799
   },
   {
     "name": "Virtual Nexus",
@@ -8482,9 +8970,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "!",
@@ -8551,9 +9043,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Multiplayer",
@@ -8620,9 +9116,13 @@
     "best_score_time_ms": 0,
     "best_score_timestamp_epoch": 0,
     "best_score_username": "empty",
+    "best_score_character": 4,
+    "best_score_replay_id": 0,
     "best_time_time_ms": 0,
     "best_time_timestamp_epoch": 0,
-    "best_time_username": "empty"
+    "best_time_username": "empty",
+    "best_time_character": 4,
+    "best_time_replay_id": 0
   },
   {
     "name": "Wiring",
@@ -8689,9 +9189,13 @@
     "best_score_time_ms": 38133,
     "best_score_timestamp_epoch": 1590821254,
     "best_score_username": "Zaandaa",
+    "best_score_character": 0,
+    "best_score_replay_id": 8103844,
     "best_time_time_ms": 17300,
     "best_time_timestamp_epoch": 1597705106,
-    "best_time_username": "Zaandaa"
+    "best_time_username": "Zaandaa",
+    "best_time_character": 3,
+    "best_time_replay_id": -12137691
   },
   {
     "name": "Yotta Difficult",
@@ -8758,9 +9262,13 @@
     "best_score_time_ms": 114277,
     "best_score_timestamp_epoch": 1544011280,
     "best_score_username": "Zaandaa",
+    "best_score_character": 3,
+    "best_score_replay_id": 7605016,
     "best_time_time_ms": 63818,
     "best_time_timestamp_epoch": 1599023820,
-    "best_time_username": "Freshmaniac"
+    "best_time_username": "Freshmaniac",
+    "best_time_character": 3,
+    "best_time_replay_id": -12175926
   },
   {
     "name": "Zetta Difficult",
@@ -8827,8 +9335,12 @@
     "best_score_time_ms": 34482,
     "best_score_timestamp_epoch": 1572670869,
     "best_score_username": "Zaandaa",
+    "best_score_character": 0,
+    "best_score_replay_id": 7908104,
     "best_time_time_ms": 29582,
     "best_time_timestamp_epoch": 1587283774,
-    "best_time_username": "Xiamul"
+    "best_time_username": "Xiamul",
+    "best_time_character": 0,
+    "best_time_replay_id": 8046494
   }
 ]

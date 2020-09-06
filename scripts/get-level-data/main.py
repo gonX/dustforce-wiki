@@ -22,6 +22,9 @@ for x in jsonobj["Scores"]:
         mapoutput["best_" + y[:-1].lower() + "_time_ms"] = mapobj["time"]
         mapoutput["best_" + y[:-1].lower() + "_timestamp_epoch"] = mapobj["timestamp"]
         mapoutput["best_" + y[:-1].lower() + "_username"] = mapobj["username"]
+        mapoutput["best_" + y[:-1].lower() + "_character"] = wiki_output_format.Character(mapobj["character"])
+        mapoutput["best_" + y[:-1].lower() + "_replay_id"] = mapobj["replay_id"]
+
     records[x] = mapoutput
 
 def generateMapData(mapfile):

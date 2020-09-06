@@ -34,6 +34,11 @@ $anim-time: 0.15s;
   }
 }
 
+$dustman-text-colour: mix(royalblue, $text-colour, 75%);
+$dustgirl-text-colour: mix(red, $text-colour, 60%);
+$dustkid-text-colour: lighten($primary-colour, 25);
+$dustworth-text-colour: mix(lightgreen, $text-colour, 60%);
+
 // -- Main ---------------------------------------------------
 
 html, body{
@@ -308,6 +313,19 @@ body article{
                     }
                     .stat-value {
                         float: right;
+                        &.record-man {
+                            color: $dustman-text-colour;
+                        }
+                        &.record-girl {
+                            color: $dustgirl-text-colour;
+                        }
+                        &.record-kid {
+                            color: $dustkid-text-colour;
+                        }
+                        &.record-worth {
+                            color: $dustworth-text-colour;
+                        }
+
                     }
                 }
             }
