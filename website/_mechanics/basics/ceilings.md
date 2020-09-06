@@ -9,7 +9,7 @@ Also known as “Ceiling Cling” or “Neutral Ceiling Run”
 
 The first 10 frames are frictionless, allowing full speed conservation, this is increased to 15 frames as normal Dustman as mentioned in [Dustman](#character-dustman)
 
-Once friction has started to apply, releasing from the ceiling has a 10 frame delay, this occurs regardless of the ceiling tiles ending, so can be extended into midair, this is known as an “Air Extended Ceiling Slide”.
+Once friction has started to apply, releasing from the ceiling has a 10 frame delay, this occurs regardless of the ceiling tiles ending, so can be extended into midair, this is known as an “extended ceiling run/slide” or previously "air extended ceiling slide".
 
 Notably this ceiling run friction is frequently a smaller penalty to your speed than leftward air friction or, if travelling at an upward angle, gravity, so it is still intentionally used and saves time occasionally.
 
