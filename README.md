@@ -10,9 +10,9 @@ For a somewhat up to date representation view of the compiled repo, see [dustfor
 
 ## Prerequisites
 
-- Ruby
-- [Jekyll](https://jekyllrb.com/) (tested with 3.8.5)
-- [bundler](https://bundler.io/) (tested with 2.0.1)
+- Ruby (tested with 2.7.1)
+- [Jekyll](https://jekyllrb.com/) (tested with 4.1.1)
+- [bundler](https://bundler.io/) (tested with 2.1.4)
 
 Bundler is technically not necessary if you can manage the Ruby dependencies by yourself, but it is highly recommended.
 
