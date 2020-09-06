@@ -16,12 +16,33 @@ depends on bandwidth costs, may use youtube or other host
 - enemy "interruptible" in their attack? (foxes and gargoyles are, golems aren't)
 - enemy knockback
 - enemy "weight" (e.g. if put airborne)?
+- enemy lureability (true for: wolves, stonebro, stoneboss, knight) (thanks Skyhawk)
 - boolean for enemy grounded wall pathing?
 - character gained height for jump
 - character time dilation for attacks
 - character time to full speed from neutral
 
+# missing maps
+
+- infini (thanks to chipi)
+- old tutorial (thanks to chipi)
+
+# missing tech
+
+- explanation of units (tile size, speed, more?), probably in basic game mechanics (thanks Zaandaa)
+- twirlies (thanks to Zaandaa/IsaVulpes)
+- "clearing dust through walls with attacks" (seam attacks?)
+- changing facing direction mid-air using 2 attacks
+- super cancels
+- TAS techs (thx Zaandaa)
+-- RLJ
+-- LSJ
+-- other??
+
 # other
+
+- missing mapmaking section: (put below tech?)
+-- talk about sublayer fog triggers (https://pastebin.com/Ua5gfDYU)
 
 - enemies should be grouped with their children, but is it right that children have their own entry? investigate if we can drop it in as a h4 under the enemy
 
@@ -39,10 +60,6 @@ depends on bandwidth costs, may use youtube or other host
 
 - talk about refresh rates that aren't a multiple of 60hz causing issues on vanilla
 
-- write about changing facing direction in air using 2 attacks
-
-- add "clearing dust through walls with attacks" (seam attacks?) to terminology
-
 - subcategories (e.g. tech->basics->Super->ranges) should have better anchors (now: #ranges, should be #super-ranges)
 
 - write about how atlas ranking is based on points awarded per map and per comment (https://discordapp.com/channels/83037671227658240/275015117236731905/633776460359925790)
@@ -51,8 +68,10 @@ depends on bandwidth costs, may use youtube or other host
 
 - lazy loading of images (`loading` attribute on `<img>`)
 
-- talk about Twirlies
-
-- talk about sublayer fog triggers (https://pastebin.com/Ua5gfDYU)
-
 - add Linux Dustmod guide (desktop file and `update-desktop-database` etc (https://discordapp.com/channels/83037671227658240/276106941875355658/751985083581333626)
+
+- refactor scss
+
+- leaderboard link on each map panel (thanks to chipi)
+
+- resizing window breaks camera
