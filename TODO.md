@@ -46,3 +46,13 @@ depends on bandwidth costs, may use youtube or other host
 - subcategories (e.g. tech->basics->Super->ranges) should have better anchors (now: #ranges, should be #super-ranges)
 
 - write about how atlas ranking is based on points awarded per map and per comment (https://discordapp.com/channels/83037671227658240/275015117236731905/633776460359925790)
+
+- insert blurb about the different settings available in the original client, as well as Dustmod
+
+- lazy loading of images (`loading` attribute on `<img>`)
+
+- talk about Twirlies
+
+- talk about sublayer fog triggers (https://pastebin.com/Ua5gfDYU)
+
+- add Linux Dustmod guide (desktop file and `update-desktop-database` etc (https://discordapp.com/channels/83037671227658240/276106941875355658/751985083581333626)
