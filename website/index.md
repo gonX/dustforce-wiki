@@ -17,6 +17,41 @@ Information
     {% endfor %}
 </div>
 
+Mechanics / Tech
+===
+
+<div id="tech">
+{% for techgroup in site.df_techgroups %}
+    {% assign mechanics_group = site.mechanics | where: "techgroup",techgroup %}
+    {% assign gsize = mechanics_group | size %}
+    {% if gsize == 0 %}
+        {% continue %}
+    {% endif %}
+    <div class="tech-{{ techgroup }}">
+        <h2 id="{{ techgroup }}-tech">{{ techgroup | capitalize }}</h2>
+        {% for tech in mechanics_group %}
+            <div class="tech-{{ tech.name | slugify }} card">
+                <div class="header">
+                    {% assign tagcount = tech.tags | size %}
+                    {% if tagcount > 0 %}
+                        <span class="tags">
+                            <span class="tagprefix">
+                                tags:
+                            </span>
+                            <span>
+                                {{ tech.tags | join: ", " }}
+                            </span>
+                        </span>
+                    {% endif %}
+                    <h3 id="{{ tech.name | slugify }}">{{ tech.name }}</h3>
+                </div>
+                <div class="tech-content">{{ tech.content }}</div>
+            </div>
+        {% endfor %}
+    </div>
+{% endfor %}
+</div>
+
 Playable Characters
 ===
 
@@ -203,41 +238,6 @@ Enemies
                 </div>
             {% endfor %}
         </div>
-    </div>
-{% endfor %}
-</div>
-
-Mechanics / Tech
-===
-
-<div id="tech">
-{% for techgroup in site.df_techgroups %}
-    {% assign mechanics_group = site.mechanics | where: "techgroup",techgroup %}
-    {% assign gsize = mechanics_group | size %}
-    {% if gsize == 0 %}
-        {% continue %}
-    {% endif %}
-    <div class="tech-{{ techgroup }}">
-        <h2 id="{{ techgroup }}-tech">{{ techgroup | capitalize }}</h2>
-        {% for tech in mechanics_group %}
-            <div class="tech-{{ tech.name | slugify }} card">
-                <div class="header">
-                    {% assign tagcount = tech.tags | size %}
-                    {% if tagcount > 0 %}
-                        <span class="tags">
-                            <span class="tagprefix">
-                                tags:
-                            </span>
-                            <span>
-                                {{ tech.tags | join: ", " }}
-                            </span>
-                        </span>
-                    {% endif %}
-                    <h3 id="{{ tech.name | slugify }}">{{ tech.name }}</h3>
-                </div>
-                <div class="tech-content">{{ tech.content }}</div>
-            </div>
-        {% endfor %}
     </div>
 {% endfor %}
 </div>
