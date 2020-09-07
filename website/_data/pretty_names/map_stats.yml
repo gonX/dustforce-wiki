@@ -111,10 +111,10 @@
   shortdesc: "Enemies"
 
 - name: "best_score_time_ms"
-  longdesc: "Fastest community SS time"
-  shortdesc: "Fastest SS time"
+  longdesc: "Fastest community score time, generally an SS"
+  shortdesc: "Best Score record"
 
 - name: "best_time_time_ms"
-  longdesc: "Fastest community overall time"
-  shortdesc: "Fastest overall time"
+  longdesc: "Fastest community overall time, ignoring score"
+  shortdesc: "Best Time record"
 
