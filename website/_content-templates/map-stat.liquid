@@ -7,6 +7,15 @@
 {% endif %}
 {% if key == "best_score_time_ms" or key == "best_time_time_ms" %}
     {% assign tmpvalue = include.value | divided_by: 1000.0 %}
+    {% assign minutes = tmpvalue | divided_by: 60 | floor %}
+    {% if minutes > 0 %}
+        {% assign minutesinsecs = minutes | times: 60 %}
+        {% assign tmpvalue = tmpvalue | minus: minutesinsecs %}
+        {% if tmpvalue < 10 %}
+            {% assign tmpvalue = 0 | append: tmpvalue %}
+        {% endif %}
+        {% assign tmpvalue = minutes | append: ":" | append: tmpvalue %}
+    {% endif %}
     {% if key == "best_score_time_ms" %}
         {% assign performer = include.obj["best_score_username"] | escape %}
         {% assign date_text = include.obj["best_score_timestamp_epoch"] | date: "%Y-%m-%d %H:%M %z" %}
