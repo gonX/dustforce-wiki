@@ -28,7 +28,7 @@
         {% assign character = site.data.characters | where: "key", include.obj["best_time_character"] | first %}
     {% endif %}
     {% capture value %}
-        {{ tmpvalue }} <a href="dustforce://replay/{{ replayid }}" title="Click to watch">📷</a>
+        {{ tmpvalue }} <a href="dustforce://replay/{{ replayid }}" title="Click to watch in client">📷</a>
     {% endcapture %}
     {% capture annotation %}
         has-annotation record-{{ character.value }}" title="Set by '{{ performer }}' at {{ date_text }} with Dust{{ character.value }}
