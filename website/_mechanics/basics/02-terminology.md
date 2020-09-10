@@ -186,7 +186,7 @@ Certain configurations of geometry allow the player to pass through solid walls.
 Jumping or dashing mid-air will "magnet" you to walls up to 42 horizontal units away (almost a full tile).
 
 This is often negatively experienced for the first time for many players in [Backup Shift](#maps-level-backup-shift) (TODO: earlier levels?)
-
+However, it can also be used for positive effect as is often seen in the Walls (last) section of [Giga Difficult](#maps-level-giga-difficult).
 {:.no_toc}
 ### Hitrise
 When you damage (or kill) an enemy with an attack, your character rises ever so slightly.
