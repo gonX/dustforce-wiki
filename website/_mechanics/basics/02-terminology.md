@@ -183,7 +183,7 @@ Certain configurations of geometry allow the player to pass through solid walls.
 
 {:.no_toc}
 ### Magnet
-Jumping mid-air will "magnet" you to walls approximately within half of the width (TODO: fact check?) of your characters hitbox.
+Jumping or dashing mid-air will "magnet" you to walls up to 42 horizontal units away (almost a full tile).
 
 This is often negatively experienced for the first time for many players in [Backup Shift](#maps-level-backup-shift) (TODO: earlier levels?)
 
