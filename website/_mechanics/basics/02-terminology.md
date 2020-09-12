@@ -109,7 +109,7 @@ Unrelated to actual Supers, this is the technique used for quickly cleaning dust
 
 {:.no_toc}
 ### Left friction
-An unintentional programming oversight causes air friction to be much more intense when travelling leftwards.
+An unintentional programming oversight causes air friction to be much more intense when travelling left.
 
 See [Air Friction](#air-friction)
 

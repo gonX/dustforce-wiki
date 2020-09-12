@@ -14,7 +14,7 @@ This is used most frequently to convert falling speed into ground speed (referre
 #### Corner/Ceiling Boost
 Boosting on a slanted or sloped ceiling by walljumping at the point where the wall and ceiling meet is often referred to as a “Corner Boost” and is a reliable way to get a fast ceiling boost.
 
-When jumping from a overhanging slanted wall, the extra horizontal speed makes for an even faster boost. This is known as an "Access boost" (named off the stock map, [Access](#maps-level-access)).
+When jumping from a overhanging slanted wall, the extra horizontal speed makes for an even faster boost. This is known as an "Access boost" (named after the stock map, [Access](#maps-level-access)).
 
 Even without an advantageous slope it’s possible to get a boost on a ceiling, but the fact that you need to be moving upward rather than downward means that these sorts of Ceilingboosts generally aren’t as significant as other boosts, as the amount of upward speed we can get is usually very limited.
 
