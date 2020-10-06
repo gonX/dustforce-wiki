@@ -13,7 +13,6 @@ import wiki_output_format
 records_url = "https://dustkid.com/json/records"
 records = {}
 print(f"Pulling record data from {records_url}")
-exit
 jsonobj = requests.get(records_url).json()
 for x in jsonobj["Scores"]:
     mapoutput = {}
