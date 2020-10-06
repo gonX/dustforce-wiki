@@ -37,11 +37,12 @@ $ bundle exec jekyll build
 
 ## Serving site from Jekyll
 
-This will also build the site for you, and present it to you at `http://127.0.0.1:4000` while keeping the site updated as content changes.
-
-Some files are not or can not be monitored by the serve process (such as `website/_config.yml`), requiring you to restart.
-
+To run a local development server, you can simply run:
 ```
 $ cd website/
 $ bundle exec jekyll serve --incremental
 ```
+
+This will also build the site for you, and present it to you at `http://127.0.0.1:4000` while keeping the site updated as content changes.
+
+Some files are not or can not be monitored by the serve process (such as `website/_config.yml`), requiring you to restart the serve process.
