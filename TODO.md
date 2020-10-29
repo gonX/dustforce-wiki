@@ -17,6 +17,7 @@ depends on bandwidth costs, may use youtube or other host
 - enemy knockback
 - enemy "weight" (e.g. if put airborne)?
 - enemy lureability (true for: wolves, stonebro, stoneboss, knight) (thanks Skyhawk)
+- map checkpoint count
 - boolean for enemy grounded wall pathing?
 - character gained height for jump
 - character time dilation for attacks
