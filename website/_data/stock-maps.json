@@ -5541,11 +5541,11 @@
     "best_score_username": "Xiamul",
     "best_score_character": 1,
     "best_score_replay_id": 8049951,
-    "best_time_time_ms": 21283,
-    "best_time_timestamp_epoch": 1610773080,
+    "best_time_time_ms": 21233,
+    "best_time_timestamp_epoch": 1610774298,
     "best_time_username": "Zaandaa",
     "best_time_character": 3,
-    "best_time_replay_id": -12501241
+    "best_time_replay_id": -12501479
   },
   {
     "name": "Valley",
@@ -9337,10 +9337,10 @@
     "best_score_username": "Zaandaa",
     "best_score_character": 0,
     "best_score_replay_id": 7908104,
-    "best_time_time_ms": 29532,
-    "best_time_timestamp_epoch": 1607149766,
-    "best_time_username": "Fishy",
-    "best_time_character": 1,
-    "best_time_replay_id": -12404907
+    "best_time_time_ms": 29032,
+    "best_time_timestamp_epoch": 1610937000,
+    "best_time_username": "Zaandaa",
+    "best_time_character": 0,
+    "best_time_replay_id": -12508146
   }
 ]
