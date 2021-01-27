@@ -77,3 +77,5 @@ depends on bandwidth costs, may use youtube or other host
 - leaderboard link on each map panel (thanks to chipi)
 
 - resizing window breaks camera
+
+- make `scripts/get-level-data` not re-parse map files if nothing changed (use a checksum?)
