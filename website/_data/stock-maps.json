@@ -358,11 +358,11 @@
     "best_score_username": "czyys",
     "best_score_character": 2,
     "best_score_replay_id": 7635635,
-    "best_time_time_ms": 5516,
-    "best_time_timestamp_epoch": 1518295964,
-    "best_time_username": "czyys",
+    "best_time_time_ms": 5466,
+    "best_time_timestamp_epoch": 1611900717,
+    "best_time_username": "Fishy",
     "best_time_character": 1,
-    "best_time_replay_id": 7239511
+    "best_time_replay_id": -12534108
   },
   {
     "name": "Ascent",
@@ -1307,11 +1307,11 @@
     "best_score_username": "Zaandaa",
     "best_score_character": 0,
     "best_score_replay_id": -12482258,
-    "best_time_time_ms": 55084,
-    "best_time_timestamp_epoch": 1591242451,
+    "best_time_time_ms": 54684,
+    "best_time_timestamp_epoch": 1612156048,
     "best_time_username": "Fishy",
     "best_time_character": 0,
-    "best_time_replay_id": 8109246
+    "best_time_replay_id": -12541894
   },
   {
     "name": "Clocktower",
@@ -2183,11 +2183,11 @@
     "best_score_username": "Yoda Cage",
     "best_score_character": 1,
     "best_score_replay_id": 8088974,
-    "best_time_time_ms": 10750,
-    "best_time_timestamp_epoch": 1586472851,
-    "best_time_username": "Yoda Cage",
+    "best_time_time_ms": 10700,
+    "best_time_timestamp_epoch": 1612861810,
+    "best_time_username": "Zaandaa",
     "best_time_character": 3,
-    "best_time_replay_id": 8036703
+    "best_time_replay_id": -12562192
   },
   {
     "name": "Core Temple",
@@ -3127,11 +3127,11 @@
     "enemy_slime_barrel": 0,
     "enemy_slime_beast": 0,
     "enemy_slime_ball": 0,
-    "best_score_time_ms": 12583,
-    "best_score_timestamp_epoch": 1602860416,
+    "best_score_time_ms": 12533,
+    "best_score_timestamp_epoch": 1612680771,
     "best_score_username": "indapop",
     "best_score_character": 0,
-    "best_score_replay_id": -12272559,
+    "best_score_replay_id": -12556926,
     "best_time_time_ms": 11966,
     "best_time_timestamp_epoch": 1536387580,
     "best_time_username": "Fishy",
@@ -3497,11 +3497,11 @@
     "best_score_username": "Zaandaa",
     "best_score_character": 3,
     "best_score_replay_id": -12434168,
-    "best_time_time_ms": 14300,
-    "best_time_timestamp_epoch": 1610480993,
-    "best_time_username": "Zaandaa",
+    "best_time_time_ms": 14250,
+    "best_time_timestamp_epoch": 1612072035,
+    "best_time_username": "Fishy",
     "best_time_character": 3,
-    "best_time_replay_id": -12491650
+    "best_time_replay_id": -12538858
   },
   {
     "name": "Ferrofluid",
@@ -6709,11 +6709,11 @@
     "best_score_username": "Zaandaa",
     "best_score_character": 3,
     "best_score_replay_id": 7825513,
-    "best_time_time_ms": 38499,
-    "best_time_timestamp_epoch": 1592357839,
-    "best_time_username": "Xiamul",
+    "best_time_time_ms": 38149,
+    "best_time_timestamp_epoch": 1612223893,
+    "best_time_username": "Fishy",
     "best_time_character": 2,
-    "best_time_replay_id": -11957592
+    "best_time_replay_id": -12543449
   },
   {
     "name": "Park",
@@ -7147,11 +7147,11 @@
     "best_score_username": "Fishy",
     "best_score_character": 0,
     "best_score_replay_id": 7963598,
-    "best_time_time_ms": 16866,
-    "best_time_timestamp_epoch": 1579668117,
-    "best_time_username": "Yoda Cage",
+    "best_time_time_ms": 16800,
+    "best_time_timestamp_epoch": 1612607779,
+    "best_time_username": "Fishy",
     "best_time_character": 3,
-    "best_time_replay_id": 7969104
+    "best_time_replay_id": -12553928
   },
   {
     "name": "Scaffolding",
@@ -8315,11 +8315,11 @@
     "best_score_username": "Zaandaa",
     "best_score_character": 3,
     "best_score_replay_id": -12402251,
-    "best_time_time_ms": 24683,
-    "best_time_timestamp_epoch": 1585297430,
-    "best_time_username": "Xiamul",
+    "best_time_time_ms": 24649,
+    "best_time_timestamp_epoch": 1612428542,
+    "best_time_username": "Zaandaa",
     "best_time_character": 3,
-    "best_time_replay_id": 8021384
+    "best_time_replay_id": -12549046
   },
   {
     "name": "Tunnels",
@@ -8675,11 +8675,11 @@
     "enemy_slime_barrel": 4,
     "enemy_slime_beast": 1,
     "enemy_slime_ball": 13,
-    "best_score_time_ms": 32932,
-    "best_score_timestamp_epoch": 1602291753,
-    "best_score_username": "Zaandaa",
+    "best_score_time_ms": 32749,
+    "best_score_timestamp_epoch": 1611965608,
+    "best_score_username": "Fishy",
     "best_score_character": 0,
-    "best_score_replay_id": -12256073,
+    "best_score_replay_id": -12535464,
     "best_time_time_ms": 23533,
     "best_time_timestamp_epoch": 1610057497,
     "best_time_username": "Ukkiez",
