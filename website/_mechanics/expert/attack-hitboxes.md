@@ -3,7 +3,9 @@ name: Attack Hitboxes
 techgroup: expert
 ---
 
-**Also see this [Imgur album](https://imgur.com/a/jtzG0)**
+[![All Dustforce character hitboxes overlapped](https://i.imgur.com/grO8PaH.png "Click here to open album")](https://imgur.com/a/jtzG0)
+
+**Click image to see full album on Imgur**
 
 ```
 ah_ = attack heavy
@@ -101,4 +103,4 @@ Dustworth
 dm.al_ad.left = -70; dm.al_ad.right = 70; dm.al_ad.top = 0; dm.al_ad.bottom = 160; dm.al_ad_of.x = 30; dm.al_ad_of.y = -111; //
 ```
 
-source: [gist.github.com](https://gist.github.com/msg555/75c618f0a65f95aa97bf92387d4bbcac) (pinned in #tasforce on Discord server)
+Code source: [gist.github.com](https://gist.github.com/msg555/75c618f0a65f95aa97bf92387d4bbcac) (pinned in #tasforce on Discord server)
