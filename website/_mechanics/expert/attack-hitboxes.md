@@ -5,7 +5,7 @@ techgroup: expert
 
 [![All Dustforce character hitboxes overlapped](https://i.imgur.com/grO8PaH.png "Click here to open album")](https://imgur.com/a/jtzG0)
 
-**Click image to see full album on Imgur**
+**Click image to view full album on Imgur**
 
 ```
 ah_ = attack heavy
