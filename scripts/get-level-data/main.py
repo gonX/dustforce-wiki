@@ -39,7 +39,7 @@ def generateMapData(mapfile):
         output["name"] = map.name.decode("utf-8")
         output["srcfile"] = os.path.basename(mapfile)
         output["key_get_type"] = wiki_output_format.Keytype(map.variables["key_get_type"].value)
-        output["props"] = len(map.props)
+        output["props"] = len(map.props) + len(map.backdrop.props)
         # keep in mind Beginner Tutorial does not have the flag, but the game is hardcoded to use it
         if "Beginner Tutorial" in map.name.decode("utf-8"):
             output["is_virtual"] = True
